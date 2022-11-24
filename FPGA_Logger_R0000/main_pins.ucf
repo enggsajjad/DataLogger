@@ -1,0 +1,67 @@
+NET "clk" LOC = "p182";
+NET "reset" LOC = "p68";#pRB0
+NET "start_pulse" LOC = "p63";#pRB1
+NET "data_done" LOC = "p61";#pRB2
+NET "pCLK" LOC = "p111";
+#adc
+#adc
+NET "nDRDY" LOC = "p172";
+NET "SCLK1" LOC = "p162";
+NET "SDOUT1" LOC = "p174";
+NET "CLK1" LOC = "p164";
+NET "CS1" LOC = "p168";
+NET "SYNC1" LOC = "p178";
+#NET "SDIN1" LOC = "p166";
+
+
+NET "filter_clk" LOC = "p176";
+
+#eeprom
+#EEPROM 0
+NET "CSe<0>" LOC = "p49";
+NET "SCLKe" LOC = "p43";
+NET "SDINe" LOC = "p45"; 
+NET "SDOUTe" LOC = "p47";
+#EEPROM 1
+NET "CSe<1>" LOC = "p41";
+#NET "SCLKe<1>" LOC = "p33";
+#NET "SDINe<1>" LOC = "p35"; 
+#NET "SDOUTe<1>" LOC = "p37";
+#EEPROM 2
+#NET "CSe<2>" LOC = "p31";
+#NET "SCLKe<2>" LOC = "p24";
+#NET "SDINe<2>" LOC = "p27"; 
+#NET "SDOUTe<2>" LOC = "p29";
+#EEPROM 3
+#NET "CSe<3>" LOC = "p22";
+#NET "SCLKe<3>" LOC = "p16";
+#NET "SDINe<3>" LOC = "p18"; 
+#NET "SDOUTe<3>" LOC = "p20";
+
+#   PIC
+NET "CSu" LOC = "p100"; #pSEL1
+NET "SCLKu" LOC = "p94";
+NET "SDINu" LOC = "p90";
+NET "SDOUTu" LOC = "p88";
+
+NET "relayAp" LOC = "p199";#rly_4mA
+NET "relayAn" LOC = "p201";#rly_0mA
+NET "relayBp" LOC = "p203";#rly_50ohm
+NET "relayBn" LOC = "p205";#rly_324ohm
+
+NET "sw<0>" LOC = "p3";#left
+NET "sw<1>" LOC = "p5";#down
+NET "sw<2>" LOC = "p7";#ok
+NET "sw<3>" LOC = "p9";#up
+NET "sw<4>" LOC = "p14";#right
+
+NET "RXpc" LOC = "p147";#tx to uc
+NET "TXpc" LOC = "p148";#rx from uc
+
+NET "RXu" LOC = "p84";#tx to pc
+NET "TXu" LOC = "p86";#rx from pc
+NET "sel_uart" LOC = "p109";#pSEL0
+
+
+
+

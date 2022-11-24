@@ -1,0 +1,2030 @@
+(netlist "ICCC-DLG-ESD-001-00"
+  (compinst "BT1"
+    (patternName "BATTERY_PACK_REV4")
+    (compvalue "NiMH Battery 7.2V"))
+  (compinst "C100"
+    (patternName "CASEA_POLAR")
+    (compvalue "47uF"))
+  (compinst "C101"
+    (patternName "CASEA_POLAR")
+    (compvalue "47uF"))
+  (compinst "C102"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uF"))
+  (compinst "C103"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uF"))
+  (compinst "C104"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uF"))
+  (compinst "C105"
+    (patternName "CASEA_POLAR")
+    (compvalue "47uF"))
+  (compinst "C106"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uF"))
+  (compinst "C107"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uF"))
+  (compinst "C108"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uF"))
+  (compinst "C11"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uf"))
+  (compinst "C113"
+    (patternName "CASEA_POLAR")
+    (compvalue "47uF"))
+  (compinst "C114"
+    (patternName "CASEA_POLAR")
+    (compvalue "47uF"))
+  (compinst "C115"
+    (patternName "CASEA_POLAR")
+    (compvalue "47uF"))
+  (compinst "C116"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uF"))
+  (compinst "C117"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uF"))
+  (compinst "C118"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uF"))
+  (compinst "C119"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uF"))
+  (compinst "C120"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uF"))
+  (compinst "C121"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uF"))
+  (compinst "C122"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uF"))
+  (compinst "C123"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uF"))
+  (compinst "C124"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uF"))
+  (compinst "C125"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uF"))
+  (compinst "C126"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uF"))
+  (compinst "C127"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uF"))
+  (compinst "C128"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uF"))
+  (compinst "C129"
+    (patternName "CASEA_POLAR")
+    (compvalue "47uF"))
+  (compinst "C130"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uF"))
+  (compinst "C146"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uf"))
+  (compinst "C147"
+    (patternName "SM/C_1000UF_REV2")
+    (compvalue "1000uf"))
+  (compinst "C148"
+    (patternName "SM/C_100UF_REV1")
+    (compvalue "100uf"))
+  (compinst "C149"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uf"))
+  (compinst "C150"
+    (patternName "SM/C_7361")
+    (compvalue "22uf,50V"))
+  (compinst "C151"
+    (patternName "SM/C_1206")
+    (compvalue "10uf"))
+  (compinst "C152"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uf"))
+  (compinst "C154"
+    (patternName "SM/C_0805")
+    (compvalue "2.2nf"))
+  (compinst "C155"
+    (patternName "SM/C_0805")
+    (compvalue "2.2nf"))
+  (compinst "C159"
+    (patternName "SM/C_0805")
+    (compvalue "3pf"))
+  (compinst "C16"
+    (patternName "CASEA")
+    (compvalue "4.7uF"))
+  (compinst "C160"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uf"))
+  (compinst "C161"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uf"))
+  (compinst "C162"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uf"))
+  (compinst "C163"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uf"))
+  (compinst "C164"
+    (patternName "SM/C_0805")
+    (compvalue "0.47uf"))
+  (compinst "C165"
+    (patternName "SM/C_0805")
+    (compvalue "0.47uf"))
+  (compinst "C166"
+    (patternName "SM/C_0805")
+    (compvalue "0.47uf"))
+  (compinst "C167"
+    (patternName "SM/C_0805")
+    (compvalue "0.47uf"))
+  (compinst "C168"
+    (patternName "SM/C_1206")
+    (compvalue "10uf"))
+  (compinst "C169"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uf"))
+  (compinst "C17"
+    (patternName "CASEA")
+    (compvalue "4.7uF"))
+  (compinst "C170"
+    (patternName "SM/C_1206")
+    (compvalue "10uf"))
+  (compinst "C171"
+    (patternName "SM/C_1206")
+    (compvalue "10uf"))
+  (compinst "C172"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uf"))
+  (compinst "C173"
+    (patternName "SM/C_1206")
+    (compvalue "10uf"))
+  (compinst "C174"
+    (patternName "SM/C_1206")
+    (compvalue "10uf"))
+  (compinst "C175"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uf"))
+  (compinst "C176"
+    (patternName "SM/C_1206")
+    (compvalue "10uf"))
+  (compinst "C177"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uf"))
+  (compinst "C178"
+    (patternName "SM/C_1206")
+    (compvalue "10uf"))
+  (compinst "C179"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uf"))
+  (compinst "C180"
+    (patternName "SM/C_1206")
+    (compvalue "10uf"))
+  (compinst "C181"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uf"))
+  (compinst "C182"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uf"))
+  (compinst "C183"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uf"))
+  (compinst "C184"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uf"))
+  (compinst "C185"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uf"))
+  (compinst "C186"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uf"))
+  (compinst "C187"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uf"))
+  (compinst "C188"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uf"))
+  (compinst "C189"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uf"))
+  (compinst "C190"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uf"))
+  (compinst "C191"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uf"))
+  (compinst "C192"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uf"))
+  (compinst "C193"
+    (patternName "SM/C_1206")
+    (compvalue "10uf"))
+  (compinst "C194"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uf"))
+  (compinst "C195"
+    (patternName "SM/C_100UF_REV2")
+    (compvalue "100uf"))
+  (compinst "C196"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uf"))
+  (compinst "C197"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uf"))
+  (compinst "C198"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uf"))
+  (compinst "C199"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uf"))
+  (compinst "C20"
+    (patternName "CASEC")
+    (compvalue "4.7uF"))
+  (compinst "C208"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uf"))
+  (compinst "C209"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uf"))
+  (compinst "C23"
+    (patternName "SM/C_0603")
+    (compvalue "0.01uF"))
+  (compinst "C24"
+    (patternName "SM/C_0603")
+    (compvalue "1nF"))
+  (compinst "C25"
+    (patternName "SM/C_0603")
+    (compvalue "1nF"))
+  (compinst "C4"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uf"))
+  (compinst "C5"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uf"))
+  (compinst "C54"
+    (patternName "CASEA_POLAR")
+    (compvalue "1uF"))
+  (compinst "C55"
+    (patternName "CASEA_POLAR")
+    (compvalue "4.7uF"))
+  (compinst "C58"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uF"))
+  (compinst "C6"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uf"))
+  (compinst "C63"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uF"))
+  (compinst "C64"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uF"))
+  (compinst "C7"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uf"))
+  (compinst "C81"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uF"))
+  (compinst "C94"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uF"))
+  (compinst "C95"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uF"))
+  (compinst "C96"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uF"))
+  (compinst "C97"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uF"))
+  (compinst "C98"
+    (patternName "SM/C_0805")
+    (compvalue "0.1uF"))
+  (compinst "C99"
+    (patternName "CASEA_POLAR")
+    (compvalue "47uF"))
+  (compinst "CR2"
+    (patternName "SM/LED_0805")
+    (compvalue "LED"))
+  (compinst "D1"
+    (patternName "HER305G_REV1")
+    (compvalue "HER305G."))
+  (compinst "D10"
+    (patternName "DIODE_SMA_D0_214AC")
+    (compvalue "DIODE"))
+  (compinst "D3"
+    (patternName "SM/DO214AC")
+    (compvalue "TVS"))
+  (compinst "D4"
+    (patternName "1N4001")
+    (compvalue "IN4001"))
+  (compinst "D6"
+    (patternName "1N4001")
+    (compvalue "IN4001"))
+  (compinst "D7"
+    (patternName "SM/DO214AC")
+    (compvalue "DIODE SCHOTTKY"))
+  (compinst "D8"
+    (patternName "SM/SCHOTTKY")
+    (compvalue "SCHOTTKY"))
+  (compinst "D9"
+    (patternName "SM/SCHOTTKY")
+    (compvalue "SCHOTTKY"))
+  (compinst "F2"
+    (patternName "SM/C_1812")
+    (compvalue "FUSE"))
+  (compinst "Ferrite Bead"
+    (patternName "SM/C_0805")
+    (compvalue "10uH"))
+  (compinst "J1"
+    (patternName "LCD4X40")
+    (compvalue "LCD Header 1"))
+  (compinst "J10"
+    (patternName "BNC_REV1")
+    (compvalue "BNC"))
+  (compinst "J11"
+    (patternName "PROG_HEADER_REV3")
+    (compvalue "Program 1"))
+  (compinst "J14"
+    (patternName "KEYPAD_REV3")
+    (compvalue "CON10"))
+  (compinst "J15"
+    (patternName "USB_HEADR_REV5")
+    (compvalue "USB Header"))
+  (compinst "J8"
+    (patternName "ADOPTER")
+    (compvalue "Adopter"))
+  (compinst "JTAG1"
+    (patternName "FPGA_PROG_CONN")
+    (compvalue "HEADER 6"))
+  (compinst "L1"
+    (patternName "SM/C_L_REV1")
+    (compvalue "47uH"))
+  (compinst "Q1"
+    (patternName "TO92/100")
+    (compvalue "MPSA14"))
+  (compinst "R1"
+    (patternName "SM/R_0603")
+    (compvalue "50R"))
+  (compinst "R10"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R100"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R101"
+    (patternName "SM/R_0805")
+    (compvalue "4.7K"))
+  (compinst "R102"
+    (patternName "SM/R_0805")
+    (compvalue "4.7K"))
+  (compinst "R103"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R104"
+    (patternName "SM/R_0805")
+    (compvalue "4.7K"))
+  (compinst "R105"
+    (patternName "SM/R_0805")
+    (compvalue "1k"))
+  (compinst "R106"
+    (patternName "POTENTIO_BOURNS_REV3")
+    (compvalue "POT"))
+  (compinst "R107"
+    (patternName "SM/R_0805")
+    (compvalue "4.7K"))
+  (compinst "R108"
+    (patternName "SM/R_0805")
+    (compvalue "4.7K"))
+  (compinst "R109"
+    (patternName "SM/R_0805")
+    (compvalue "4.7K"))
+  (compinst "R11"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R110"
+    (patternName "SM/R_0805")
+    (compvalue "1k"))
+  (compinst "R111"
+    (patternName "SM/R_0805")
+    (compvalue "1k"))
+  (compinst "R112"
+    (patternName "SM/R_0805")
+    (compvalue "1k"))
+  (compinst "R113"
+    (patternName "SM/R_0805")
+    (compvalue "1k"))
+  (compinst "R114"
+    (patternName "SM/R_0805")
+    (compvalue "1k"))
+  (compinst "R115"
+    (patternName "SM/R_0805")
+    (compvalue "1k"))
+  (compinst "R116"
+    (patternName "SM/R_0805")
+    (compvalue "1k"))
+  (compinst "R117"
+    (patternName "SM/R_0805")
+    (compvalue "1k"))
+  (compinst "R118"
+    (patternName "SM/R_0805")
+    (compvalue "1k"))
+  (compinst "R119"
+    (patternName "SM/R_0805")
+    (compvalue "1k"))
+  (compinst "R12"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R120"
+    (patternName "SM/R_0805")
+    (compvalue "1k"))
+  (compinst "R122"
+    (patternName "SM/R_0805")
+    (compvalue "1k"))
+  (compinst "R123"
+    (patternName "SM/R_0805")
+    (compvalue "1k"))
+  (compinst "R124"
+    (patternName "SM/R_0805")
+    (compvalue "4.7K"))
+  (compinst "R126"
+    (patternName "SM/R_0805")
+    (compvalue "1k"))
+  (compinst "R127"
+    (patternName "SM/C_0805")
+    (compvalue "324"))
+  (compinst "R128"
+    (patternName "SM/R_0603")
+    (compvalue "59"))
+  (compinst "R129"
+    (patternName "SM/R_0805")
+    (compvalue "1k"))
+  (compinst "R13"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R130"
+    (patternName "SM/R_0805")
+    (compvalue "1k"))
+  (compinst "R131"
+    (patternName "SM/R_0805")
+    (compvalue "1k"))
+  (compinst "R132"
+    (patternName "SM/R_0805")
+    (compvalue "1k"))
+  (compinst "R133"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R134"
+    (patternName "SM/R_0805")
+    (compvalue "1k"))
+  (compinst "R135"
+    (patternName "SM/R_0805")
+    (compvalue "1k"))
+  (compinst "R136"
+    (patternName "SM/R_0805")
+    (compvalue "1k"))
+  (compinst "R137"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R138"
+    (patternName "SM/R_0805")
+    (compvalue "1k"))
+  (compinst "R14"
+    (patternName "SM/R_0805")
+    (compvalue "4.7K"))
+  (compinst "R141"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R142"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R143"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R144"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R145"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R146"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R147"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R148"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R149"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R15"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R150"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R151"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R152"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R153"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R154"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R155"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R18"
+    (patternName "SM/R_0805")
+    (compvalue "300R"))
+  (compinst "R21"
+    (patternName "SM/R_0805")
+    (compvalue "4.7K"))
+  (compinst "R22"
+    (patternName "SM/R_0805")
+    (compvalue "4.7K"))
+  (compinst "R28"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R29"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R30"
+    (patternName "SM/R_0805")
+    (compvalue "3k"))
+  (compinst "R31"
+    (patternName "SM/R_0805")
+    (compvalue "20k"))
+  (compinst "R32"
+    (patternName "POTENTIO_BOURNS_REV2")
+    (compvalue "10k"))
+  (compinst "R33"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R34"
+    (patternName "SM/R_0603")
+    (compvalue "100"))
+  (compinst "R47"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R48"
+    (patternName "SM/R_0805")
+    (compvalue "4.7K"))
+  (compinst "R5"
+    (patternName "SM/R_0805")
+    (compvalue "4.7K"))
+  (compinst "R50"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R54"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R55"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R56"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R57"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R58"
+    (patternName "SM/R_0805")
+    (compvalue "10k"))
+  (compinst "R59"
+    (patternName "SM/R_0805")
+    (compvalue "40k"))
+  (compinst "R6"
+    (patternName "SM/R_0805")
+    (compvalue "4.7K"))
+  (compinst "R60"
+    (patternName "SM/R_0805")
+    (compvalue "10k"))
+  (compinst "R61"
+    (patternName "SM/R_0805")
+    (compvalue "10k"))
+  (compinst "R62"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R63"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R64"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R65"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R66"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R67"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R68"
+    (patternName "SM/R_0805")
+    (compvalue "15"))
+  (compinst "R69"
+    (patternName "SM/R_0805")
+    (compvalue "15"))
+  (compinst "R7"
+    (patternName "SM/R_0805")
+    (compvalue "4.7K"))
+  (compinst "R70"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R71"
+    (patternName "SM/R_0805")
+    (compvalue "1.5k"))
+  (compinst "R72"
+    (patternName "SM/R_0805")
+    (compvalue "1k"))
+  (compinst "R73"
+    (patternName "SM/R_0805")
+    (compvalue "1k"))
+  (compinst "R74"
+    (patternName "SM/R_0805")
+    (compvalue "1k"))
+  (compinst "R75"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R76"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R77"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R78"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R79"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R8"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R80"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R81"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R82"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R83"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R84"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R85"
+    (patternName "SM/R_0805")
+    (compvalue "10k"))
+  (compinst "R86"
+    (patternName "SM/R_0805")
+    (compvalue "10k"))
+  (compinst "R87"
+    (patternName "SM/R_0805")
+    (compvalue "10k"))
+  (compinst "R88"
+    (patternName "SM/R_0805")
+    (compvalue "10k"))
+  (compinst "R89"
+    (patternName "SM/R_0805")
+    (compvalue "10k"))
+  (compinst "R9"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R90"
+    (patternName "SM/R_0603")
+    (compvalue "100R"))
+  (compinst "R91"
+    (patternName "SM/R_0805")
+    (compvalue "1K"))
+  (compinst "R92"
+    (patternName "SM/R_0805")
+    (compvalue "1K"))
+  (compinst "R93"
+    (patternName "SM/R_0805")
+    (compvalue "4.7K"))
+  (compinst "R94"
+    (patternName "SM/R_0805")
+    (compvalue "1K"))
+  (compinst "R95"
+    (patternName "SM/R_0805")
+    (compvalue "1K"))
+  (compinst "R96"
+    (patternName "SM/R_0805")
+    (compvalue "4.7K"))
+  (compinst "R97"
+    (patternName "SM/R_0805")
+    (compvalue "1k"))
+  (compinst "R98"
+    (patternName "POTENTIO_BOURNS_REV1")
+    (compvalue "POT"))
+  (compinst "R99"
+    (patternName "SM/R_0805")
+    (compvalue "1K"))
+  (compinst "SW3"
+    (patternName "SWITCH")
+    (compvalue "SW DPDT/SM"))
+  (compinst "U11"
+    (patternName "SOIC 08_REV2")
+    (compvalue "AD743/AD"))
+  (compinst "U14"
+    (patternName "FPGA")
+    (compvalue "Xilinx FPGA ( XCS200 )"))
+  (compinst "U15"
+    (patternName "SM/_DPAK_REV1")
+    (compvalue "LT1086"))
+  (compinst "U16"
+    (patternName "SOP 08_REV7")
+    (compvalue "A25L032"))
+  (compinst "U17"
+    (patternName "SOP 08_REV8")
+    (compvalue "A25L032"))
+  (compinst "U18"
+    (patternName "REG_LP2966")
+    (compvalue "LP2966"))
+  (compinst "U19"
+    (patternName "EPROM_XCF02S")
+    (compvalue "XCF02S_Flash"))
+  (compinst "U29"
+    (patternName "SOIC 16")
+    (compvalue "ADuM1400"))
+  (compinst "U30"
+    (patternName "SOIC 16")
+    (compvalue "ADuM1400"))
+  (compinst "U5"
+    (patternName "SOP 08_REV3")
+    (compvalue "A25L032"))
+  (compinst "U6"
+    (patternName "SOP 08_REV6")
+    (compvalue "A25L032"))
+  (compinst "U68"
+    (patternName "LM358")
+    (compvalue "LM358"))
+  (compinst "U69"
+    (patternName "TQFP 44")
+    (compvalue "PIC18F4520_TQFP"))
+  (compinst "U7"
+    (patternName "SOIC 08_REV4")
+    (compvalue "AD743/AD"))
+  (compinst "U70"
+    (patternName "SM/LM2587S")
+    (compvalue "LM2587"))
+  (compinst "U71"
+    (patternName "SM/LM317_REV2")
+    (compvalue "LM317K"))
+  (compinst "U72"
+    (patternName "SM/TSSOP16")
+    (compvalue "AD7767"))
+  (compinst "U73"
+    (patternName "MSOP 8_REV1")
+    (compvalue "ADR441"))
+  (compinst "U75"
+    (patternName "SM/LM317_REV2")
+    (compvalue "LM317K"))
+  (compinst "U76"
+    (patternName "SM/TES 2N-0521_REV2")
+    (compvalue "TEL 2-0521"))
+  (compinst "U77"
+    (patternName "SOIC 08")
+    (compvalue "MAX291"))
+  (compinst "U78"
+    (patternName "USB_REV2")
+    (compvalue "Mini CP2012 USB Module"))
+  (compinst "U79"
+    (patternName "SM/SOT-23-6_REV2")
+    (compvalue "ADP3330-2.5"))
+  (compinst "U8"
+    (patternName "SOIC 08_REV3")
+    (compvalue "AD743/AD"))
+  (compinst "U80"
+    (patternName "SM/SOT-23-6_REV1")
+    (compvalue "ADP3330-3.3"))
+  (compinst "U81"
+    (patternName "SM/EMC_FILTER_REV5")
+    (compvalue "EMC_FILTER"))
+  (compinst "U82"
+    (patternName "SM/EMC_FILTER_REV6")
+    (compvalue "EMC_FILTER"))
+  (compinst "U83"
+    (patternName "SM/EMC_FILTER_REV3")
+    (compvalue "EMC_FILTER"))
+  (compinst "U84"
+    (patternName "SM/EMC_FILTER_REV2")
+    (compvalue "EMC_FILTER"))
+  (compinst "U85"
+    (patternName "SM/EMC_FILTER_REV4")
+    (compvalue "EMC_FILTER"))
+  (compinst "U86"
+    (patternName "SM/EMC_FILTER_REV1")
+    (compvalue "EMC_FILTER"))
+  (compinst "U87"
+    (patternName "SOIC 16")
+    (compvalue "ADuM1401"))
+  (compinst "U89"
+    (patternName "SM/TSSOP16_REV1")
+    (compvalue "ADG1612"))
+  (compinst "U9"
+    (patternName "REGLT1117-ST")
+    (compvalue "LT1117_ST"))
+  (compinst "U91"
+    (patternName "SM/EMC_FILTER_REV7")
+    (compvalue "EMC_FILTER"))
+  (compinst "U96"
+    (patternName "SW_SMDN")
+    (compvalue "SW PUSH SC NO"))
+  (compinst "VAR2"
+    (patternName "POTENTIO_BOURNS_REV4")
+    (compvalue "10K"))
+  (compinst "Y1"
+    (patternName "XTL")
+    (compvalue "CRYSTAL1-4/SM"))
+  (net "N18311445"
+    (node "R110" "2")
+    (node "U29" "4"))
+  (net "N18310173"
+    (node "U29" "11")
+    (node "R117" "1"))
+  (net "N18382500"
+    (node "U30" "13")
+    (node "R131" "1"))
+  (net "N2003288636"
+    (node "U14" "37")
+    (node "R143" "1"))
+  (net "N177223870"
+    (node "J10" "1")
+    (node "R34" "1"))
+  (net "N20652278"
+    (node "C24" "1"))
+  (net "N20360891"
+    (node "R91" "2")
+    (node "R92" "2")
+    (node "R94" "2")
+    (node "R95" "2"))
+  (net "N196330798"
+    (node "J14" "9")
+    (node "R99" "1"))
+  (net "N2003288634"
+    (node "U14" "35")
+    (node "R144" "1"))
+  (net "N196330796"
+    (node "J14" "7")
+    (node "R95" "1"))
+  (net "N196330794"
+    (node "J14" "5")
+    (node "R94" "1"))
+  (net "VCCINT"
+    (node "U14" "171")
+    (node "U14" "38")
+    (node "U14" "143")
+    (node "U14" "128")
+    (node "U14" "186")
+    (node "U14" "118")
+    (node "U14" "196")
+    (node "U14" "13")
+    (node "U14" "76")
+    (node "U14" "91")
+    (node "U14" "66")
+    (node "U14" "28")
+    (node "C55" "1")
+    (node "U18" "7")
+    (node "C96" "1")
+    (node "C94" "1")
+    (node "C95" "1")
+    (node "C130" "1")
+    (node "C128" "1")
+    (node "C129" "1")
+    (node "C98" "1")
+    (node "C127" "1")
+    (node "C113" "1")
+    (node "C97" "1")
+    (node "C114" "1")
+    (node "C115" "1")
+    (node "C63" "1")
+    (node "C126" "1")
+    (node "C125" "1")
+    (node "C64" "1"))
+  (net "N196330792"
+    (node "J14" "3")
+    (node "R92" "1"))
+  (net "BAT"
+    (node "U69" "19"))
+  (net "TMS"
+    (node "U14" "2")
+    (node "U19" "5")
+    (node "JTAG1" "3"))
+  (net "ACS_18312304"
+    (node "R114" "1"))
+  (net "N196330790"
+    (node "J14" "1")
+    (node "R91" "1"))
+  (net "N20032886133"
+    (node "U14" "82")
+    (node "R145" "2"))
+  (net "PRD4"
+    (node "R145" "1")
+    (node "U69" "2"))
+  (net "N20032886126"
+    (node "U14" "75")
+    (node "R146" "2"))
+  (net "PRB4"
+    (node "R15" "2"))
+  (net "PRB2"
+    (node "U69" "10")
+    (node "R12" "2"))
+  (net "PRB0"
+    (node "U69" "8")
+    (node "R10" "2"))
+  (net "FPGA_CCLK"
+    (node "U14" "155")
+    (node "R29" "2"))
+  (net "PRD5"
+    (node "R146" "1")
+    (node "U69" "3"))
+  (net "TDI_FPGA"
+    (node "U14" "159")
+    (node "U19" "17"))
+  (net "PRD7"
+    (node "R9" "2")
+    (node "U69" "5"))
+  (net "PRB1"
+    (node "U69" "9")
+    (node "R11" "2"))
+  (net "PRB3"
+    (node "U69" "11")
+    (node "R13" "2"))
+  (net "PRD6"
+    (node "R8" "2")
+    (node "U69" "4"))
+  (net "INIT_B"
+    (node "U14" "107")
+    (node "R22" "1")
+    (node "U19" "8"))
+  (net "N200438943"
+    (node "U19" "4")
+    (node "R28" "1"))
+  (net "N20087631"
+    (node "U69" "14"))
+  (net "CLKIN"
+    (node "Y1" "3")
+    (node "R47" "1"))
+  (net "N200438942"
+    (node "R29" "1")
+    (node "U19" "3"))
+  (net "N20087637"
+    (node "U69" "15"))
+  (net "N200438945"
+    (node "U19" "6")
+    (node "R33" "1"))
+  (net "FCLK"
+    (node "R135" "1")
+    (node "U14" "162"))
+  (net "FPGA_DONE"
+    (node "CR2" "2")
+    (node "U14" "104")
+    (node "U19" "10"))
+  (net "N20047680"
+    (node "R64" "2")
+    (node "JTAG1" "1"))
+  (net "FPGA_D0"
+    (node "U14" "153")
+    (node "U19" "1"))
+  (net "ASDI"
+    (node "R110" "1")
+    (node "U14" "164"))
+  (net "ASCK"
+    (node "R123" "1")
+    (node "U14" "168"))
+  (net "TDI"
+    (node "R28" "2")
+    (node "JTAG1" "2"))
+  (net "ARDY"
+    (node "R119" "2")
+    (node "U14" "172"))
+  (net "N20032886108"
+    (node "U14" "57")
+    (node "R15" "1"))
+  (net "TCK"
+    (node "U14" "207")
+    (node "R33" "2")
+    (node "JTAG1" "4"))
+  (net "PROG_B"
+    (node "U14" "106")
+    (node "R21" "1")
+    (node "U19" "7"))
+  (net "ASDO"
+    (node "R118" "2")
+    (node "U14" "174"))
+  (net "ASYNC"
+    (node "R122" "2")
+    (node "U14" "176"))
+  (net "N20032886110"
+    (node "U14" "59")
+    (node "R13" "1"))
+  (net "VCCO"
+    (node "C11" "2")
+    (node "U78" "6")
+    (node "C4" "2")
+    (node "R5" "1")
+    (node "U5" "8")
+    (node "R96" "2")
+    (node "R93" "2")
+    (node "R6" "1")
+    (node "C5" "2")
+    (node "U6" "8")
+    (node "R7" "1")
+    (node "C6" "2")
+    (node "U16" "8")
+    (node "R14" "1")
+    (node "C7" "2")
+    (node "U17" "8")
+    (node "R101" "2")
+    (node "R104" "1")
+    (node "U14" "130")
+    (node "U14" "26")
+    (node "U14" "144")
+    (node "U14" "39")
+    (node "U14" "156")
+    (node "U14" "53")
+    (node "U14" "208")
+    (node "U14" "78")
+    (node "R48" "2")
+    (node "U14" "92")
+    (node "U14" "65")
+    (node "U14" "117")
+    (node "U14" "197")
+    (node "U14" "12")
+    (node "U14" "184")
+    (node "U14" "105")
+    (node "U14" "170")
+    (node "R21" "2")
+    (node "U19" "18")
+    (node "U19" "19")
+    (node "C58" "1")
+    (node "U19" "20")
+    (node "R22" "2")
+    (node "JTAG1" "5")
+    (node "C103" "1")
+    (node "C99" "1")
+    (node "C100" "1")
+    (node "C81" "1")
+    (node "C101" "1")
+    (node "C102" "1")
+    (node "C104" "1")
+    (node "C105" "1")
+    (node "C123" "1")
+    (node "C121" "1")
+    (node "C118" "1")
+    (node "C122" "1")
+    (node "C117" "1")
+    (node "C116" "1")
+    (node "C108" "1")
+    (node "C107" "1")
+    (node "C120" "1")
+    (node "C106" "1")
+    (node "C119" "1")
+    (node "C124" "1")
+    (node "R107" "2")
+    (node "R108" "2")
+    (node "R109" "2")
+    (node "R124" "2")
+    (node "U9" "2")
+    (node "C17" "1"))
+  (net "N20032886112"
+    (node "U14" "61")
+    (node "R12" "1"))
+  (net "N20032886114"
+    (node "U14" "63")
+    (node "R11" "1"))
+  (net "N20032886119"
+    (node "U14" "68")
+    (node "R10" "1"))
+  (net "N20032886121"
+    (node "U14" "70")
+    (node "R9" "1"))
+  (net "TDO"
+    (node "U14" "157")
+    (node "R64" "1"))
+  (net "N20032886124"
+    (node "R8" "1")
+    (node "U14" "73"))
+  (net "N2003288666"
+    (node "U14" "142")
+    (node "R54" "2"))
+  (net "N20131606"
+    (node "U14" "140")
+    (node "R55" "2"))
+  (net "N2003288670"
+    (node "R56" "2")
+    (node "U14" "138"))
+  (net "N2003288673"
+    (node "U14" "135")
+    (node "R57" "2"))
+  (net "VDD5"
+    (node "U68" "8"))
+  (net "N2003288675"
+    (node "U14" "133")
+    (node "R62" "2"))
+  (net "N2003288679"
+    (node "U14" "129")
+    (node "R63" "2"))
+  (net "N2003288681"
+    (node "U14" "127")
+    (node "R65" "2"))
+  (net "BAT_20559932"
+    (node "U68" "2")
+    (node "U68" "1"))
+  (net "N19943035"
+    (node "R6" "2")
+    (node "U6" "7"))
+  (net "N19692557"
+    (node "J15" "4")
+    (node "U78" "10"))
+  (net "N19692558"
+    (node "J15" "3")
+    (node "U78" "9"))
+  (net "RIGHT"
+    (node "R88" "1")
+    (node "J14" "2")
+    (node "R75" "2"))
+  (net "N20032886181"
+    (node "U14" "182")
+    (node "R47" "2"))
+  (net "DOWN"
+    (node "R85" "1")
+    (node "J14" "4")
+    (node "R77" "2"))
+  (net "N19692559"
+    (node "J15" "2")
+    (node "U78" "8"))
+  (net "DB6"
+    (node "J1" "2")
+    (node "U69" "25"))
+  (net "VO"
+    (node "J1" "12")
+    (node "VAR2" "2"))
+  (net "DB5"
+    (node "J1" "3")
+    (node "U69" "27"))
+  (net "LEFT"
+    (node "R86" "1")
+    (node "J14" "10")
+    (node "R76" "2"))
+  (net "N19964501"
+    (node "R14" "2")
+    (node "U17" "7"))
+  (net "N19957068"
+    (node "R7" "2")
+    (node "U16" "7"))
+  (net "OK"
+    (node "R87" "1")
+    (node "J14" "6")
+    (node "R79" "2"))
+  (net "N19954829"
+    (node "U16" "3")
+    (node "R101" "1"))
+  (net "EN1"
+    (node "J1" "9")
+    (node "U69" "24"))
+  (net "N19933082"
+    (node "R5" "2")
+    (node "U5" "7"))
+  (net "N19924730"
+    (node "U5" "3")
+    (node "R93" "1"))
+  (net "UP"
+    (node "R89" "2")
+    (node "J14" "8")
+    (node "R78" "2"))
+  (net "N200328862"
+    (node "U14" "3")
+    (node "R75" "1"))
+  (net "N19920556"
+    (node "U6" "3")
+    (node "R96" "1"))
+  (net "DB7"
+    (node "J1" "1")
+    (node "U69" "26"))
+  (net "DB4"
+    (node "J1" "4")
+    (node "U69" "31"))
+  (net "BKL"
+    (node "Q1" "2")
+    (node "U69" "21"))
+  (net "RS"
+    (node "J1" "11")
+    (node "U69" "23"))
+  (net "N200328864"
+    (node "U14" "5")
+    (node "R76" "1"))
+  (net "A"
+    (node "J1" "17")
+    (node "Q1" "1")
+    (node "R1" "1"))
+  (net "N200328866"
+    (node "U14" "7")
+    (node "R77" "1"))
+  (net "N19692560"
+    (node "J15" "1")
+    (node "U78" "7"))
+  (net "EN2"
+    (node "J1" "15")
+    (node "U69" "22"))
+  (net "N181705982"
+    (node "R104" "2")
+    (node "U17" "3"))
+  (net "GND"
+    (node "C199" "1")
+    (node "C190" "1")
+    (node "U87" "9")
+    (node "U87" "15")
+    (node "U29" "8")
+    (node "U29" "2")
+    (node "C188" "1")
+    (node "U30" "8")
+    (node "U30" "2")
+    (node "U96" "2")
+    (node "U78" "2")
+    (node "C4" "1")
+    (node "U5" "4")
+    (node "C5" "1")
+    (node "U6" "4")
+    (node "C7" "1")
+    (node "U17" "4")
+    (node "C6" "1")
+    (node "U16" "4")
+    (node "C11" "1")
+    (node "J1" "10")
+    (node "J1" "18")
+    (node "J1" "13")
+    (node "VAR2" "3")
+    (node "Q1" "3")
+    (node "U14" "158")
+    (node "U14" "52")
+    (node "U14" "1")
+    (node "R18" "2")
+    (node "U14" "25")
+    (node "U14" "54")
+    (node "U14" "64")
+    (node "U14" "116")
+    (node "U14" "198")
+    (node "U14" "11")
+    (node "U14" "124")
+    (node "U14" "19")
+    (node "U14" "72")
+    (node "U14" "131")
+    (node "U14" "190")
+    (node "U14" "79")
+    (node "U14" "32")
+    (node "U14" "137")
+    (node "U14" "183")
+    (node "U14" "145")
+    (node "U14" "40")
+    (node "U14" "177")
+    (node "U14" "85")
+    (node "U14" "169")
+    (node "U14" "93")
+    (node "U14" "103")
+    (node "U14" "51")
+    (node "U14" "50")
+    (node "U18" "4")
+    (node "C55" "2")
+    (node "C54" "2")
+    (node "U18" "6")
+    (node "U18" "5")
+    (node "U19" "11")
+    (node "C58" "2")
+    (node "JTAG1" "6")
+    (node "C98" "2")
+    (node "C94" "2")
+    (node "C95" "2")
+    (node "C130" "2")
+    (node "C128" "2")
+    (node "C127" "2")
+    (node "C97" "2")
+    (node "C100" "2")
+    (node "C103" "2")
+    (node "C81" "2")
+    (node "C102" "2")
+    (node "C104" "2")
+    (node "C105" "2")
+    (node "C124" "2")
+    (node "C120" "2")
+    (node "C118" "2")
+    (node "C122" "2")
+    (node "C123" "2")
+    (node "C117" "2")
+    (node "C121" "2")
+    (node "C116" "2")
+    (node "C108" "2")
+    (node "C107" "2")
+    (node "C106" "2")
+    (node "C119" "2")
+    (node "C101" "2")
+    (node "C126" "2")
+    (node "C99" "2")
+    (node "C63" "2")
+    (node "C64" "2")
+    (node "C125" "2")
+    (node "C129" "2")
+    (node "C113" "2")
+    (node "C114" "2")
+    (node "C115" "2")
+    (node "C96" "2")
+    (node "C20" "2")
+    (node "C23" "2")
+    (node "Y1" "2")
+    (node "U69" "6")
+    (node "U69" "29")
+    (node "J11" "3")
+    (node "R99" "2")
+    (node "U9" "1")
+    (node "C17" "2")
+    (node "C16" "2")
+    (node "C24" "2")
+    (node "C25" "2"))
+  (net "VDD"
+    (node "C190" "2")
+    (node "U87" "10")
+    (node "U87" "16")
+    (node "U29" "1")
+    (node "C188" "2")
+    (node "U30" "1")
+    (node "C199" "2")
+    (node "U83" "3")
+    (node "C174" "1")
+    (node "C175" "2")
+    (node "C176" "1")
+    (node "J1" "14")
+    (node "VAR2" "1")
+    (node "R1" "2")
+    (node "R88" "2")
+    (node "R85" "2")
+    (node "R87" "2")
+    (node "R86" "2")
+    (node "R89" "1")
+    (node "U18" "2")
+    (node "C54" "1")
+    (node "U18" "1")
+    (node "U18" "3")
+    (node "C23" "1")
+    (node "C20" "1")
+    (node "Y1" "4")
+    (node "U69" "28")
+    (node "U69" "7")
+    (node "R102" "2")
+    (node "J11" "2")
+    (node "U9" "3")
+    (node "C25" "1")
+    (node "C16" "1"))
+  (net "N200328868"
+    (node "U14" "9")
+    (node "R78" "1"))
+  (net "N17712854"
+    (node "U75" "3")
+    (node "D4" "1")
+    (node "D6" "2"))
+  (net "N18075676"
+    (node "R30" "2")
+    (node "U70" "1"))
+  (net "SW1_1"
+    (node "J8" "1")
+    (node "SW3" "2"))
+  (net "N17712950"
+    (node "U85" "3")
+    (node "C180" "1")
+    (node "C179" "2")
+    (node "U76" "16"))
+  (net "N2003288613"
+    (node "U14" "14")
+    (node "R79" "1"))
+  (net "N18075694"
+    (node "R31" "1")
+    (node "R32" "3")
+    (node "U70" "2"))
+  (net "SW1_2"
+    (node "F2" "1")
+    (node "SW3" "1")
+    (node "SW3" "3"))
+  (net "VDC"
+    (node "D4" "2")
+    (node "D7" "2")
+    (node "SW3" "5"))
+  (net "BATTERY"
+    (node "R98" "1")
+    (node "U75" "1")
+    (node "BT1" "1")
+    (node "D7" "1")
+    (node "U68" "3"))
+  (net "N18075724"
+    (node "C146" "2")
+    (node "R30" "1")
+    (node "C149" "2"))
+  (net "N17718772"
+    (node "U84" "1")
+    (node "SW3" "4")
+    (node "U85" "1"))
+  (net "N20033178"
+    (node "CR2" "1")
+    (node "R18" "1"))
+  (net "24V"
+    (node "C147" "1")
+    (node "D1" "2")
+    (node "R31" "2")
+    (node "U91" "1"))
+  (net "N17713123"
+    (node "R97" "1")
+    (node "U75" "2"))
+  (net "N18067986"
+    (node "U86" "1")
+    (node "F2" "2"))
+  (net "N20032969"
+    (node "U14" "42"))
+  (net "N17712868"
+    (node "D6" "1")
+    (node "C193" "1")
+    (node "C192" "2")
+    (node "U86" "3"))
+  (net "N20032938"
+    (node "U14" "74"))
+  (net "N17712763"
+    (node "U81" "1")
+    (node "U76" "9"))
+  (net "N20033087"
+    (node "U14" "113"))
+  (net "N17716036"
+    (node "U84" "3")
+    (node "C178" "1")
+    (node "C177" "2")
+    (node "U15" "3"))
+  (net "N20033109"
+    (node "R48" "1")
+    (node "U14" "108"))
+  (net "N17712964"
+    (node "U82" "1")
+    (node "U76" "10"))
+  (net "N20033229"
+    (node "U14" "132"))
+  (net "N18875971"
+    (node "R106" "3")
+    (node "R106" "2")
+    (node "R105" "2"))
+  (net "N2003288660"
+    (node "U14" "148")
+    (node "R67" "2"))
+  (net "N20033092"
+    (node "U14" "112"))
+  (net "N18075656"
+    (node "U70" "4")
+    (node "D1" "1")
+    (node "L1" "2"))
+  (net "N17712724"
+    (node "R98" "3")
+    (node "R98" "2")
+    (node "R97" "2"))
+  (net "N20033019"
+    (node "U14" "126"))
+  (net "N18878731"
+    (node "U71" "2")
+    (node "R106" "1"))
+  (net "N20032984"
+    (node "U14" "150"))
+  (net "N180758310"
+    (node "U71" "3")
+    (node "U91" "3"))
+  (net "N2003288661"
+    (node "U14" "147")
+    (node "R70" "2"))
+  (net "N177130080"
+    (node "U15" "2")
+    (node "U83" "1"))
+  (net "N2003288632"
+    (node "U14" "33")
+    (node "R147" "1"))
+  (net "N20033021"
+    (node "U14" "125"))
+  (net "N17722518"
+    (node "U7" "2")
+    (node "R59" "2")
+    (node "C159" "1")
+    (node "R58" "1"))
+  (net "N20033129"
+    (node "U14" "110"))
+  (net "N18126713"
+    (node "U72" "7")
+    (node "R120" "1"))
+  (net "N20032665"
+    (node "U14" "120"))
+  (net "N17722435"
+    (node "C155" "1")
+    (node "R69" "2")
+    (node "U72" "5"))
+  (net "N20033124"
+    (node "U14" "109"))
+  (net "ECS2"
+    (node "U17" "1")
+    (node "R108" "1")
+    (node "R137" "2"))
+  (net "N20032886151"
+    (node "U14" "100")
+    (node "R66" "2"))
+  (net "ECLK0"
+    (node "U5" "6")
+    (node "R144" "2"))
+  (net "N18382496"
+    (node "U30" "14")
+    (node "R132" "1"))
+  (net "ESDO0"
+    (node "R142" "2"))
+  (net "2.5VA"
+    (node "R71" "2")
+    (node "R73" "2")
+    (node "U72" "1")
+    (node "C197" "2")
+    (node "Ferrite Bead" "2")
+    (node "C164" "2")
+    (node "U79" "1"))
+  (net "PINT"
+    (node "R55" "1"))
+  (net "ESDI0"
+    (node "U5" "5")
+    (node "R143" "2"))
+  (net "N19467495"
+    (node "U87" "6")
+    (node "R120" "2"))
+  (net "N20032954"
+    (node "U14" "67"))
+  (net "PSEL1"
+    (node "U69" "35")
+    (node "R67" "1")
+    (node "R80" "1"))
+  (net "ESDO1"
+    (node "U6" "2")
+    (node "R147" "2"))
+  (net "+5VA"
+    (node "U77" "7")
+    (node "C162" "2")
+    (node "U7" "7")
+    (node "C183" "2")
+    (node "U8" "7")
+    (node "C181" "2")
+    (node "U11" "7")
+    (node "C185" "2")
+    (node "D9" "2")
+    (node "C208" "2")
+    (node "U89" "13")
+    (node "U81" "3")
+    (node "C168" "1")
+    (node "C169" "2")
+    (node "C170" "1")
+    (node "U80" "2")
+    (node "U80" "6")
+    (node "C166" "2")
+    (node "U79" "2")
+    (node "U79" "6")
+    (node "C165" "2")
+    (node "C148" "1")
+    (node "L1" "1")
+    (node "U70" "5")
+    (node "C151" "1")
+    (node "U73" "2")
+    (node "C152" "2"))
+  (net "N20032886149"
+    (node "U14" "98")
+    (node "R80" "2"))
+  (net "N2003288630"
+    (node "U14" "31")
+    (node "R148" "1"))
+  (net "ECS3"
+    (node "U16" "1")
+    (node "R107" "1")
+    (node "R141" "2"))
+  (net "0"
+    (node "BT1" "2")
+    (node "C174" "2")
+    (node "C175" "1")
+    (node "U83" "2")
+    (node "C176" "2")
+    (node "U76" "1")
+    (node "C178" "2")
+    (node "C177" "1")
+    (node "U84" "2")
+    (node "U15" "1")
+    (node "C180" "2")
+    (node "C179" "1")
+    (node "U85" "2")
+    (node "J8" "2")
+    (node "C193" "2")
+    (node "C192" "1")
+    (node "U86" "2")
+    (node "J8" "3")
+    (node "U68" "4"))
+  (net "PCLK"
+    (node "U69" "30")
+    (node "R50" "1"))
+  (net "N20032982"
+    (node "U14" "77"))
+  (net "PSDI"
+    (node "U69" "42")
+    (node "R63" "1")
+    (node "R83" "1"))
+  (net "N18311453"
+    (node "R123" "2")
+    (node "U29" "6"))
+  (net "PSCK"
+    (node "U69" "37")
+    (node "R65" "1")
+    (node "R82" "1"))
+  (net "N18405654"
+    (node "U89" "1")
+    (node "R132" "2"))
+  (net "N2003288628"
+    (node "U14" "29")
+    (node "R149" "1"))
+  (net "PSEL2"
+    (node "U69" "36")
+    (node "R66" "1"))
+  (net "N18126378"
+    (node "U72" "12")
+    (node "R111" "1"))
+  (net "N20033114"
+    (node "U14" "123"))
+  (net "ECS0"
+    (node "U5" "1")
+    (node "R109" "1")
+    (node "R103" "2"))
+  (net "N18273826"
+    (node "U72" "8")
+    (node "C196" "2")
+    (node "Ferrite Bead" "1"))
+  (net "PSDO"
+    (node "U69" "43")
+    (node "R62" "1")
+    (node "R84" "1"))
+  (net "N17722458"
+    (node "U11" "2")
+    (node "U11" "6")
+    (node "D9" "1")
+    (node "D8" "2")
+    (node "U77" "8"))
+  (net "ECS1"
+    (node "U6" "1")
+    (node "R124" "1")
+    (node "R133" "2"))
+  (net "N2003288626"
+    (node "U14" "27")
+    (node "R150" "1"))
+  (net "PSEL0"
+    (node "U69" "32")
+    (node "R70" "1")
+    (node "R81" "1"))
+  (net "PRX"
+    (node "U69" "1")
+    (node "R57" "1")
+    (node "R100" "1"))
+  (net "PTX"
+    (node "U69" "44")
+    (node "R56" "1")
+    (node "R90" "1"))
+  (net "4MA"
+    (node "U89" "3")
+    (node "R105" "1")
+    (node "U71" "1"))
+  (net "URX"
+    (node "U78" "3"))
+  (net "N18126782"
+    (node "R118" "1")
+    (node "U87" "13"))
+  (net "N2003288623"
+    (node "U14" "24")
+    (node "R151" "1"))
+  (net "UTX"
+    (node "U78" "4"))
+  (net "SWCS"
+    (node "R129" "1")
+    (node "U14" "201"))
+  (net "3.3VA"
+    (node "U72" "9")
+    (node "C187" "2")
+    (node "U87" "1")
+    (node "C191" "2")
+    (node "U29" "16")
+    (node "U29" "10")
+    (node "C189" "2")
+    (node "C198" "2")
+    (node "U30" "10")
+    (node "U30" "16")
+    (node "U80" "1")
+    (node "C167" "2"))
+  (net "N20032886147"
+    (node "U14" "96")
+    (node "R81" "2"))
+  (net "SWIMP"
+    (node "R130" "1")
+    (node "U14" "203"))
+  (net "SWCAP"
+    (node "R134" "1")
+    (node "U14" "205"))
+  (net "N17722524"
+    (node "R71" "1")
+    (node "U7" "3")
+    (node "R72" "2")
+    (node "C161" "1"))
+  (net "N2003288621"
+    (node "U14" "22")
+    (node "R152" "1"))
+  (net "ACLK"
+    (node "R112" "1")
+    (node "R54" "1")
+    (node "U14" "166"))
+  (net "N20032886153"
+    (node "U14" "102")
+    (node "R50" "2"))
+  (net "N18314346"
+    (node "U29" "14")
+    (node "R126" "1"))
+  (net "N18382463"
+    (node "R130" "2")
+    (node "U30" "4"))
+  (net "N18257982"
+    (node "R115" "2")
+    (node "U72" "14"))
+  (net "N2003288619"
+    (node "U14" "20")
+    (node "R153" "1"))
+  (net "N18126743"
+    (node "U87" "4")
+    (node "R113" "2"))
+  (net "N20032886145"
+    (node "U14" "94")
+    (node "R82" "2"))
+  (net "N17722379"
+    (node "C150" "1")
+    (node "R34" "2")
+    (node "D3" "2")
+    (node "U89" "2"))
+  (net "N18113851"
+    (node "R59" "1")
+    (node "U77" "5"))
+  (net "N20032886141"
+    (node "U14" "90")
+    (node "R83" "2"))
+  (net "N18257956"
+    (node "R116" "2")
+    (node "U72" "15"))
+  (net "N2003288617"
+    (node "U14" "18")
+    (node "R154" "1"))
+  (net "N20032886139"
+    (node "U14" "88")
+    (node "R84" "2"))
+  (net "N17722443"
+    (node "U77" "1")
+    (node "R136" "2"))
+  (net "N18411378"
+    (node "U89" "16")
+    (node "R131" "2"))
+  (net "N2003288615"
+    (node "U14" "16")
+    (node "R155" "1"))
+  (net "-5VA"
+    (node "C184" "2")
+    (node "U7" "4")
+    (node "C182" "2")
+    (node "U8" "4")
+    (node "C186" "2")
+    (node "U11" "4")
+    (node "C163" "2")
+    (node "U77" "2")
+    (node "D8" "1")
+    (node "U89" "4")
+    (node "C209" "2")
+    (node "U82" "3")
+    (node "C171" "2")
+    (node "C172" "2")
+    (node "C173" "2"))
+  (net "N202817950"
+    (node "D10" "1")
+    (node "R102" "1"))
+  (net "ESDI1"
+    (node "U6" "5")
+    (node "R148" "2"))
+  (net "N18312302"
+    (node "R114" "2")
+    (node "U29" "3"))
+  (net "N20032886137"
+    (node "U14" "86")
+    (node "R90" "2"))
+  (net "N18126723"
+    (node "U87" "3")
+    (node "R111" "2"))
+  (net "ECLK1"
+    (node "U6" "6")
+    (node "R149" "2"))
+  (net "N18382449"
+    (node "R129" "2")
+    (node "U30" "3"))
+  (net "ESDI3"
+    (node "U16" "5")
+    (node "R154" "2"))
+  (net "N17722437"
+    (node "R73" "1")
+    (node "R74" "2")
+    (node "U8" "3")
+    (node "C160" "2"))
+  (net "N18126388"
+    (node "U72" "10")
+    (node "R113" "1"))
+  (net "ECLK2"
+    (node "U17" "6")
+    (node "R152" "2"))
+  (net "N18310171"
+    (node "U29" "12")
+    (node "R115" "1"))
+  (net "ECLK3"
+    (node "U16" "6")
+    (node "R155" "2"))
+  (net "ESDO3"
+    (node "U16" "2")
+    (node "R153" "2"))
+  (net "N17722610"
+    (node "R68" "1")
+    (node "R60" "2")
+    (node "U8" "6"))
+  (net "N20032886135"
+    (node "U14" "84")
+    (node "R100" "2"))
+  (net "ESDI2"
+    (node "U17" "5")
+    (node "R151" "2"))
+  (net "MCLR"
+    (node "U96" "1")
+    (node "U69" "18")
+    (node "D10" "2")
+    (node "J11" "1"))
+  (net "N17722540"
+    (node "R61" "2")
+    (node "R69" "1")
+    (node "C159" "2")
+    (node "R58" "2")
+    (node "U7" "6"))
+  (net "PGC"
+    (node "U69" "16")
+    (node "J11" "5"))
+  (net "N17722560"
+    (node "U8" "2")
+    (node "R61" "1")
+    (node "R60" "1"))
+  (net "PGD"
+    (node "U69" "17")
+    (node "J11" "4"))
+  (net "ESDO2"
+    (node "U17" "2")
+    (node "R150" "2"))
+  (net "ESD00"
+    (node "U5" "2"))
+  (net "N2003288648"
+    (node "U14" "49")
+    (node "R103" "1"))
+  (net "GND_SIGNAL"
+    (node "C209" "1")
+    (node "C191" "1")
+    (node "C163" "1")
+    (node "C181" "1")
+    (node "C155" "2")
+    (node "C161" "2")
+    (node "U77" "6")
+    (node "C154" "1")
+    (node "R74" "1")
+    (node "C162" "1")
+    (node "R72" "1")
+    (node "D3" "1")
+    (node "J10" "2")
+    (node "C182" "1")
+    (node "C183" "1")
+    (node "C184" "1")
+    (node "C185" "1")
+    (node "C186" "1")
+    (node "U72" "11")
+    (node "U72" "6")
+    (node "C187" "1")
+    (node "U87" "8")
+    (node "U87" "2")
+    (node "C160" "1")
+    (node "C194" "1")
+    (node "C195" "2")
+    (node "C196" "1")
+    (node "C197" "1")
+    (node "U29" "9")
+    (node "U29" "15")
+    (node "C189" "1")
+    (node "U72" "3")
+    (node "R127" "1")
+    (node "R128" "1")
+    (node "C198" "1")
+    (node "U30" "9")
+    (node "U30" "15")
+    (node "U89" "5")
+    (node "C208" "1")
+    (node "C168" "2")
+    (node "C169" "1")
+    (node "C171" "1")
+    (node "C172" "1")
+    (node "C173" "1")
+    (node "U76" "8")
+    (node "U81" "2")
+    (node "C170" "2")
+    (node "C167" "1")
+    (node "C166" "1")
+    (node "U80" "4")
+    (node "C164" "1")
+    (node "C165" "1")
+    (node "U79" "4")
+    (node "C147" "2")
+    (node "C148" "2")
+    (node "C146" "1")
+    (node "U70" "3")
+    (node "R32" "1")
+    (node "R32" "2")
+    (node "U73" "4")
+    (node "C151" "2")
+    (node "C152" "1")
+    (node "C149" "1")
+    (node "U91" "2")
+    (node "U82" "2"))
+  (net "N18725775"
+    (node "R134" "2")
+    (node "U30" "5"))
+  (net "N18310169"
+    (node "U29" "13")
+    (node "R116" "1"))
+  (net "N20640389"
+    (node "R135" "2")
+    (node "U30" "6"))
+  (net "N2003288646"
+    (node "U14" "47")
+    (node "R133" "1"))
+  (net "ACS"
+    (node "U14" "178"))
+  (net "N19464531"
+    (node "R122" "1")
+    (node "U87" "11"))
+  (net "N17722450"
+    (node "C154" "2")
+    (node "U72" "4")
+    (node "R68" "2"))
+  (net "N2003288644"
+    (node "U14" "45")
+    (node "R137" "1"))
+  (net "N18258000"
+    (node "R117" "2")
+    (node "U72" "13"))
+  (net "N20643445"
+    (node "U30" "11")
+    (node "R136" "1"))
+  (net "2.5V REF"
+    (node "C194" "2")
+    (node "C195" "1")
+    (node "U72" "2")
+    (node "U73" "6"))
+  (net "N2003288642"
+    (node "U14" "43")
+    (node "R141" "1"))
+  (net "S2"
+    (node "R128" "2")
+    (node "U89" "14"))
+  (net "N20644862"
+    (node "R138" "1")
+    (node "U30" "12"))
+  (net "N18311447"
+    (node "R112" "2")
+    (node "U29" "5"))
+  (net "N18126778"
+    (node "R119" "1")
+    (node "U87" "14"))
+  (net "N18928244"
+    (node "R126" "2")
+    (node "U72" "16"))
+  (net "D2"
+    (node "U11" "3")
+    (node "R127" "2")
+    (node "C150" "2")
+    (node "U89" "15"))
+  (net "N2003288640"
+    (node "U14" "41")
+    (node "R142" "1")))

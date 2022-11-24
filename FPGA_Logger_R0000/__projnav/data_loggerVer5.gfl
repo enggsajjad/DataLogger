@@ -1,0 +1,547 @@
+# XST (Creating Lso File) : 
+main.lso
+# xst flow : RunXST
+main.syr
+main.prj
+main.sprj
+main.ana
+main.stx
+main.cmd_log
+main.ngc
+main.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\dnpr_data_logger\fpga_logger_r0000/_ngo
+main.ngd
+main_ngdbuild.nav
+main.bld
+main_pins.ucf.untf
+main.cmd_log
+# Implementation : Map
+main_map.ncd
+main.ngm
+main.pcf
+main.nc1
+main.mrp
+main_map.mrp
+main.mdf
+__projnav/map.log
+main.cmd_log
+MAP_NO_GUIDE_FILE_CPF "main"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+main.twr
+main.twx
+main.tsi
+main.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+main.ncd
+main.par
+main.pad
+main_pad.txt
+main_pad.csv
+main.pad_txt
+main.dly
+reportgen.log
+main.xpi
+main.grf
+main.itr
+main_last_par.ncd
+__projnav/par.log
+main.placed_ncd_tracker
+main.routed_ncd_tracker
+main.cmd_log
+PAR_NO_GUIDE_FILE_CPF "main"
+# Generate Programming File
+__projnav/main_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+main.ut
+# Generate Programming File
+main.bgn
+main.rbt
+main.ll
+main.msk
+main.drc
+main.nky
+main.bit
+main.bin
+main.isc
+main.cmd_log
+# Generate PROM, ACE, or JTAG File
+main.ace
+xilinx.sys
+main.mpm
+main.mcs
+main.prm
+main.dst
+main.exo
+main.tek
+main.hex
+main.svf
+main.stapl
+impact.cmd
+_impact.log
+_impact.cmd
+# Configure Device (iMPACT)
+main.prm
+main.isc
+main.svf
+xilinx.sys
+main.mcs
+main.exo
+main.hex
+main.tek
+main.dst
+main.dst_compressed
+main.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+main.lso
+# xst flow : RunXST
+main.syr
+main.prj
+main.sprj
+main.ana
+main.stx
+main.cmd_log
+main.ngc
+main.ngr
+# XST (Creating Lso File) : 
+main.lso
+# xst flow : RunXST
+main.syr
+main.prj
+main.sprj
+main.ana
+main.stx
+main.cmd_log
+main.ngc
+main.ngr
+# XST (Creating Lso File) : 
+main.lso
+# xst flow : RunXST
+main.syr
+main.prj
+main.sprj
+main.ana
+main.stx
+main.cmd_log
+main.ngc
+main.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\dnpr_data_logger\131114\fpga_logger_r0000/_ngo
+main.ngd
+main_ngdbuild.nav
+main.bld
+main_pins.ucf.untf
+main.cmd_log
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\dnpr_data_logger\131114\fpga_logger_r0000/_ngo
+main.ngd
+main_ngdbuild.nav
+main.bld
+main_pins.ucf.untf
+main.cmd_log
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\dnpr_data_logger\131114\fpga_logger_r0000/_ngo
+main.ngd
+main_ngdbuild.nav
+main.bld
+main_pins.ucf.untf
+main.cmd_log
+# XST (Creating Lso File) : 
+main.lso
+# xst flow : RunXST
+main.syr
+main.prj
+main.sprj
+main.ana
+main.stx
+main.cmd_log
+main.ngc
+main.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\dnpr_data_logger\131114\fpga_logger_r0000/_ngo
+main.ngd
+main_ngdbuild.nav
+main.bld
+main_pins.ucf.untf
+main.cmd_log
+# Implementation : Map
+main_map.ncd
+main.ngm
+main.pcf
+main.nc1
+main.mrp
+main_map.mrp
+main.mdf
+__projnav/map.log
+main.cmd_log
+MAP_NO_GUIDE_FILE_CPF "main"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+main.twr
+main.twx
+main.tsi
+main.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+main.ncd
+main.par
+main.pad
+main_pad.txt
+main_pad.csv
+main.pad_txt
+main.dly
+reportgen.log
+main.xpi
+main.grf
+main.itr
+main_last_par.ncd
+__projnav/par.log
+main.placed_ncd_tracker
+main.routed_ncd_tracker
+main.cmd_log
+PAR_NO_GUIDE_FILE_CPF "main"
+# Generate Programming File
+__projnav/main_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+main.ut
+# Generate Programming File
+main.bgn
+main.rbt
+main.ll
+main.msk
+main.drc
+main.nky
+main.bit
+main.bin
+main.isc
+main.cmd_log
+# XST (Creating Lso File) : 
+main.lso
+# xst flow : RunXST
+main.syr
+main.prj
+main.sprj
+main.ana
+main.stx
+main.cmd_log
+main.ngc
+main.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\dnpr_data_logger\131114\fpga_logger_r0000/_ngo
+main.ngd
+main_ngdbuild.nav
+main.bld
+main_pins.ucf.untf
+main.cmd_log
+# XST (Creating Lso File) : 
+main.lso
+# xst flow : RunXST
+main.syr
+main.prj
+main.sprj
+main.ana
+main.stx
+main.cmd_log
+main.ngc
+main.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\dnpr_data_logger\131114\fpga_logger_r0000/_ngo
+main.ngd
+main_ngdbuild.nav
+main.bld
+main_pins.ucf.untf
+main.cmd_log
+# Implementation : Map
+main_map.ncd
+main.ngm
+main.pcf
+main.nc1
+main.mrp
+main_map.mrp
+main.mdf
+__projnav/map.log
+main.cmd_log
+MAP_NO_GUIDE_FILE_CPF "main"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+main.twr
+main.twx
+main.tsi
+main.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+main.ncd
+main.par
+main.pad
+main_pad.txt
+main_pad.csv
+main.pad_txt
+main.dly
+reportgen.log
+main.xpi
+main.grf
+main.itr
+main_last_par.ncd
+__projnav/par.log
+main.placed_ncd_tracker
+main.routed_ncd_tracker
+main.cmd_log
+PAR_NO_GUIDE_FILE_CPF "main"
+# Generate Programming File
+__projnav/main_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+main.ut
+# Generate Programming File
+main.bgn
+main.rbt
+main.ll
+main.msk
+main.drc
+main.nky
+main.bit
+main.bin
+main.isc
+main.cmd_log
+# Generate PROM, ACE, or JTAG File
+main.ace
+xilinx.sys
+main.mpm
+main.mcs
+main.prm
+main.dst
+main.exo
+main.tek
+main.hex
+main.svf
+main.stapl
+impact.cmd
+_impact.log
+_impact.cmd
+# Configure Device (iMPACT)
+main.prm
+main.isc
+main.svf
+xilinx.sys
+main.mcs
+main.exo
+main.hex
+main.tek
+main.dst
+main.dst_compressed
+main.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+main.lso
+# xst flow : RunXST
+main.syr
+main.prj
+main.sprj
+main.ana
+main.stx
+main.cmd_log
+main.ngc
+main.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\dnpr_data_logger\131114\fpga_logger_r0000/_ngo
+main.ngd
+main_ngdbuild.nav
+main.bld
+main_pins.ucf.untf
+main.cmd_log
+# Implementation : Map
+main_map.ncd
+main.ngm
+main.pcf
+main.nc1
+main.mrp
+main_map.mrp
+main.mdf
+__projnav/map.log
+main.cmd_log
+MAP_NO_GUIDE_FILE_CPF "main"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+main.twr
+main.twx
+main.tsi
+main.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+main.ncd
+main.par
+main.pad
+main_pad.txt
+main_pad.csv
+main.pad_txt
+main.dly
+reportgen.log
+main.xpi
+main.grf
+main.itr
+main_last_par.ncd
+__projnav/par.log
+main.placed_ncd_tracker
+main.routed_ncd_tracker
+main.cmd_log
+PAR_NO_GUIDE_FILE_CPF "main"
+# Generate Programming File
+__projnav/main_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+main.ut
+# Generate Programming File
+main.bgn
+main.rbt
+main.ll
+main.msk
+main.drc
+main.nky
+main.bit
+main.bin
+main.isc
+main.cmd_log
+# Generate PROM, ACE, or JTAG File
+main.ace
+xilinx.sys
+main.mpm
+main.mcs
+main.prm
+main.dst
+main.exo
+main.tek
+main.hex
+main.svf
+main.stapl
+impact.cmd
+_impact.log
+_impact.cmd
+# XST (Creating Lso File) : 
+main.lso
+# xst flow : RunXST
+main.syr
+main.prj
+main.sprj
+main.ana
+main.stx
+main.cmd_log
+main.ngc
+main.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+d:\dnpr_data_logger\131114\fpga_logger_r0000/_ngo
+main.ngd
+main_ngdbuild.nav
+main.bld
+main_pins.ucf.untf
+main.cmd_log
+# Implementation : Map
+main_map.ncd
+main.ngm
+main.pcf
+main.nc1
+main.mrp
+main_map.mrp
+main.mdf
+__projnav/map.log
+main.cmd_log
+MAP_NO_GUIDE_FILE_CPF "main"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+main.twr
+main.twx
+main.tsi
+main.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+main.ncd
+main.par
+main.pad
+main_pad.txt
+main_pad.csv
+main.pad_txt
+main.dly
+reportgen.log
+main.xpi
+main.grf
+main.itr
+main_last_par.ncd
+__projnav/par.log
+main.placed_ncd_tracker
+main.routed_ncd_tracker
+main.cmd_log
+PAR_NO_GUIDE_FILE_CPF "main"
+# Generate Programming File
+__projnav/main_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+main.ut
+# Generate Programming File
+main.bgn
+main.rbt
+main.ll
+main.msk
+main.drc
+main.nky
+main.bit
+main.bin
+main.isc
+main.cmd_log
+# Generate PROM, ACE, or JTAG File
+main.ace
+xilinx.sys
+main.mpm
+main.mcs
+main.prm
+main.dst
+main.exo
+main.tek
+main.hex
+main.svf
+main.stapl
+impact.cmd
+_impact.log
+_impact.cmd
+# Configure Device (iMPACT)
+main.prm
+main.isc
+main.svf
+xilinx.sys
+main.mcs
+main.exo
+main.hex
+main.tek
+main.dst
+main.dst_compressed
+main.mpm
+_impact.cmd
+_impact.log

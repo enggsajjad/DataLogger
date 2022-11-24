@@ -1,0 +1,106 @@
+m255
+o
+cModel Technology
+dD:\DNPR_DATA_LOGGER\FPGA_Logger_R0000
+vadc
+I3P?>3dHiGiEQaE0hFZ5^d2
+VU[^4gfb:QL:gaOfBgFXM_2
+w1414737849
+Fadc.v
+L0 2
+OX;L;5.6e;17
+r1
+31
+o-O0
+vbuttons
+I]1K`dMHogDeoa4KLbgI^P2
+VV>gTS33iT8J`VnF:kE__C3
+w1413611199
+Fbuttons.v
+L0 11
+OX;L;5.6e;17
+r1
+31
+o-O0
+vcu_rx
+IH1@7E>hB:PVGF^iegI7Fh3
+Vd^[FhhVo]?1P?5H6oLBz30
+w1414037583
+Fcu_rx.v
+L0 1
+OX;L;5.6e;17
+r1
+31
+o-O0
+vglbl
+I;3bdO6U;R_i?oXm0zZ=6m3
+V]6_PH00iDgcD`AVz9`gA:0
+w1059855545
+FC:/Xilinx/verilog/src/glbl.v
+L0 5
+OX;L;5.6e;17
+r1
+31
+o-O0
+vrelays
+IHm0F<cX>BFPW]InH;o4F92
+V]O?[_;lQ4ZIL4zBmF7C_o3
+dD:\verilog_example\FPGA_Logger_R0000
+w1413482546
+Frelays.v
+L0 1
+OX;L;5.6e;17
+r1
+31
+o-O0
+vtf_adc
+IifBdmLK6=hb6bTBg;hAo@2
+V4<aH5JWSDk;i4Acf>6b?c3
+w1413607438
+Ftf_adc.v
+L0 4
+OX;L;5.6e;17
+r1
+31
+o-O0
+vtf_button
+IPl5dlVXLMR_3:SmmCFSE33
+VMCZzLDJ@ka[KXCl:?Y^Sc0
+w1413611094
+Ftf_button.v
+L0 3
+OX;L;5.6e;17
+r1
+31
+o-O0
+vtf_cu_rx
+IWoD:z2L`WnS>B_n`PBEXl2
+Vo:HdHT2YRP4R<WkU`mMmd1
+w1414037049
+Ftf_cu_rx.v
+L0 3
+OX;L;5.6e;17
+r1
+31
+o-O0
+vtf_relays
+I<YJ2J5oA`z2YA<iKzHdjd1
+VY4?796BcO8EOaJe^<LX_:3
+dD:\verilog_example\FPGA_Logger_R0000
+w1413483013
+Ftf_relays.v
+L0 3
+OX;L;5.6e;17
+r1
+31
+o-O0
+vuart_rx
+IbUE>hkaZ5C]J58>hYJECS3
+V_B_0kV6YY6A=]c@KL=_?N0
+w1413536818
+Fuart_rx3.v
+L0 1
+OX;L;5.6e;17
+r1
+31
+o-O0

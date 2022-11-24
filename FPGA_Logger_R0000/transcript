@@ -1,0 +1,33 @@
+# Reading C:/Modeltech_xe/tcl/vsim/pref.tcl 
+# do tf_adc.fdo 
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim XE II vlog 5.6e Compiler 2002.10 Oct 22 2002
+# -- Compiling module adc
+# 
+# Top level modules:
+# 	adc
+# Model Technology ModelSim XE II vlog 5.6e Compiler 2002.10 Oct 22 2002
+# -- Compiling module tf_adc
+# 
+# Top level modules:
+# 	tf_adc
+# Model Technology ModelSim XE II vlog 5.6e Compiler 2002.10 Oct 22 2002
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# vsim -L xilinxcorelib_ver -L unisims_ver -lib work -t 1ps tf_adc glbl 
+# Loading work.tf_adc
+# Loading work.adc
+# ** Warning: (vsim-3009) [TSCALE] - Module 'adc' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /tf_adc/instance_name
+# Loading work.glbl
+# .wave
+# .structure
+# .signals
+run -all
+# Break key hit 
+# Simulation stop requested
+run -all
+# Break key hit 
+# Simulation stop requested

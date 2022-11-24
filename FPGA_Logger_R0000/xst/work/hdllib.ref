@@ -1,0 +1,16 @@
+MO relays NULL relays.v vlg34/relays.bin
+MO adc_buff NULL adc_buff.v vlg2A/adc_buff.bin
+MO eeprom NULL eeprom.v vlg68/eeprom.bin
+MO cu_eeprom_buff NULL cu_eeprom_buff.v vlg49/cu_eeprom_buff.bin
+MO cu_rx NULL cu_rx.v vlg4D/cu_rx.bin
+MO mux_eeprom NULL mux_eeprom.v vlg2D/mux_eeprom.bin
+MO pingpong_buf NULL pingpong_buf.v vlg36/pingpong_buf.bin
+MO main NULL main.v vlg2D/main.bin
+MO decimation NULL decimation.v vlg31/decimation.bin
+MO adc NULL adc.v vlg50/adc.bin
+MO filter_clk NULL filter_clk.v vlg67/filter_clk.bin
+MO cu_adc_buff NULL cu_adc_buff.v vlg1D/cu_adc_buff.bin
+MO cu_decimation NULL cu_decimation.v vlg6C/cu_decimation.bin
+MO uart_rx NULL uart_rx3.v vlg21/uart_rx.bin
+MO buttons NULL buttons.v vlg73/buttons.bin
+MO uart_tx NULL uart_tx3.v vlg2B/uart_tx.bin

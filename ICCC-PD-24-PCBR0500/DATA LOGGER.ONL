@@ -1,0 +1,8248 @@
+(PCB "DATA LOGGER"
+ (description
+  (timeStamp "2014 09 23 10 47 51")
+  (program "CAPTURE.EXE" (Version "10.5.0.b001 CIS"))
+  (source "Original data from OrCAD/CAPTURE schematic")
+  (title "Data Logger (Digital Section)")
+  (date "Tuesday, September 23, 2014")
+  (document "ICCC-DLG-ESD-001-00")
+  (revision "0")
+  (organization "Head PD")
+  (address1 "Sajjad Hussain S.E.")
+  (address2 "Sultan Mehmood (PS)")
+  (address3 "")
+  (address4 "")
+  (partvaluecombine "{Value}")
+  (pcbfootprintcombine "{PCB Footprint}"))
+ (structure )
+ (placement
+  (component POT
+   (place R106
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     ("PCB Footprint" POTENTIO_BOURNS_REV3)
+     (timestamp 0120065A)
+     (FPLIST POTENTIO_BOURNS)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" POT)
+     (COMPLOC [10255.000,11152.000])
+     (COMPGROUP 0)
+     (Value POT)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)))
+   (place R32
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     ("PCB Footprint" POTENTIO_BOURNS_REV2)
+     (timestamp 0113D075)
+     (FPLIST POTENTIO_BOURNS)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" POT)
+     (COMPLOC [9175.000,10760.000])
+     (COMPGROUP 0)
+     (Value 10k)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)))
+   (place R98
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 90)
+     (MEMORY NO)
+     ("PCB Footprint" POTENTIO_BOURNS_REV1)
+     (timestamp 010E47EC)
+     (FPLIST POTENTIO_BOURNS)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" POT)
+     (COMPLOC [14673.000,10427.000])
+     (COMPGROUP 0)
+     (Value POT)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)))
+   (place VAR2
+    (property 
+     (COMPLOCKED NO)
+     (COMPFIXED NO)
+     (MEMORY NO)
+     (COMPROT 270)
+     ("PCB Footprint" POTENTIO_BOURNS_REV4)
+     (timestamp 01253983)
+     (DECOUPLER NO)
+     (FPLIST POTENTIO_BOURNS)
+     (COMPKEY NO)
+     ("Source Package" POT)
+     (COMPLOC [8250.000,12153.000])
+     (COMPGROUP 0)
+     (Value 10K)
+     (COMPHEIGHT 0.000)
+     (COMPSIDE TOP))))
+  (component "TEL 2-0521"
+   (place U76
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 90)
+     (MEMORY NO)
+     ("PCB Footprint" "SM/TES 2N-0521_REV2")
+     (timestamp 010E4708)
+     (FPLIST "SM/TES 2N-0521,SM/TES 2N-0521_REV1")
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" "TEL 2-0521")
+     (COMPLOC [10783.000,9677.000])
+     (COMPGROUP 0)
+     (Value "TEL 2-0521")
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000))))
+  (component LM358
+   (place U68
+    (property 
+     ("PCB Footprint" LM358)
+     (PSpiceTemplate "X^@REFDES %+ %- %V+ %V- %OUT @MODEL")
+     (timestamp 0139B83C)
+     ("Source Package" LM358)
+     (Implementation LM358)
+     (Value LM358))))
+  (component "HEADER 9X2"
+   (place J1
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     ("PCB Footprint" LCD4X40)
+     (timestamp 0125394C)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" "HEADER 9X2")
+     (COMPLOC [8447.000,16906.000])
+     (COMPGROUP 0)
+     (Value "LCD Header 1")
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000))))
+  (component LM2587
+   (place U70
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 270)
+     (MEMORY NO)
+     ("PCB Footprint" SM/LM2587S)
+     (timestamp 0113D096)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" LM2587)
+     (COMPLOC [10300.000,10596.000])
+     (COMPGROUP 0)
+     (Value LM2587)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000))))
+  (component "DIODE SCHOTTKY"
+   (place D7
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 270)
+     (MEMORY NO)
+     ("PCB Footprint" SM/DO214AC)
+     (timestamp 010E4754)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" "DIODE SCHOTTKY")
+     (COMPLOC [14274.000,10210.000])
+     (COMPGROUP 0)
+     (Value "DIODE SCHOTTKY")
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)))
+   (place D8
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     ("PCB Footprint" SM/SCHOTTKY)
+     (timestamp 01166D66)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" "DIODE SCHOTTKY")
+     (COMPLOC [10928.000,12453.000])
+     (COMPGROUP 0)
+     (Value SCHOTTKY)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)))
+   (place D9
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     ("PCB Footprint" SM/SCHOTTKY)
+     (timestamp 01166E27)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" "DIODE SCHOTTKY")
+     (COMPLOC [10928.000,12155.000])
+     (COMPGROUP 0)
+     (Value SCHOTTKY)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000))))
+  (component PIC16C64_PQ_2
+   (place U69
+    (property 
+     ("PCB Footprint" "TQFP 44")
+     (timestamp 01310C12)
+     ("Source Package" PIC16C64_PQ_2)
+     (Value PIC18F4520_TQFP))))
+  (component ADG1612
+   (place U89
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     ("PCB Footprint" SM/TSSOP16_REV1)
+     (timestamp 01185A99)
+     (FPLIST SM/TSSOP16)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" ADG1612)
+     (COMPLOC [9749.000,12373.000])
+     (COMPGROUP 0)
+     (Value ADG1612)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000))))
+  (component LP2966_1
+   (place U9
+    (property 
+     ("PCB Footprint" "REGLT1117-ST")
+     (timestamp 013A61F8)
+     ("Source Package" LP2966_1)
+     (Value LT1117_ST))))
+  (component "CAP NP"
+   (place C81
+    (property 
+     ("PCB Footprint" SM/C_0805)
+     (timestamp 0131F6EC)
+     ("Source Package" "CAP NP")
+     (Value 0.1uF)))
+   (place C20
+    (property 
+     ("PCB Footprint" CASEC)
+     (timestamp 0131FCE1)
+     ("Source Package" "CAP NP")
+     (Value 4.7uF)))
+   (place C23
+    (property 
+     ("PCB Footprint" SM/C_0603)
+     (timestamp 0131FCB1)
+     ("Source Package" "CAP NP")
+     (Value 0.01uF)))
+   (place C24
+    (property 
+     ("PCB Footprint" SM/C_0603)
+     (timestamp 013B1EA6)
+     ("Source Package" "CAP NP")
+     (Value 1nF)))
+   (place C25
+    (property 
+     ("PCB Footprint" SM/C_0603)
+     (timestamp 013B2FE3)
+     ("Source Package" "CAP NP")
+     (Value 1nF)))
+   (place C116
+    (property 
+     ("PCB Footprint" SM/C_0805)
+     (timestamp 0131F766)
+     ("Source Package" "CAP NP")
+     (Value 0.1uF)))
+   (place C117
+    (property 
+     ("PCB Footprint" SM/C_0805)
+     (timestamp 0131F774)
+     ("Source Package" "CAP NP")
+     (Value 0.1uF)))
+   (place C58
+    (property 
+     ("PCB Footprint" SM/C_0805)
+     (timestamp 0131D858)
+     ("Source Package" "CAP NP")
+     (Value 0.1uF)))
+   (place C118
+    (property 
+     ("PCB Footprint" SM/C_0805)
+     (timestamp 0131F785)
+     ("Source Package" "CAP NP")
+     (Value 0.1uF)))
+   (place C119
+    (property 
+     ("PCB Footprint" SM/C_0805)
+     (timestamp 0131F799)
+     ("Source Package" "CAP NP")
+     (Value 0.1uF)))
+   (place C120
+    (property 
+     ("PCB Footprint" SM/C_0805)
+     (timestamp 0131F7A1)
+     ("Source Package" "CAP NP")
+     (Value 0.1uF)))
+   (place C121
+    (property 
+     ("PCB Footprint" SM/C_0805)
+     (timestamp 0131F7B1)
+     ("Source Package" "CAP NP")
+     (Value 0.1uF)))
+   (place C94
+    (property 
+     ("PCB Footprint" SM/C_0805)
+     (timestamp 0131F62C)
+     ("Source Package" "CAP NP")
+     (Value 0.1uF)))
+   (place C122
+    (property 
+     ("PCB Footprint" SM/C_0805)
+     (timestamp 0131F7BD)
+     ("Source Package" "CAP NP")
+     (Value 0.1uF)))
+   (place C95
+    (property 
+     ("PCB Footprint" SM/C_0805)
+     (timestamp 0131F63C)
+     ("Source Package" "CAP NP")
+     (Value 0.1uF)))
+   (place C63
+    (property 
+     ("PCB Footprint" SM/C_0805)
+     (timestamp 0131F80D)
+     ("Source Package" "CAP NP")
+     (Value 0.1uF)))
+   (place C123
+    (property 
+     ("PCB Footprint" SM/C_0805)
+     (timestamp 0131F7C7)
+     ("Source Package" "CAP NP")
+     (Value 0.1uF)))
+   (place C96
+    (property 
+     ("PCB Footprint" SM/C_0805)
+     (timestamp 0131F651)
+     ("Source Package" "CAP NP")
+     (Value 0.1uF)))
+   (place C64
+    (property 
+     ("PCB Footprint" SM/C_0805)
+     (timestamp 0131F815)
+     ("Source Package" "CAP NP")
+     (Value 0.1uF)))
+   (place C124
+    (property 
+     ("PCB Footprint" SM/C_0805)
+     (timestamp 0131F7CF)
+     ("Source Package" "CAP NP")
+     (Value 0.1uF)))
+   (place C97
+    (property 
+     ("PCB Footprint" SM/C_0805)
+     (timestamp 0131F65F)
+     ("Source Package" "CAP NP")
+     (Value 0.1uF)))
+   (place C98
+    (property 
+     ("PCB Footprint" SM/C_0805)
+     (timestamp 0131F66F)
+     ("Source Package" "CAP NP")
+     (Value 0.1uF)))
+   (place C125
+    (property 
+     ("PCB Footprint" SM/C_0805)
+     (timestamp 0131F81D)
+     ("Source Package" "CAP NP")
+     (Value 0.1uF)))
+   (place C126
+    (property 
+     ("PCB Footprint" SM/C_0805)
+     (timestamp 0131F825)
+     ("Source Package" "CAP NP")
+     (Value 0.1uF)))
+   (place C127
+    (property 
+     ("PCB Footprint" SM/C_0805)
+     (timestamp 0131F84B)
+     ("Source Package" "CAP NP")
+     (Value 0.1uF)))
+   (place C128
+    (property 
+     ("PCB Footprint" SM/C_0805)
+     (timestamp 0131F853)
+     ("Source Package" "CAP NP")
+     (Value 0.1uF)))
+   (place C130
+    (property 
+     ("PCB Footprint" SM/C_0805)
+     (timestamp 0131F870)
+     ("Source Package" "CAP NP")
+     (Value 0.1uF)))
+   (place C102
+    (property 
+     ("PCB Footprint" SM/C_0805)
+     (timestamp 0131F6FC)
+     ("Source Package" "CAP NP")
+     (Value 0.1uF)))
+   (place C103
+    (property 
+     ("PCB Footprint" SM/C_0805)
+     (timestamp 0131F704)
+     ("Source Package" "CAP NP")
+     (Value 0.1uF)))
+   (place C104
+    (property 
+     ("PCB Footprint" SM/C_0805)
+     (timestamp 0131F718)
+     ("Source Package" "CAP NP")
+     (Value 0.1uF)))
+   (place C106
+    (property 
+     ("PCB Footprint" SM/C_0805)
+     (timestamp 0131F736)
+     ("Source Package" "CAP NP")
+     (Value 0.1uF)))
+   (place C107
+    (property 
+     ("PCB Footprint" SM/C_0805)
+     (timestamp 0131F746)
+     ("Source Package" "CAP NP")
+     (Value 0.1uF)))
+   (place C108
+    (property 
+     ("PCB Footprint" SM/C_0805)
+     (timestamp 0131F752)
+     ("Source Package" "CAP NP")
+     (Value 0.1uF))))
+  (component ADP3330
+   (place U79
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     ("PCB Footprint" "SM/SOT-23-6_REV2")
+     (timestamp 0112272E)
+     (FPLIST "SM/SOT-23-6")
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" ADP3330)
+     (COMPLOC [9772.500,13443.500])
+     (COMPGROUP 0)
+     (Value "ADP3330-2.5")
+     (COMPSIDE BOT)
+     (COMPHEIGHT 0.000)))
+   (place U80
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 90)
+     (MEMORY NO)
+     ("PCB Footprint" "SM/SOT-23-6_REV1")
+     (timestamp 010FFCE1)
+     (FPLIST "SM/SOT-23-6")
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" ADP3330)
+     (COMPLOC [10302.000,13110.500])
+     (COMPGROUP 0)
+     (Value "ADP3330-3.3")
+     (COMPSIDE BOT)
+     (COMPHEIGHT 0.000))))
+  (component AD7767
+   (place U72
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 270)
+     (MEMORY NO)
+     ("PCB Footprint" SM/TSSOP16)
+     (timestamp 011496F4)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" AD7767)
+     (COMPLOC [10295.000,13527.000])
+     (COMPGROUP 0)
+     (Value AD7767)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000))))
+  (component MPSA14_1
+   (place Q1
+    (property 
+     (COMPLOCKED NO)
+     (COMPFIXED NO)
+     (MEMORY NO)
+     (COMPROT 270)
+     ("PCB Footprint" TO92/100)
+     (PSpiceTemplate "X^@REFDES %c %b %e @MODEL")
+     (timestamp 012566C4)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" MPSA14_1)
+     (Implementation MPSA14)
+     (COMPLOC [8644.000,11749.000])
+     (COMPGROUP 0)
+     (Value MPSA14)
+     (COMPHEIGHT 0.000)
+     (COMPSIDE TOP))))
+  (component D02BZ2_2
+   (place D1
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 270)
+     (MEMORY NO)
+     ("PCB Footprint" HER305G_REV1)
+     (PSpiceTemplate "D^@REFDES %1 %2 @MODEL ?AREA/@AREA/")
+     (timestamp 0113D087)
+     (FPLIST HER305G)
+     (DECOUPLER NO)
+     (COMPONENT 02BZ2_2)
+     (COMPKEY NO)
+     ("Source Package" D02BZ2_2)
+     (Implementation D02BZ2_2)
+     (COMPLOC [8699.000,10367.000])
+     (COMPGROUP 0)
+     (Value HER305G.)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000))))
+  (component BNC
+   (place J10
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     ("PCB Footprint" BNC_REV1)
+     (timestamp 010E6C13)
+     (FPLIST BNC)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" BNC)
+     (COMPLOC [8798.000,10608.000])
+     (COMPGROUP 0)
+     (Value BNC)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000))))
+  (component "Mini CP2012 USB Module"
+   (place U78
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 270)
+     (MEMORY NO)
+     ("PCB Footprint" USB_REV2)
+     (timestamp 0107B82A)
+     (FPLIST USB,USB_REV1)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" "Mini CP2012 USB Module")
+     (COMPLOC [14515.000,11610.000])
+     (COMPGROUP 0)
+     (Value "Mini CP2012 USB Module")
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000))))
+  (component FUSE_0
+   (place F2
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     ("PCB Footprint" SM/C_1812)
+     (timestamp 01138808)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" FUSE_0)
+     (COMPLOC [16102.000,10678.000])
+     (COMPGROUP 0)
+     (Value FUSE)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000))))
+  (component LT1086
+   (place U15
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     ("PCB Footprint" SM/_DPAK_REV1)
+     (timestamp 010E47B9)
+     (FPLIST SM/_DPAK)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" LT1086)
+     (COMPLOC [14026.000,10339.000])
+     (COMPGROUP 0)
+     (Value LT1086)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000))))
+  (component BATTERY
+   (place BT1
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     ("PCB Footprint" BATTERY_PACK_REV4)
+     (timestamp 012A384D)
+     (FPLIST BATTERY_PACK)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" BATTERY)
+     (COMPLOC [14013.000,12066.000])
+     (COMPGROUP 0)
+     (Value "NiMH Battery 7.2V")
+     (COMPSIDE BOT)
+     (COMPHEIGHT 0.000))))
+  (component LED
+   (place CR2
+    (property 
+     ("PCB Footprint" SM/LED_0805)
+     (timestamp 0131ADB7)
+     ("Source Package" LED)
+     (Value LED))))
+  (component DIODE
+   (place D10
+    (property 
+     ("PCB Footprint" DIODE_SMA_D0_214AC)
+     (timestamp 013579C3)
+     ("Source Package" DIODE)
+     (Value DIODE))))
+  (component "HEADER 4_2"
+   (place J15
+    (property 
+     (COMPLOCKED NO)
+     (COMPFIXED NO)
+     (MEMORY NO)
+     (COMPROT 270)
+     ("PCB Footprint" USB_HEADR_REV5)
+     (timestamp 012C0D9D)
+     (DECOUPLER NO)
+     (FPLIST USB_HEADR_REV3,USB_HEADR_REV2,USB_HEADR,USB_HEADR_REV4)
+     (COMPKEY NO)
+     ("Source Package" "HEADER 4_2")
+     (COMPLOC [15682.000,11210.000])
+     (COMPGROUP 0)
+     (Value "USB Header")
+     (COMPHEIGHT 0.000)
+     (COMPSIDE BOT))))
+  (component ADR445
+   (place U73
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 90)
+     (MEMORY NO)
+     ("PCB Footprint" "MSOP 8_REV1")
+     (timestamp 0113F42C)
+     (FPLIST "SOG.050/8/WG.420/L.225,MSOP 8")
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" ADR445)
+     (COMPLOC [10746.000,13919.000])
+     (COMPGROUP 0)
+     (Value ADR441)
+     (COMPSIDE BOT)
+     (COMPHEIGHT 0.000))))
+  (component "CRYSTAL1-4/SM"
+   (place Y1
+    (property 
+     ("PCB Footprint" XTL)
+     (timestamp 0131FCCE)
+     ("Source Package" "CRYSTAL1-4/SM")
+     (Value "CRYSTAL1-4/SM"))))
+  (component L
+   (place L1
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     (CURRENT LMAX)
+     ("PCB Footprint" SM/C_L_REV1)
+     (DIELECTRIC DSMAX)
+     (PSpiceTemplate "L^@REFDES %1 %2 ?TOLERANCE|L^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model l^@REFDES IND L=1 DEV=@TOLERANCE%|")
+     (timestamp 0113D0A6)
+     (DIST FLAT)
+     (FPLIST SM/C_L)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" L)
+     (COMPLOC [9360.000,9910.000])
+     (COMPGROUP 0)
+     (Value 47uH)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)))
+   (place "Ferrite Bead"
+    (property 
+     ("PCB Footprint" SM/C_0805)
+     (PSpiceTemplate "L^@REFDES %1 %2 ?TOLERANCE|L^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model l^@REFDES IND L=1 DEV=@TOLERANCE%|")
+     (timestamp 0117C471)
+     ("Source Package" L)
+     (Value 10uH))))
+  (component LM317H_1
+   (place U71
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     ("PCB Footprint" SM/LM317_REV2)
+     (PSpiceTemplate "X^@REFDES %IN %ADJ %OUT @MODEL")
+     (timestamp 0113D0B7)
+     (FPLIST SM/LM317)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" LM317H_1)
+     (Implementation LM317)
+     (COMPLOC [11039.000,10766.000])
+     (COMPGROUP 0)
+     (Value LM317K)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)))
+   (place U75
+    (property 
+     (COMPLOCKED NO)
+     (COMPFIXED NO)
+     (MEMORY NO)
+     (COMPROT 180)
+     ("PCB Footprint" SM/LM317_REV2)
+     (PSpiceTemplate "X^@REFDES %IN %ADJ %OUT @MODEL")
+     (timestamp 0139F13C)
+     (DECOUPLER NO)
+     (FPLIST SM/LM317)
+     (COMPKEY NO)
+     ("Source Package" LM317H_1)
+     (Implementation LM317)
+     (COMPLOC [11039.000,10766.000])
+     (COMPGROUP 0)
+     (Value LM317K)
+     (COMPHEIGHT 0.000)
+     (COMPSIDE TOP))))
+  (component EN25T80
+   (place U16
+    (property 
+     (COMPLOCKED NO)
+     (COMPFIXED NO)
+     (MEMORY NO)
+     (COMPROT 90)
+     ("PCB Footprint" "SOP 08_REV7")
+     (timestamp 0115C3C0)
+     (DECOUPLER NO)
+     (FPLIST "SOP 08")
+     (COMPKEY NO)
+     ("Source Package" EN25T80)
+     (COMPLOC [15406.000,12433.000])
+     (COMPGROUP 0)
+     (Value A25L032)
+     (COMPHEIGHT 0.000)
+     (COMPSIDE TOP)))
+   (place U17
+    (property 
+     (COMPLOCKED NO)
+     (COMPFIXED NO)
+     (MEMORY NO)
+     (COMPROT 90)
+     ("PCB Footprint" "SOP 08_REV8")
+     (timestamp 011542E6)
+     (DECOUPLER NO)
+     (FPLIST "SOP 08")
+     (COMPKEY NO)
+     ("Source Package" EN25T80)
+     (COMPLOC [15407.000,12104.000])
+     (COMPGROUP 0)
+     (Value A25L032)
+     (COMPHEIGHT 0.000)
+     (COMPSIDE TOP)))
+   (place U5
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 90)
+     (MEMORY NO)
+     ("PCB Footprint" "SOP 08_REV3")
+     (timestamp 01151EBC)
+     (FPLIST "SOP 08")
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" EN25T80)
+     (COMPLOC [15407.000,13126.000])
+     (COMPGROUP 0)
+     (Value A25L032)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)))
+   (place U6
+    (property 
+     (COMPLOCKED NO)
+     (COMPFIXED NO)
+     (MEMORY NO)
+     (COMPROT 90)
+     ("PCB Footprint" "SOP 08_REV6")
+     (timestamp 011525DC)
+     (DECOUPLER NO)
+     (FPLIST "SOP 08")
+     (COMPKEY NO)
+     ("Source Package" EN25T80)
+     (COMPLOC [15406.000,12765.000])
+     (COMPGROUP 0)
+     (Value A25L032)
+     (COMPHEIGHT 0.000)
+     (COMPSIDE TOP))))
+  (component MAX291
+   (place U77
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 90)
+     (MEMORY NO)
+     ("PCB Footprint" "SOIC 08")
+     (timestamp 010E6C8E)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" MAX291)
+     (COMPLOC [10803.500,12237.500])
+     (COMPGROUP 0)
+     (Value MAX291)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000))))
+  (component "SW DPDT/SM"
+   (place SW3
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     ("PCB Footprint" SWITCH)
+     (timestamp 0119D129)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" "SW DPDT/SM")
+     (COMPLOC [16148.000,10705.000])
+     (COMPGROUP 0)
+     (Value "SW DPDT/SM")
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000))))
+  (component "HEADER 3"
+   (place J8
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     ("PCB Footprint" ADOPTER)
+     (timestamp 0126E415)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" "HEADER 3")
+     (COMPLOC [15527.000,10528.000])
+     (COMPGROUP 0)
+     (Value Adopter)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000))))
+  (component LP2966
+   (place U18
+    (property 
+     ("PCB Footprint" REG_LP2966)
+     (timestamp 0131C243)
+     ("Source Package" LP2966)
+     (Value LP2966))))
+  (component 1N4148
+   (place D3
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 90)
+     (MEMORY NO)
+     ("PCB Footprint" SM/DO214AC)
+     (PSpiceTemplate "D^@REFDES %1 %2 @MODEL ?AREA/@AREA/")
+     (timestamp 010E6CEE)
+     (DECOUPLER NO)
+     (COMPONENT 1N4148)
+     (COMPKEY NO)
+     ("Source Package" 1N4148)
+     (Implementation D1N4148_1)
+     (COMPLOC [9117.000,12060.000])
+     (COMPGROUP 0)
+     (Value TVS)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)))
+   (place D4
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     ("PCB Footprint" 1N4001)
+     (PSpiceTemplate "D^@REFDES %1 %2 @MODEL ?AREA/@AREA/")
+     (timestamp 010E46F8)
+     (DECOUPLER NO)
+     (COMPONENT 1N4148)
+     (COMPKEY NO)
+     ("Source Package" 1N4148)
+     (Implementation D1N4148_1)
+     (COMPLOC [15334.000,10644.000])
+     (COMPGROUP 0)
+     (Value IN4001)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)))
+   (place D6
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     ("PCB Footprint" 1N4001)
+     (PSpiceTemplate "D^@REFDES %1 %2 @MODEL ?AREA/@AREA/")
+     (timestamp 010E46EA)
+     (DECOUPLER NO)
+     (COMPONENT 1N4148)
+     (COMPKEY NO)
+     ("Source Package" 1N4148)
+     (Implementation D1N4148_1)
+     (COMPLOC [15033.000,10855.000])
+     (COMPGROUP 0)
+     (Value IN4001)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000))))
+  (component XCFxxS_Flash
+   (place U19
+    (property 
+     ("PCB Footprint" EPROM_XCF02S)
+     (timestamp 0131D876)
+     ("Source Package" XCFxxS_Flash)
+     (Value XCF02S_Flash))))
+  (component XC2S150_XILINX
+   (place U14
+    (property 
+     ("PCB Footprint" FPGA)
+     (timestamp 0131AD76)
+     ("Source Package" XC2S150_XILINX)
+     (Value "Xilinx FPGA ( XCS200 )"))))
+  (component "SW PUSH SC NO"
+   (place U96
+    (property 
+     ("PCB Footprint" SW_SMDN)
+     (timestamp 0132483E)
+     ("Source Package" "SW PUSH SC NO")
+     (Value "SW PUSH SC NO"))))
+  (component CON10
+   (place J14
+    (property 
+     (COMPLOCKED NO)
+     (COMPFIXED NO)
+     (MEMORY NO)
+     (COMPROT 0)
+     ("PCB Footprint" KEYPAD_REV3)
+     (timestamp 012B93B7)
+     (DECOUPLER NO)
+     (FPLIST KEYPAD_REV1,KEYPAD)
+     (COMPKEY NO)
+     ("Source Package" CON10)
+     (COMPLOC [11489.000,11605.000])
+     (COMPGROUP 0)
+     (Value CON10)
+     (COMPHEIGHT 0.000)
+     (COMPSIDE TOP))))
+  (component ADuM1400
+   (place U29
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 90)
+     (MEMORY NO)
+     ("PCB Footprint" "SOIC 16")
+     (timestamp 01176136)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" ADuM1400)
+     (COMPLOC [11990.000,13552.000])
+     (COMPGROUP 0)
+     (Value ADuM1400)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)))
+   (place U30
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 90)
+     (MEMORY NO)
+     ("PCB Footprint" "SOIC 16")
+     (timestamp 011DDD29)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" ADuM1400)
+     (COMPLOC [11982.000,12380.000])
+     (COMPGROUP 0)
+     (Value ADuM1400)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000))))
+  (component "HEADER 6"
+   (place JTAG1
+    (property 
+     ("PCB Footprint" FPGA_PROG_CONN)
+     (timestamp 0131E731)
+     ("Source Package" "HEADER 6")
+     (Value "HEADER 6")))
+   (place J11
+    (property 
+     (COMPLOCKED NO)
+     (COMPFIXED NO)
+     (MEMORY NO)
+     (COMPROT 0)
+     ("PCB Footprint" PROG_HEADER_REV3)
+     (timestamp 01358508)
+     (DECOUPLER NO)
+     (FPLIST PROG_HEADER_REV1,PROG_HEADER)
+     (COMPKEY NO)
+     ("Source Package" "HEADER 6")
+     (COMPLOC [13562.000,11316.000])
+     (COMPGROUP 0)
+     (Value "Program 1")
+     (COMPHEIGHT 0.000)
+     (COMPSIDE TOP))))
+  (component ADuM1402_1
+   (place U87
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 270)
+     (MEMORY NO)
+     ("PCB Footprint" "SOIC 16")
+     (timestamp 01149753)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" ADuM1402_1)
+     (COMPLOC [11612.000,13344.000])
+     (COMPGROUP 0)
+     (Value ADuM1401)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000))))
+  (component AD743/AD
+   (place U7
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 270)
+     (MEMORY NO)
+     ("PCB Footprint" "SOIC 08_REV4")
+     (PSpiceTemplate "X^@REFDES %+ %- %V+ %V- %OUT @MODEL")
+     (timestamp 010E6D1F)
+     (FPLIST "SOIC 08")
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" AD743/AD)
+     (Implementation AD743/AD)
+     (COMPLOC [9565.000,13127.000])
+     (COMPGROUP 0)
+     (Value AD743/AD)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)))
+   (place U8
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 270)
+     (MEMORY NO)
+     ("PCB Footprint" "SOIC 08_REV3")
+     (PSpiceTemplate "X^@REFDES %+ %- %V+ %V- %OUT @MODEL")
+     (timestamp 010E6D77)
+     (FPLIST "SOIC 08")
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" AD743/AD)
+     (Implementation AD743/AD)
+     (COMPLOC [9563.000,13976.000])
+     (COMPGROUP 0)
+     (Value AD743/AD)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)))
+   (place U11
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     ("PCB Footprint" "SOIC 08_REV2")
+     (PSpiceTemplate "X^@REFDES %+ %- %V+ %V- %OUT @MODEL")
+     (timestamp 010E6C6C)
+     (FPLIST "SOIC 08")
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" AD743/AD)
+     (Implementation AD743/AD)
+     (COMPLOC [10146.500,12307.500])
+     (COMPGROUP 0)
+     (Value AD743/AD)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000))))
+  (component EMC_FILTER
+   (place U81
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 90)
+     (MEMORY NO)
+     ("PCB Footprint" SM/EMC_FILTER_REV5)
+     (timestamp 010E466D)
+     (FPLIST SM/EMC_FILTER)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" EMC_FILTER)
+     (COMPLOC [10893.500,11880.500])
+     (COMPGROUP 0)
+     (Value EMC_FILTER)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)))
+   (place U82
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 90)
+     (MEMORY NO)
+     ("PCB Footprint" SM/EMC_FILTER_REV6)
+     (timestamp 010E46A3)
+     (FPLIST SM/EMC_FILTER)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" EMC_FILTER)
+     (COMPLOC [11308.500,11905.500])
+     (COMPGROUP 0)
+     (Value EMC_FILTER)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)))
+   (place U83
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 90)
+     (MEMORY NO)
+     ("PCB Footprint" SM/EMC_FILTER_REV3)
+     (timestamp 010E4770)
+     (FPLIST SM/EMC_FILTER)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" EMC_FILTER)
+     (COMPLOC [14035.000,11295.000])
+     (COMPGROUP 0)
+     (Value EMC_FILTER)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)))
+   (place U84
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 90)
+     (MEMORY NO)
+     ("PCB Footprint" SM/EMC_FILTER_REV2)
+     (timestamp 010E5355)
+     (FPLIST SM/EMC_FILTER)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" EMC_FILTER)
+     (COMPLOC [13628.000,10479.000])
+     (COMPGROUP 0)
+     (Value EMC_FILTER)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)))
+   (place U85
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     ("PCB Footprint" SM/EMC_FILTER_REV4)
+     (timestamp 010E5927)
+     (FPLIST SM/EMC_FILTER)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" EMC_FILTER)
+     (COMPLOC [10775.000,10023.000])
+     (COMPGROUP 0)
+     (Value EMC_FILTER)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)))
+   (place U86
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     ("PCB Footprint" SM/EMC_FILTER_REV1)
+     (timestamp 01139028)
+     (FPLIST SM/EMC_FILTER)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" EMC_FILTER)
+     (COMPLOC [15568.000,10964.000])
+     (COMPGROUP 0)
+     (Value EMC_FILTER)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)))
+   (place U91
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     ("PCB Footprint" SM/EMC_FILTER_REV7)
+     (timestamp 011C7B39)
+     (FPLIST SM/EMC_FILTER)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" EMC_FILTER)
+     (COMPLOC [10758.000,11174.000])
+     (COMPGROUP 0)
+     (Value EMC_FILTER)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000))))
+  (component CAP
+   (place C54
+    (property 
+     ("PCB Footprint" CASEA_POLAR)
+     (timestamp 0131C223)
+     ("Source Package" CAP)
+     (Value 1uF)))
+   (place C113
+    (property 
+     ("PCB Footprint" CASEA_POLAR)
+     (timestamp 0131F68F)
+     ("Source Package" CAP)
+     (Value 47uF)))
+   (place C114
+    (property 
+     ("PCB Footprint" CASEA_POLAR)
+     (timestamp 0131F69F)
+     ("Source Package" CAP)
+     (Value 47uF)))
+   (place C55
+    (property 
+     ("PCB Footprint" CASEA_POLAR)
+     (timestamp 0131C22B)
+     ("Source Package" CAP)
+     (Value 4.7uF)))
+   (place C115
+    (property 
+     ("PCB Footprint" CASEA_POLAR)
+     (timestamp 0131F6AD)
+     ("Source Package" CAP)
+     (Value 47uF)))
+   (place C147
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     ("PCB Footprint" SM/C_1000UF_REV2)
+     (timestamp 0113D010)
+     (FPLIST SM/C_1000UF,SM/C_1000UF_REV1)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" CAP)
+     (COMPLOC [9340.000,11187.000])
+     (COMPGROUP 0)
+     (Value 1000uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)))
+   (place C148
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     ("PCB Footprint" SM/C_100UF_REV1)
+     (timestamp 0113D034)
+     (FPLIST SM/C_100UF)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" CAP)
+     (COMPLOC [9896.000,9739.000])
+     (COMPGROUP 0)
+     (Value 100uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)))
+   (place C150
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 270)
+     (MEMORY NO)
+     ("PCB Footprint" SM/C_7361)
+     (timestamp 010E6C35)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" CAP)
+     (COMPLOC [9312.000,10830.000])
+     (COMPGROUP 0)
+     (Value 22uf,50V)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 8.000)))
+   (place C151
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     ("PCB Footprint" SM/C_1206)
+     (timestamp 0113F436)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" CAP)
+     (COMPLOC [10865.000,13816.000])
+     (COMPGROUP 0)
+     (Value 10uf)
+     (COMPSIDE BOT)
+     (COMPHEIGHT 0.000)))
+   (place C99
+    (property 
+     ("PCB Footprint" CASEA_POLAR)
+     (timestamp 0131F6BF)
+     ("Source Package" CAP)
+     (Value 47uF)))
+   (place C129
+    (property 
+     ("PCB Footprint" CASEA_POLAR)
+     (timestamp 0131F866)
+     ("Source Package" CAP)
+     (Value 47uF)))
+   (place C100
+    (property 
+     ("PCB Footprint" CASEA_POLAR)
+     (timestamp 0131F6CF)
+     ("Source Package" CAP)
+     (Value 47uF)))
+   (place C101
+    (property 
+     ("PCB Footprint" CASEA_POLAR)
+     (timestamp 0131F6DE)
+     ("Source Package" CAP)
+     (Value 47uF)))
+   (place C105
+    (property 
+     ("PCB Footprint" CASEA_POLAR)
+     (timestamp 0131F728)
+     ("Source Package" CAP)
+     (Value 47uF)))
+   (place C16
+    (property 
+     ("PCB Footprint" CASEA)
+     (timestamp 013A620B)
+     ("Source Package" CAP)
+     (Value 4.7uF)))
+   (place C17
+    (property 
+     ("PCB Footprint" CASEA)
+     (timestamp 013A61E5)
+     ("Source Package" CAP)
+     (Value 4.7uF))))
+  (component R
+   (place R57
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 0133C6DE)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R89
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 0127EC37)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [12651.000,13530.000])
+     (COMPGROUP 0)
+     (Value 10k)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R58
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 010E6D35)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [9630.000,12854.000])
+     (COMPGROUP 0)
+     (Value 10k)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R59
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 010E6D52)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [9289.000,13422.000])
+     (COMPGROUP 0)
+     (Value 40k)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R28
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 0131D888)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R130
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 90)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 01187EAA)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [11895.000,12125.000])
+     (COMPGROUP 0)
+     (Value 1k)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R29
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 0131D890)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R131
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 01187EBA)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [11422.000,12558.000])
+     (COMPGROUP 0)
+     (Value 1k)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R100
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 0137F0D3)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R132
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 01187EC8)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [11424.000,12464.000])
+     (COMPGROUP 0)
+     (Value 1k)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R101
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 0115C3FA)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [15655.000,12575.000])
+     (COMPGROUP 0)
+     (Value 4.7K)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R133
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 0137FA20)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R102
+    (property 
+     (COMPLOCKED NO)
+     (COMPFIXED NO)
+     (MEMORY NO)
+     (COMPROT 0)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 01357FF1)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [15655.000,12575.000])
+     (COMPGROUP 0)
+     (Value 4.7K)
+     (COMPHEIGHT 0.000)
+     (COMPSIDE TOP)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R134
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 90)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 011DBB9D)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [11803.000,12127.000])
+     (COMPGROUP 0)
+     (Value 1k)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R135
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 90)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 013AF28B)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [11803.000,12127.000])
+     (COMPGROUP 0)
+     (Value 1k)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R103
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 0137F6FE)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R104
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 01154328)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [15657.000,12249.600])
+     (COMPGROUP 0)
+     (Value 4.7K)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R136
+    (property 
+     (COMPLOCKED NO)
+     (COMPFIXED NO)
+     (MEMORY NO)
+     (COMPROT 180)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 013AFD5E)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [11422.000,12558.000])
+     (COMPGROUP 0)
+     (Value 1k)
+     (COMPHEIGHT 0.000)
+     (COMPSIDE TOP)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R105
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 90)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 01200651)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [10454.000,11223.000])
+     (COMPGROUP 0)
+     (Value 1k)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R137
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 0137FD45)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R138
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 013B01CE)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [11422.000,12558.000])
+     (COMPGROUP 0)
+     (Value 1k)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R107
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 0136D087)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [15655.000,12575.000])
+     (COMPGROUP 0)
+     (Value 4.7K)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R108
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 0136D8B2)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [15655.000,12575.000])
+     (COMPGROUP 0)
+     (Value 4.7K)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R109
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 0136DBC1)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [15655.000,12575.000])
+     (COMPGROUP 0)
+     (Value 4.7K)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R90
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 0137E671)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R91
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 0136A47F)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [13361.000,13368.000])
+     (COMPGROUP 0)
+     (Value 1K)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R92
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 0136A68B)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [13361.000,13368.000])
+     (COMPGROUP 0)
+     (Value 1K)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R60
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 010E6D67)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [9625.000,13720.000])
+     (COMPGROUP 0)
+     (Value 10k)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R93
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 01151EFC)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [15656.000,13279.000])
+     (COMPGROUP 0)
+     (Value 4.7K)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R61
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 010E6C7D)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [9625.000,13632.000])
+     (COMPGROUP 0)
+     (Value 10k)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R1
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 270)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0603)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 012566E3)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [8611.000,12455.000])
+     (COMPGROUP 0)
+     (Value 50R)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R30
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 0113D018)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [9980.500,10238.500])
+     (COMPGROUP 0)
+     (Value 3k)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R94
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 0136A898)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [13361.000,13368.000])
+     (COMPGROUP 0)
+     (Value 1K)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R62
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 0133D070)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R95
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 0136AAA6)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [13361.000,13368.000])
+     (COMPGROUP 0)
+     (Value 1K)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R63
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 0133D818)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R31
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 90)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 0113D066)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [8975.000,10583.000])
+     (COMPGROUP 0)
+     (Value 20k)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R64
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 0131E739)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R96
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 0115261A)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [15655.000,12907.600])
+     (COMPGROUP 0)
+     (Value 4.7K)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R33
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 0131D89B)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R65
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 0133DFC5)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R97
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 010E47B0)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [14356.000,10883.000])
+     (COMPGROUP 0)
+     (Value 1k)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R34
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 90)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0603)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 010E6D12)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [8982.000,12146.000])
+     (COMPGROUP 0)
+     (Value 100)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R66
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 0137C3BD)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R5
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 01151EA6)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [15078.000,13176.000])
+     (COMPGROUP 0)
+     (Value 4.7K)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R99
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 0136ACB5)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [13361.000,13368.000])
+     (COMPGROUP 0)
+     (Value 1K)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R6
+    (property 
+     (COMPLOCKED NO)
+     (COMPFIXED NO)
+     (MEMORY NO)
+     (COMPROT 180)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 011525C4)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [15084.000,12815.000])
+     (COMPGROUP 0)
+     (Value 4.7K)
+     (COMPHEIGHT 0.000)
+     (COMPSIDE TOP)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R67
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 01342801)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R68
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 010E6CE4)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [9877.000,13876.000])
+     (COMPGROUP 0)
+     (Value 15)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R7
+    (property 
+     (COMPLOCKED NO)
+     (COMPFIXED NO)
+     (MEMORY NO)
+     (COMPROT 180)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 0115C3AE)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [15090.000,12484.000])
+     (COMPGROUP 0)
+     (Value 4.7K)
+     (COMPHEIGHT 0.000)
+     (COMPSIDE TOP)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R69
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 010E6DC3)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [9878.000,13027.000])
+     (COMPGROUP 0)
+     (Value 15)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R8
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0603)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 0137221E)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [15084.000,12815.000])
+     (COMPGROUP 0)
+     (Value 100R)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R9
+    (property 
+     (COMPLOCKED NO)
+     (COMPFIXED NO)
+     (MEMORY NO)
+     (COMPROT 180)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0603)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 01371C14)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [15084.000,12815.000])
+     (COMPGROUP 0)
+     (Value 100R)
+     (COMPHEIGHT 0.000)
+     (COMPSIDE TOP)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R141
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 0138006D)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R110
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 0117692B)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [12261.000,13703.000])
+     (COMPGROUP 0)
+     (Value 1k)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R142
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 01380398)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R111
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 01149789)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [11366.000,13251.000])
+     (COMPGROUP 0)
+     (Value 1k)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R143
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 013806C6)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R144
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 013809F7)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R112
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 01176923)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [12434.000,13725.000])
+     (COMPGROUP 0)
+     (Value 1k)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R113
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 011497B2)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [11373.000,13160.000])
+     (COMPGROUP 0)
+     (Value 1k)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R145
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 01381F4F)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R114
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 01176C76)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [12391.000,13705.000])
+     (COMPGROUP 0)
+     (Value 1k)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R146
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 013824AD)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R115
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 01176423)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [11111.000,13752.000])
+     (COMPGROUP 0)
+     (Value 1k)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R147
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 013A7CE9)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R116
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 0117642B)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [11451.000,13701.000])
+     (COMPGROUP 0)
+     (Value 1k)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R148
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 013A8B7C)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R117
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 01176433)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [11454.000,13802.000])
+     (COMPGROUP 0)
+     (Value 1k)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R149
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 013A8ED6)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R118
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 011497C4)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [12146.000,13194.000])
+     (COMPGROUP 0)
+     (Value 1k)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R119
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 011497D4)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [12233.000,13416.000])
+     (COMPGROUP 0)
+     (Value 1k)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R70
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 01342B09)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R71
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 90)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 010E6D87)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [9380.000,13121.000])
+     (COMPGROUP 0)
+     (Value 1.5k)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R72
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 90)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 010E6D93)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [9380.000,12943.000])
+     (COMPGROUP 0)
+     (Value 1k)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R73
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 270)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 010E6DA2)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [9376.000,13875.000])
+     (COMPGROUP 0)
+     (Value 1k)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R10
+    (property 
+     (COMPLOCKED NO)
+     (COMPFIXED NO)
+     (MEMORY NO)
+     (COMPROT 180)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0603)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 01371611)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [15084.000,12815.000])
+     (COMPGROUP 0)
+     (Value 100R)
+     (COMPHEIGHT 0.000)
+     (COMPSIDE TOP)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R74
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 270)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 010E6DB5)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [9374.000,14068.000])
+     (COMPGROUP 0)
+     (Value 1k)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R11
+    (property 
+     (COMPLOCKED NO)
+     (COMPFIXED NO)
+     (MEMORY NO)
+     (COMPROT 180)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0603)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 01371012)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [15084.000,12815.000])
+     (COMPGROUP 0)
+     (Value 100R)
+     (COMPHEIGHT 0.000)
+     (COMPSIDE TOP)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R75
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 013751F8)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R76
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 01375D01)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R12
+    (property 
+     (COMPLOCKED NO)
+     (COMPFIXED NO)
+     (MEMORY NO)
+     (COMPROT 180)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0603)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 01370A17)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [15084.000,12815.000])
+     (COMPGROUP 0)
+     (Value 100R)
+     (COMPHEIGHT 0.000)
+     (COMPSIDE TOP)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R13
+    (property 
+     (COMPLOCKED NO)
+     (COMPFIXED NO)
+     (MEMORY NO)
+     (COMPROT 180)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0603)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 01370423)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [15084.000,12815.000])
+     (COMPGROUP 0)
+     (Value 100R)
+     (COMPHEIGHT 0.000)
+     (COMPSIDE TOP)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R77
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 013763EE)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R78
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 01376AE0)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R14
+    (property 
+     (COMPLOCKED NO)
+     (COMPFIXED NO)
+     (MEMORY NO)
+     (COMPROT 180)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 011542D4)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [15094.000,12154.000])
+     (COMPGROUP 0)
+     (Value 4.7K)
+     (COMPHEIGHT 0.000)
+     (COMPSIDE TOP)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R15
+    (property 
+     (COMPLOCKED NO)
+     (COMPFIXED NO)
+     (MEMORY NO)
+     (COMPROT 180)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0603)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 0136F337)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [15084.000,12815.000])
+     (COMPGROUP 0)
+     (Value 100R)
+     (COMPHEIGHT 0.000)
+     (COMPSIDE TOP)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R47
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 013A3330)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R79
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 013770E7)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R48
+    (property 
+     ("PCB Footprint" SM/R_0805)
+     (timestamp 0131AE32)
+     ("Source Package" R)
+     (Value 4.7K)))
+   (place R150
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 013A9233)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R18
+    (property 
+     ("PCB Footprint" SM/R_0805)
+     (timestamp 0131ADA6)
+     ("Source Package" R)
+     (Value 300R)))
+   (place R151
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 013A9593)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R152
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 013A9F90)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R120
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 01290CED)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [11371.000,13034.000])
+     (COMPGROUP 0)
+     (Value 1k)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R153
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 013AA63F)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R122
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 01290159)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [12151.000,13094.000])
+     (COMPGROUP 0)
+     (Value 1k)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R154
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 013AAF4E)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R155
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 013AB2B4)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R123
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 01176941)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [12259.000,13802.000])
+     (COMPGROUP 0)
+     (Value 1k)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R124
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 0136DED1)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [15655.000,12575.000])
+     (COMPGROUP 0)
+     (Value 4.7K)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R126
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 01177478)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [11450.000,13611.000])
+     (COMPGROUP 0)
+     (Value 1k)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R127
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/C_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 01181C7D)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [9228.000,11857.000])
+     (COMPGROUP 0)
+     (Value 324)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R128
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0603)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 01181D63)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [9431.000,11860.000])
+     (COMPGROUP 0)
+     (Value 59)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R129
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 90)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 01187E79)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [11992.000,12123.000])
+     (COMPGROUP 0)
+     (Value 1k)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R80
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 0137C3A7)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R81
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 0137C3B2)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R50
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 0137C9D0)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R82
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 0137D0DB)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R83
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 0137D606)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R84
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 0137DE3C)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R85
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 0127EBBA)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [12650.000,13704.000])
+     (COMPGROUP 0)
+     (Value 10k)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R21
+    (property 
+     ("PCB Footprint" SM/R_0805)
+     (timestamp 0131D81A)
+     ("Source Package" R)
+     (Value 4.7K)))
+   (place R54
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 0133A480)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R22
+    (property 
+     ("PCB Footprint" SM/R_0805)
+     (timestamp 0131D824)
+     ("Source Package" R)
+     (Value 4.7K)))
+   (place R86
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 0127EC0F)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [13361.000,13368.000])
+     (COMPGROUP 0)
+     (Value 10k)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R55
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 0133AFF2)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R87
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 0127EC17)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [12651.000,13620.000])
+     (COMPGROUP 0)
+     (Value 10k)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX)))
+   (place R56
+    (property 
+     ("PCB Footprint" SM/R_0603)
+     (timestamp 0133B78B)
+     ("Source Package" R)
+     (Value 100R)))
+   (place R88
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" SM/R_0805)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE  ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE%|")
+     (timestamp 0127EC21)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" R)
+     (COMPLOC [12650.000,13793.000])
+     (COMPGROUP 0)
+     (Value 10k)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP RTMAX)
+     (POWER RMAX))))
+  (component C
+   (place C170
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     ("PCB Footprint" SM/C_1206)
+     (timestamp 010E473E)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [10783.500,11811.500])
+     (COMPGROUP 0)
+     (Value 10uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)))
+   (place C171
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     ("PCB Footprint" SM/C_1206)
+     (timestamp 010E469A)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [11068.500,11615.500])
+     (COMPGROUP 0)
+     (Value 10uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)))
+   (place C172
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE CMAX)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" SM/C_0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 010E46B1)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [11114.500,11729.500])
+     (COMPGROUP 0)
+     (Value 0.1uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP CTMAX)))
+   (place C173
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     ("PCB Footprint" SM/C_1206)
+     (timestamp 010E46C1)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [11068.500,11864.500])
+     (COMPGROUP 0)
+     (Value 10uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)))
+   (place C174
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     ("PCB Footprint" SM/C_1206)
+     (timestamp 010E4786)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [13705.000,10890.000])
+     (COMPGROUP 0)
+     (Value 10uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)))
+   (place C175
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE CMAX)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" SM/C_0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 010E477E)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [13620.000,10771.000])
+     (COMPGROUP 0)
+     (Value 0.1uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP CTMAX)))
+   (place C176
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     ("PCB Footprint" SM/C_1206)
+     (timestamp 010E4794)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [13704.000,10664.000])
+     (COMPGROUP 0)
+     (Value 10uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)))
+   (place C177
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE CMAX)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" SM/C_0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 010E534C)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [13566.000,10370.000])
+     (COMPGROUP 0)
+     (Value 0.1uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP CTMAX)))
+   (place C146
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE CMAX)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" SM/C_0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 0113D046)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [9896.500,10427.500])
+     (COMPGROUP 0)
+     (Value 0.1uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP CTMAX)))
+   (place C178
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     ("PCB Footprint" SM/C_1206)
+     (timestamp 010E5361)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [13650.000,10257.000])
+     (COMPGROUP 0)
+     (Value 10uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)))
+   (place C179
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 90)
+     (MEMORY NO)
+     (VOLTAGE CMAX)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" SM/C_0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 010E591E)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [11077.000,9829.000])
+     (COMPGROUP 0)
+     (Value 0.1uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP CTMAX)))
+   (place C149
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE CMAX)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" SM/C_0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 011C3A60)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [9896.500,10333.500])
+     (COMPGROUP 0)
+     (Value 0.1uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP CTMAX)))
+   (place C4
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE CMAX)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" SM/C_0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 01151E8C)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [14994.000,13035.600])
+     (COMPGROUP 0)
+     (Value 0.1uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP CTMAX)))
+   (place C5
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE CMAX)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" SM/C_0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 011525AC)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [15002.000,12704.000])
+     (COMPGROUP 0)
+     (Value 0.1uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP CTMAX)))
+   (place C6
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE CMAX)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" SM/C_0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 0115C390)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [15008.000,12354.000])
+     (COMPGROUP 0)
+     (Value 0.1uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP CTMAX)))
+   (place C7
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE CMAX)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" SM/C_0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 011542B6)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [15008.000,12038.000])
+     (COMPGROUP 0)
+     (Value 0.1uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP CTMAX)))
+   (place C180
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 270)
+     (MEMORY NO)
+     ("PCB Footprint" SM/C_1206)
+     (timestamp 010E5933)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [10971.000,9913.000])
+     (COMPGROUP 0)
+     (Value 10uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)))
+   (place C181
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE CMAX)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" SM/C_0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 011099D5)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [9523.000,14080.000])
+     (COMPGROUP 0)
+     (Value 0.1uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP CTMAX)))
+   (place C182
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 90)
+     (MEMORY NO)
+     (VOLTAGE CMAX)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" SM/C_0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 0110ABA2)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [9419.000,13613.000])
+     (COMPGROUP 0)
+     (Value 0.1uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP CTMAX)))
+   (place C183
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE CMAX)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" SM/C_0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 0110B173)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [9529.000,13219.000])
+     (COMPGROUP 0)
+     (Value 0.1uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP CTMAX)))
+   (place C184
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 90)
+     (MEMORY NO)
+     (VOLTAGE CMAX)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" SM/C_0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 0110B981)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [9441.000,12762.000])
+     (COMPGROUP 0)
+     (Value 0.1uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP CTMAX)))
+   (place C152
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE CMAX)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" SM/C_0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 0113F446)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [10949.000,13920.000])
+     (COMPGROUP 0)
+     (Value 0.1uf)
+     (COMPSIDE BOT)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP CTMAX)))
+   (place C185
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE CMAX)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" SM/C_0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 0110C3C4)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [10012.000,11996.000])
+     (COMPGROUP 0)
+     (Value 0.1uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP CTMAX)))
+   (place C186
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     (VOLTAGE CMAX)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" SM/C_0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 0110C3D0)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [10078.000,12524.000])
+     (COMPGROUP 0)
+     (Value 0.1uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP CTMAX)))
+   (place C154
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     (VOLTAGE CMAX)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" SM/C_0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 010E6C1D)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [10043.000,13719.000])
+     (COMPGROUP 0)
+     (Value 2.2nf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP CTMAX)))
+   (place C155
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE CMAX)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" SM/C_0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 010E6C25)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [9962.000,13134.000])
+     (COMPGROUP 0)
+     (Value 2.2nf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP CTMAX)))
+   (place C187
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 90)
+     (MEMORY NO)
+     (VOLTAGE CMAX)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" SM/C_0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 0114970B)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [10598.000,13136.000])
+     (COMPGROUP 0)
+     (Value 0.1uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP CTMAX)))
+   (place C188
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     (VOLTAGE CMAX)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" SM/C_0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 0117616A)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [12259.000,13552.000])
+     (COMPGROUP 0)
+     (Value 0.1uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP CTMAX)))
+   (place C189
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE CMAX)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" SM/C_0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 0117617A)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [11364.000,13518.000])
+     (COMPGROUP 0)
+     (Value 0.1uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP CTMAX)))
+   (place C159
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE CMAX)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" SM/C_0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 010E6CD0)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [9630.000,12761.000])
+     (COMPGROUP 0)
+     (Value 3pf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP CTMAX)))
+   (place C208
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE CMAX)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" SM/C_0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 012B46F4)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [9531.000,12017.000])
+     (COMPGROUP 0)
+     (Value 0.1uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP CTMAX)))
+   (place C209
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE CMAX)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" SM/C_0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 012B50DA)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [9586.000,12470.000])
+     (COMPGROUP 0)
+     (Value 0.1uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP CTMAX)))
+   (place C190
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     (VOLTAGE CMAX)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" SM/C_0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 01149791)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [12235.000,13329.000])
+     (COMPGROUP 0)
+     (Value 0.1uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP CTMAX)))
+   (place C191
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE CMAX)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" SM/C_0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 011497E4)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [11361.000,13344.000])
+     (COMPGROUP 0)
+     (Value 0.1uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP CTMAX)))
+   (place C192
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 90)
+     (MEMORY NO)
+     (VOLTAGE CMAX)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" SM/C_0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 01137D3D)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [15866.000,10770.000])
+     (COMPGROUP 0)
+     (Value 0.1uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP CTMAX)))
+   (place C160
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 90)
+     (MEMORY NO)
+     (VOLTAGE CMAX)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" SM/C_0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 0114D68B)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [9279.000,13792.000])
+     (COMPGROUP 0)
+     (Value 0.1uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP CTMAX)))
+   (place C193
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 270)
+     (MEMORY NO)
+     ("PCB Footprint" SM/C_1206)
+     (timestamp 01137D47)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [15761.000,10855.000])
+     (COMPGROUP 0)
+     (Value 10uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)))
+   (place C161
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 90)
+     (MEMORY NO)
+     (VOLTAGE CMAX)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" SM/C_0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 010E6CA8)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [9270.000,13027.000])
+     (COMPGROUP 0)
+     (Value 0.1uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP CTMAX)))
+   (place C194
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE CMAX)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" SM/C_0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 0116B0E9)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [10288.000,13683.000])
+     (COMPGROUP 0)
+     (Value 0.1uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP CTMAX)))
+   (place C162
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 270)
+     (MEMORY NO)
+     (VOLTAGE CMAX)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" SM/C_0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 010E6C3F)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [10392.000,12407.000])
+     (COMPGROUP 0)
+     (Value 0.1uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP CTMAX)))
+   (place C195
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 270)
+     (MEMORY NO)
+     ("PCB Footprint" SM/C_100UF_REV2)
+     (timestamp 0116B32D)
+     (FPLIST SM/C_100UF)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [10495.000,14242.000])
+     (COMPGROUP 0)
+     (Value 100uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)))
+   (place C163
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     (VOLTAGE CMAX)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" SM/C_0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 010E6DD7)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [10542.000,12061.000])
+     (COMPGROUP 0)
+     (Value 0.1uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP CTMAX)))
+   (place C164
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE CMAX)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" SM/C_0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 01122738)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [9842.000,13539.000])
+     (COMPGROUP 0)
+     (Value 0.47uf)
+     (COMPSIDE BOT)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP CTMAX)))
+   (place C196
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE CMAX)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" SM/C_0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 0116E805)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [10113.000,13345.000])
+     (COMPGROUP 0)
+     (Value 0.1uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP CTMAX)))
+   (place C197
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 270)
+     (MEMORY NO)
+     (VOLTAGE CMAX)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" SM/C_0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 0116F7C1)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [10199.000,13611.000])
+     (COMPGROUP 0)
+     (Value 0.1uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP CTMAX)))
+   (place C165
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 90)
+     (MEMORY NO)
+     (VOLTAGE CMAX)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" SM/C_0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 01122715)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [9660.000,13481.000])
+     (COMPGROUP 0)
+     (Value 0.47uf)
+     (COMPSIDE BOT)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP CTMAX)))
+   (place C198
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE CMAX)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" SM/C_0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 01187E8C)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [11342.000,12380.000])
+     (COMPGROUP 0)
+     (Value 0.1uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP CTMAX)))
+   (place C166
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 270)
+     (MEMORY NO)
+     (VOLTAGE CMAX)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" SM/C_0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 010FFCCA)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [10107.500,13042.000])
+     (COMPGROUP 0)
+     (Value 0.47uf)
+     (COMPSIDE BOT)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP CTMAX)))
+   (place C11
+    (property 
+     (COMPLOCKED NO)
+     (COMPFIXED NO)
+     (MEMORY NO)
+     (COMPROT 180)
+     (VOLTAGE CMAX)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" SM/C_0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 01172FF2)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [14601.000,10991.000])
+     (COMPGROUP 0)
+     (Value 0.1uf)
+     (COMPHEIGHT 0.000)
+     (COMPSIDE TOP)
+     (MAX_TEMP CTMAX)))
+   (place C167
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 270)
+     (MEMORY NO)
+     (VOLTAGE CMAX)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" SM/C_0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 010FFCE9)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [10413.000,13041.000])
+     (COMPGROUP 0)
+     (Value 0.47uf)
+     (COMPSIDE BOT)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP CTMAX)))
+   (place C199
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 90)
+     (MEMORY NO)
+     (VOLTAGE CMAX)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" SM/C_0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 01187ED7)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [12129.000,12296.000])
+     (COMPGROUP 0)
+     (Value 0.1uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP CTMAX)))
+   (place C168
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 180)
+     (MEMORY NO)
+     ("PCB Footprint" SM/C_1206)
+     (timestamp 010E4675)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [10783.500,11581.500])
+     (COMPGROUP 0)
+     (Value 10uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)))
+   (place C169
+    (property 
+     (COMPFIXED NO)
+     (COMPLOCKED NO)
+     (COMPROT 0)
+     (MEMORY NO)
+     (VOLTAGE CMAX)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" SM/C_0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 010E472E)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     (DECOUPLER NO)
+     (COMPKEY NO)
+     ("Source Package" C)
+     (COMPLOC [10699.500,11687.500])
+     (COMPGROUP 0)
+     (Value 0.1uf)
+     (COMPSIDE TOP)
+     (COMPHEIGHT 0.000)
+     (MAX_TEMP CTMAX)))))
+ (library
+  (image R
+   (property 
+    (sourcelib C:\\ORCAD\\ORCAD_10.5\\TOOLS\\CAPTURE\\LIBRARY\\DISCRETE.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image MAX291
+   (property 
+    (sourcelib "F:\\ORCAD PROJECTS LIBRARIES\\CAPTURE\\DATA LOGGER\\FLASH.OLB"))
+   (pin 999 1
+    (property 
+     (pinname CLK)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname "V-")
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname "OP OUT")
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname "OP IN-")
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname OUT)
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname GND)
+     (pintype 4)))
+   (pin 999 7
+    (property 
+     (pinname V+)
+     (pintype 4)))
+   (pin 999 8
+    (property 
+     (pinname VIN)
+     (pintype 4))))
+  (image "Mini CP2012 USB Module"
+   (property 
+    (sourcelib "F:\\ORCAD PROJECTS LIBRARIES\\CAPTURE\\DATA LOGGER\\FLASH.OLB"))
+   (pin 999 1
+    (property 
+     (pinname 5V)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname GND)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname RXD)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname TXD)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname RST)
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname 3.3V)
+     (pintype 4)))
+   (pin 999 10
+    (property 
+     (pinname OUT4)
+     (pintype 4)))
+   (pin 999 9
+    (property 
+     (pinname OUT3)
+     (pintype 4)))
+   (pin 999 8
+    (property 
+     (pinname OUT2)
+     (pintype 4)))
+   (pin 999 7
+    (property 
+     (pinname OUT1)
+     (pintype 4))))
+  (image XC2S150_XILINX
+   (property 
+    (sourcelib D:\\IRFAN_FAISAL_MIR\\MY_DESIGNS\\DESIGN_ORCAD\\FPGA_CARDS\\SPARTAN_BASED\\LIB\\FPGA_PROM.OLB))
+   (pin 999 1
+    (property 
+     (pinname GND)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname TMS)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 7
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 8
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 9
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 10
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 11
+    (property 
+     (pinname GND)
+     (pintype 4)))
+   (pin 999 12
+    (property 
+     (pinname VCCO)
+     (pintype 4)))
+   (pin 999 13
+    (property 
+     (pinname VCCINT)
+     (pintype 4)))
+   (pin 999 14
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 15
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 16
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 17
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 18
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 19
+    (property 
+     (pinname GND)
+     (pintype 4)))
+   (pin 999 20
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 21
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 22
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 23
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 24
+    (property 
+     (pinname I/O,IRDY)
+     (pintype 4)))
+   (pin 999 25
+    (property 
+     (pinname GND)
+     (pintype 4)))
+   (pin 999 26
+    (property 
+     (pinname VCCO)
+     (pintype 4)))
+   (pin 999 27
+    (property 
+     (pinname I/O,TRDY)
+     (pintype 4)))
+   (pin 999 28
+    (property 
+     (pinname VCCINT)
+     (pintype 4)))
+   (pin 999 29
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 30
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 31
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 32
+    (property 
+     (pinname GND)
+     (pintype 4)))
+   (pin 999 33
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 34
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 35
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 36
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 37
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 38
+    (property 
+     (pinname VCCINT)
+     (pintype 4)))
+   (pin 999 39
+    (property 
+     (pinname VCCO)
+     (pintype 4)))
+   (pin 999 40
+    (property 
+     (pinname GND)
+     (pintype 4)))
+   (pin 999 41
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 42
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 43
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 44
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 45
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 46
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 47
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 48
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 49
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 50
+    (property 
+     (pinname M1)
+     (pintype 4)))
+   (pin 999 51
+    (property 
+     (pinname GND)
+     (pintype 4)))
+   (pin 999 52
+    (property 
+     (pinname M0)
+     (pintype 4)))
+   (pin 999 156
+    (property 
+     (pinname VCCO)
+     (pintype 4)))
+   (pin 999 155
+    (property 
+     (pinname CCLK)
+     (pintype 4)))
+   (pin 999 154
+    (property 
+     (pinname BUSY,DOUT,I/O)
+     (pintype 4)))
+   (pin 999 153
+    (property 
+     (pinname D0,DIN,I/O)
+     (pintype 4)))
+   (pin 999 152
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 151
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 150
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 149
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 148
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 147
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 146
+    (property 
+     (pinname D1,I/O)
+     (pintype 4)))
+   (pin 999 145
+    (property 
+     (pinname GND)
+     (pintype 4)))
+   (pin 999 144
+    (property 
+     (pinname VCCO)
+     (pintype 4)))
+   (pin 999 143
+    (property 
+     (pinname VCCINT)
+     (pintype 4)))
+   (pin 999 142
+    (property 
+     (pinname D2,I/O)
+     (pintype 4)))
+   (pin 999 141
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 140
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 139
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 138
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 137
+    (property 
+     (pinname GND)
+     (pintype 4)))
+   (pin 999 136
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 135
+    (property 
+     (pinname D3,I/O)
+     (pintype 4)))
+   (pin 999 134
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 133
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 132
+    (property 
+     (pinname IRDY,I/O)
+     (pintype 4)))
+   (pin 999 131
+    (property 
+     (pinname GND)
+     (pintype 4)))
+   (pin 999 130
+    (property 
+     (pinname VCCO)
+     (pintype 4)))
+   (pin 999 129
+    (property 
+     (pinname TRDY,I/O)
+     (pintype 4)))
+   (pin 999 128
+    (property 
+     (pinname VCCINT)
+     (pintype 4)))
+   (pin 999 127
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 126
+    (property 
+     (pinname D4,I/O)
+     (pintype 4)))
+   (pin 999 125
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 124
+    (property 
+     (pinname GND)
+     (pintype 4)))
+   (pin 999 123
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 122
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 121
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 120
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 119
+    (property 
+     (pinname D5,I/O)
+     (pintype 4)))
+   (pin 999 118
+    (property 
+     (pinname VCCINT)
+     (pintype 4)))
+   (pin 999 117
+    (property 
+     (pinname VCCO)
+     (pintype 4)))
+   (pin 999 116
+    (property 
+     (pinname GND)
+     (pintype 4)))
+   (pin 999 115
+    (property 
+     (pinname D6,I/O)
+     (pintype 4)))
+   (pin 999 114
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 113
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 112
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 111
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 110
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 109
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 108
+    (property 
+     (pinname D7,I/O)
+     (pintype 4)))
+   (pin 999 107
+    (property 
+     (pinname I\\N\\I\\T\\,I/O)
+     (pintype 4)))
+   (pin 999 106
+    (property 
+     (pinname P\\R\\O\\G\\R\\A\\M\\)
+     (pintype 4)))
+   (pin 999 105
+    (property 
+     (pinname VCCO)
+     (pintype 4)))
+   (pin 999 53
+    (property 
+     (pinname VCCO)
+     (pintype 4)))
+   (pin 999 54
+    (property 
+     (pinname M2)
+     (pintype 4)))
+   (pin 999 55
+    (property 
+     (pinname P\\W\\D\\N\\)
+     (pintype 4)))
+   (pin 999 56
+    (property 
+     (pinname STATUS)
+     (pintype 4)))
+   (pin 999 57
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 58
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 59
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 60
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 61
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 62
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 63
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 64
+    (property 
+     (pinname GND)
+     (pintype 4)))
+   (pin 999 65
+    (property 
+     (pinname VCCO)
+     (pintype 4)))
+   (pin 999 66
+    (property 
+     (pinname VCCINT)
+     (pintype 4)))
+   (pin 999 67
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 68
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 69
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 70
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 71
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 72
+    (property 
+     (pinname GND)
+     (pintype 4)))
+   (pin 999 73
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 74
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 75
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 76
+    (property 
+     (pinname VCCINT)
+     (pintype 4)))
+   (pin 999 77
+    (property 
+     (pinname GCK1)
+     (pintype 4)))
+   (pin 999 78
+    (property 
+     (pinname VCCO)
+     (pintype 4)))
+   (pin 999 79
+    (property 
+     (pinname GND)
+     (pintype 4)))
+   (pin 999 80
+    (property 
+     (pinname GCK0)
+     (pintype 4)))
+   (pin 999 81
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 82
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 83
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 84
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 85
+    (property 
+     (pinname GND)
+     (pintype 4)))
+   (pin 999 86
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 87
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 88
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 89
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 90
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 91
+    (property 
+     (pinname VCCINT)
+     (pintype 4)))
+   (pin 999 92
+    (property 
+     (pinname VCCO)
+     (pintype 4)))
+   (pin 999 93
+    (property 
+     (pinname GND)
+     (pintype 4)))
+   (pin 999 94
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 95
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 96
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 97
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 98
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 99
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 100
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 101
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 102
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 103
+    (property 
+     (pinname GND)
+     (pintype 4)))
+   (pin 999 104
+    (property 
+     (pinname DONE)
+     (pintype 4)))
+   (pin 999 157
+    (property 
+     (pinname TDO)
+     (pintype 4)))
+   (pin 999 158
+    (property 
+     (pinname GND)
+     (pintype 4)))
+   (pin 999 159
+    (property 
+     (pinname TDI)
+     (pintype 4)))
+   (pin 999 160
+    (property 
+     (pinname I/O,C\\S\\)
+     (pintype 4)))
+   (pin 999 161
+    (property 
+     (pinname I/O,W\\R\\I\\T\\E\\)
+     (pintype 4)))
+   (pin 999 162
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 163
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 164
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 165
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 166
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 167
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 168
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 169
+    (property 
+     (pinname GND)
+     (pintype 4)))
+   (pin 999 170
+    (property 
+     (pinname VCCO)
+     (pintype 4)))
+   (pin 999 171
+    (property 
+     (pinname VCCINT)
+     (pintype 4)))
+   (pin 999 172
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 173
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 174
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 175
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 176
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 177
+    (property 
+     (pinname GND)
+     (pintype 4)))
+   (pin 999 178
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 179
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 180
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 181
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 182
+    (property 
+     (pinname GCK2)
+     (pintype 4)))
+   (pin 999 183
+    (property 
+     (pinname GND)
+     (pintype 4)))
+   (pin 999 184
+    (property 
+     (pinname VCCO)
+     (pintype 4)))
+   (pin 999 185
+    (property 
+     (pinname GCK3)
+     (pintype 4)))
+   (pin 999 186
+    (property 
+     (pinname VCCINT)
+     (pintype 4)))
+   (pin 999 187
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 188
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 189
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 190
+    (property 
+     (pinname GND)
+     (pintype 4)))
+   (pin 999 191
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 192
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 193
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 194
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 195
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 196
+    (property 
+     (pinname VCCINT)
+     (pintype 4)))
+   (pin 999 197
+    (property 
+     (pinname VCCO)
+     (pintype 4)))
+   (pin 999 198
+    (property 
+     (pinname GND)
+     (pintype 4)))
+   (pin 999 199
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 200
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 201
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 202
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 203
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 204
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 205
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 206
+    (property 
+     (pinname I/O)
+     (pintype 4)))
+   (pin 999 207
+    (property 
+     (pinname TCK)
+     (pintype 4)))
+   (pin 999 208
+    (property 
+     (pinname VCCO)
+     (pintype 4))))
+  (image ADP3330
+   (property 
+    (sourcelib "F:\\ORCAD PROJECTS LIBRARIES\\CAPTURE\\DATA LOGGER\\FLASH.OLB"))
+   (pin 999 1
+    (property 
+     (pinname OUT)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname IN)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname ERR)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname GND)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname NR)
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname SD)
+     (pintype 4))))
+  (image LT1086
+   (property 
+    (sourcelib "F:\\ORCAD PROJECTS LIBRARIES\\CAPTURE\\FLASH\\FLASH.OLB"))
+   (pin 999 3
+    (property 
+     (pinname VIN)
+     (pintype 4)))
+   (pin 999 1
+    (property 
+     (pinname GND)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname VOUT)
+     (pintype 4))))
+  (image EN25T80
+   (property 
+    (sourcelib "F:\\ORCAD PROJECTS LIBRARIES\\CAPTURE\\FLASH\\FLASH.OLB"))
+   (pin 999 1
+    (property 
+     (pinname CS)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname DO)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname WP)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname VSS)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname DI)
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname CLK)
+     (pintype 4)))
+   (pin 999 7
+    (property 
+     (pinname HOLD)
+     (pintype 4)))
+   (pin 999 8
+    (property 
+     (pinname VCC)
+     (pintype 4))))
+  (image LP2966
+   (property 
+    (sourcelib I:\\PCAD\\PROJ0\\LIBRARY\\BILAL.OLB))
+   (pin 999 1
+    (property 
+     (pinname Vin)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname S\\D\\1\\)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname S\\D\\2\\)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname GND)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname E\\R\\R\\O\\2\\)
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname E\\R\\R\\O\\R\\1\\)
+     (pintype 4)))
+   (pin 999 7
+    (property 
+     (pinname Vout2)
+     (pintype 4)))
+   (pin 999 8
+    (property 
+     (pinname Vout1)
+     (pintype 4))))
+  (image XCFxxS_Flash
+   (property 
+    (sourcelib D:\\IRFAN_FAISAL_MIR\\MY_DESIGNS\\DESIGN_ORCAD\\FPGA_CARDS\\SPARTAN_BASED\\LIB\\FPGA_PROM.OLB))
+   (pin 999 1
+    (property 
+     (pinname D0)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname NC)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname CLK)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname TDI)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname TMS)
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname TCK)
+     (pintype 4)))
+   (pin 999 7
+    (property 
+     (pinname C\\F\\)
+     (pintype 4)))
+   (pin 999 8
+    (property 
+     (pinname OE/R\\E\\S\\E\\T\\)
+     (pintype 4)))
+   (pin 999 9
+    (property 
+     (pinname NC)
+     (pintype 4)))
+   (pin 999 10
+    (property 
+     (pinname C\\E\\)
+     (pintype 4)))
+   (pin 999 11
+    (property 
+     (pinname GND)
+     (pintype 4)))
+   (pin 999 12
+    (property 
+     (pinname NC)
+     (pintype 4)))
+   (pin 999 13
+    (property 
+     (pinname C\\E\\O\\)
+     (pintype 4)))
+   (pin 999 14
+    (property 
+     (pinname NC)
+     (pintype 4)))
+   (pin 999 15
+    (property 
+     (pinname NC)
+     (pintype 4)))
+   (pin 999 16
+    (property 
+     (pinname NC)
+     (pintype 4)))
+   (pin 999 17
+    (property 
+     (pinname TDO)
+     (pintype 4)))
+   (pin 999 18
+    (property 
+     (pinname VCCINT)
+     (pintype 4)))
+   (pin 999 19
+    (property 
+     (pinname VCCO)
+     (pintype 4)))
+   (pin 999 20
+    (property 
+     (pinname VCCJ)
+     (pintype 4))))
+  (image POT
+   (property 
+    (sourcelib "D:\\PROGRAM FILES\\ORCAD\\CAPTURE\\LIBRARY\\DISCRETE.OLB"))
+   (pin 999 1
+    (property 
+     (pinname A)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname B)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname WIPER)
+     (pintype 4))))
+  (image C
+   (property 
+    (sourcelib C:\\ORCAD\\ORCAD_10.5\\TOOLS\\CAPTURE\\LIBRARY\\DISCRETE.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image "CAP NP"
+   (property 
+    (sourcelib C:\\ORCAD\\ORCAD_10.5\\TOOLS\\CAPTURE\\LIBRARY\\DISCRETE.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image CAP
+   (property 
+    (sourcelib C:\\ORCAD\\ORCAD_10.0\\TOOLS\\CAPTURE\\LIBRARY\\DISCRETE.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image EMC_FILTER
+   (property 
+    (sourcelib "F:\\ORCAD PROJECTS LIBRARIES\\CAPTURE\\DATA LOGGER\\FLASH.OLB"))
+   (pin 999 1
+    (property 
+     (pinname IN)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname GND)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname OUT)
+     (pintype 4))))
+  (image AD743/AD
+   (property 
+    (sourcelib C:\\ORCAD\\ORCAD_10.5\\TOOLS\\CAPTURE\\LIBRARY\\PSPICE\\ANLG_DEV.OLB)
+    (PSpiceTemplate "X^@REFDES %+ %- %V+ %V- %OUT @MODEL"))
+   (pin 999 3
+    (property 
+     (pinname +)
+     (pintype 0)
+     (FLOAT Error)))
+   (pin 999 2
+    (property 
+     (pinname "-")
+     (pintype 0)
+     (FLOAT Error)))
+   (pin 999 7
+    (property 
+     (pinname V+)
+     (pintype 0)
+     (FLOAT Error)))
+   (pin 999 4
+    (property 
+     (pinname "V-")
+     (pintype 0)
+     (FLOAT Error)))
+   (pin 999 6
+    (property 
+     (pinname OUT)
+     (pintype 2)
+     (FLOAT Error)))
+   (pin 999 1
+    (property 
+     (pinname N1)
+     (pintype 0)
+     (FLOAT Unmodeled)))
+   (pin 999 5
+    (property 
+     (pinname N2)
+     (pintype 0)
+     (FLOAT Unmodeled))))
+  (image L
+   (property 
+    (sourcelib C:\\ORCAD\\ORCAD_10.5\\TOOLS\\CAPTURE\\LIBRARY\\PSPICE\\ANALOG.OLB)
+    (DIST FLAT)
+    (PSpiceTemplate "L^@REFDES %1 %2 ?TOLERANCE|L^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model l^@REFDES IND L=1 DEV=@TOLERANCE%|")
+    (CURRENT LMAX)
+    (DIELECTRIC DSMAX))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image ADuM1402_1
+   (property 
+    (sourcelib "F:\\DATA LOGGER\\ORCAD\\PCB DESIGN\\SCHEMATIC\\DATA LOGGER\\DATA LOGGER.DSN"))
+   (pin 999 1
+    (property 
+     (pinname VDD1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname GND1)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname VIA)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname VIB)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname VIC)
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname VOD)
+     (pintype 4)))
+   (pin 999 7
+    (property 
+     (pinname VE1)
+     (pintype 4)))
+   (pin 999 8
+    (property 
+     (pinname GND1)
+     (pintype 4)))
+   (pin 999 9
+    (property 
+     (pinname GND2)
+     (pintype 4)))
+   (pin 999 10
+    (property 
+     (pinname VE2)
+     (pintype 4)))
+   (pin 999 11
+    (property 
+     (pinname VID)
+     (pintype 4)))
+   (pin 999 12
+    (property 
+     (pinname VOC)
+     (pintype 4)))
+   (pin 999 13
+    (property 
+     (pinname VOB)
+     (pintype 4)))
+   (pin 999 14
+    (property 
+     (pinname VOA)
+     (pintype 4)))
+   (pin 999 15
+    (property 
+     (pinname GND2)
+     (pintype 4)))
+   (pin 999 16
+    (property 
+     (pinname VDD2)
+     (pintype 4))))
+  (image "HEADER 6"
+   (property 
+    (sourcelib C:\\ORCAD\\ORCAD_10.5\\TOOLS\\CAPTURE\\LIBRARY\\CONNECTOR.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname 5)
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname 6)
+     (pintype 4))))
+  (image LP2966_1
+   (property 
+    (sourcelib "E:\\MUSHTAQ PCB\\PCI CARD(1.1)\\PCI CARD(1.1N).DSN"))
+   (pin 999 1
+    (property 
+     (pinname ADJ/GND)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname IN)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname OUT)
+     (pintype 4))))
+  (image ADG1612
+   (property 
+    (sourcelib "F:\\ORCAD PROJECTS LIBRARIES\\CAPTURE\\DATA LOGGER\\FLASH.OLB"))
+   (pin 999 1
+    (property 
+     (pinname IN1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname D1)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname S1)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname VSS)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname GND)
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname S4)
+     (pintype 4)))
+   (pin 999 7
+    (property 
+     (pinname D4)
+     (pintype 4)))
+   (pin 999 8
+    (property 
+     (pinname IN4)
+     (pintype 4)))
+   (pin 999 9
+    (property 
+     (pinname IN3)
+     (pintype 4)))
+   (pin 999 10
+    (property 
+     (pinname D3)
+     (pintype 4)))
+   (pin 999 11
+    (property 
+     (pinname S3)
+     (pintype 4)))
+   (pin 999 12
+    (property 
+     (pinname NC)
+     (pintype 4)))
+   (pin 999 13
+    (property 
+     (pinname VDD)
+     (pintype 4)))
+   (pin 999 14
+    (property 
+     (pinname S2)
+     (pintype 4)))
+   (pin 999 15
+    (property 
+     (pinname D2)
+     (pintype 4)))
+   (pin 999 16
+    (property 
+     (pinname IN2)
+     (pintype 4))))
+  (image BNC
+   (property 
+    (sourcelib C:\\ORCAD\\ORCAD_10.5\\TOOLS\\CAPTURE\\LIBRARY\\CONNECTOR.OLB))
+   (pin 999 1
+    (property 
+     (pinname CENTER)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname SHIELD)
+     (pintype 4))))
+  (image FUSE_0
+   (property 
+    (sourcelib "F:\\CTC CHILLER\\PCB DESIGN\\CHILLER CARD\\CHILLER CARD.DSN"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image ADuM1400
+   (property 
+    (sourcelib "G:\\ADS1281\\PROJECT\\PCB DESIGN\\CUSTOM LIBRARY\\ADS1281 CUSTOM.OLB"))
+   (pin 999 1
+    (property 
+     (pinname VDD1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname GND1)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname VIA)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname VIB)
+     (pintype 4)))
+   (pin 999 12
+    (property 
+     (pinname VOC)
+     (pintype 4)))
+   (pin 999 11
+    (property 
+     (pinname VOD)
+     (pintype 4)))
+   (pin 999 7
+    (property 
+     (pinname NC)
+     (pintype 4)))
+   (pin 999 8
+    (property 
+     (pinname GND1)
+     (pintype 4)))
+   (pin 999 9
+    (property 
+     (pinname GND2)
+     (pintype 4)))
+   (pin 999 10
+    (property 
+     (pinname VE2)
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname VID)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname VIC)
+     (pintype 4)))
+   (pin 999 14
+    (property 
+     (pinname VOA)
+     (pintype 4)))
+   (pin 999 13
+    (property 
+     (pinname VOB)
+     (pintype 4)))
+   (pin 999 15
+    (property 
+     (pinname GND2)
+     (pintype 4)))
+   (pin 999 16
+    (property 
+     (pinname VDD2)
+     (pintype 4))))
+  (image CON10
+   (property 
+    (sourcelib C:\\ORCAD\\ORCAD_10.5\\TOOLS\\CAPTURE\\LIBRARY\\CONNECTOR.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname 5)
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname 6)
+     (pintype 4)))
+   (pin 999 7
+    (property 
+     (pinname 7)
+     (pintype 4)))
+   (pin 999 8
+    (property 
+     (pinname 8)
+     (pintype 4)))
+   (pin 999 9
+    (property 
+     (pinname 9)
+     (pintype 4)))
+   (pin 999 10
+    (property 
+     (pinname 10)
+     (pintype 4))))
+  (image "HEADER 4_2"
+   (property 
+    (sourcelib "F:\\DATA LOGGER\\ORCAD\\PCB DESIGN\\SCHEMATIC\\DATA LOGGER\\DATA LOGGER.DSN"))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4))))
+  (image BATTERY
+   (property 
+    (sourcelib C:\\ORCAD\\ORCAD_10.5\\TOOLS\\CAPTURE\\LIBRARY\\DISCRETE.OLB))
+   (pin 999 1
+    (property 
+     (pinname +)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname "-")
+     (pintype 4))))
+  (image "CRYSTAL1-4/SM"
+   (property 
+    (sourcelib D:\\ORCAD\\ORCAD_10.5\\TOOLS\\CAPTURE\\LIBRARY\\DISCRETE.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4))))
+  (image "SW PUSH SC NO"
+   (property 
+    (sourcelib C:\\ORCAD\\ORCAD_10.5\\TOOLS\\CAPTURE\\LIBRARY\\OLDLIBS\\LADDER.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image "HEADER 9X2"
+   (property 
+    (sourcelib C:\\ORCAD\\ORCAD_10.5\\TOOLS\\CAPTURE\\LIBRARY\\CONNECTOR.OLB))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname 6)
+     (pintype 4)))
+   (pin 999 8
+    (property 
+     (pinname 8)
+     (pintype 4)))
+   (pin 999 10
+    (property 
+     (pinname 10)
+     (pintype 4)))
+   (pin 999 12
+    (property 
+     (pinname 12)
+     (pintype 4)))
+   (pin 999 14
+    (property 
+     (pinname 14)
+     (pintype 4)))
+   (pin 999 16
+    (property 
+     (pinname 16)
+     (pintype 4)))
+   (pin 999 18
+    (property 
+     (pinname 18)
+     (pintype 4)))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname 5)
+     (pintype 4)))
+   (pin 999 7
+    (property 
+     (pinname 7)
+     (pintype 4)))
+   (pin 999 9
+    (property 
+     (pinname 9)
+     (pintype 4)))
+   (pin 999 11
+    (property 
+     (pinname 11)
+     (pintype 4)))
+   (pin 999 13
+    (property 
+     (pinname 13)
+     (pintype 4)))
+   (pin 999 15
+    (property 
+     (pinname 15)
+     (pintype 4)))
+   (pin 999 17
+    (property 
+     (pinname 17)
+     (pintype 4))))
+  (image DIODE
+   (property 
+    (sourcelib C:\\ORCAD\\ORCAD_10.5\\TOOLS\\CAPTURE\\LIBRARY\\DISCRETE.OLB))
+   (pin 999 1
+    (property 
+     (pinname A)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname K)
+     (pintype 4))))
+  (image LM358
+   (property 
+    (sourcelib C:\\ORCAD\\ORCAD_10.5\\TOOLS\\CAPTURE\\LIBRARY\\PSPICE\\OPAMP.OLB)
+    (PSpiceTemplate "X^@REFDES %+ %- %V+ %V- %OUT @MODEL"))
+   (pin 999 3
+    (property 
+     (pinname +_A)
+     (pintype 0)
+     (FLOAT Error)))
+   (pin 999 2
+    (property 
+     (pinname "-_A")
+     (pintype 0)
+     (FLOAT Error)))
+   (pin 999 8
+    (property 
+     (pinname V+)
+     (pintype 7)
+     (FLOAT Error)))
+   (pin 999 4
+    (property 
+     (pinname "V-")
+     (pintype 7)
+     (FLOAT Error)))
+   (pin 999 1
+    (property 
+     (pinname OUT_A)
+     (pintype 2)
+     (FLOAT Error)))
+   (pin 999 5
+    (property 
+     (pinname +_B)
+     (pintype 0)
+     (FLOAT Error)))
+   (pin 999 6
+    (property 
+     (pinname "-_B")
+     (pintype 0)
+     (FLOAT Error)))
+   (pin 999 7
+    (property 
+     (pinname OUT_B)
+     (pintype 2)
+     (FLOAT Error))))
+  (image PIC16C64_PQ_2
+   (property 
+    (sourcelib "F:\\MUSHTAQ PCB\\SAJJAD HUSSAIN\\ICCC_PD_24PCBR0100\\DATA LOGGER.DSN"))
+   (pin 999 1
+    (property 
+     (pinname RC7/RX)
+     (pintype 1)))
+   (pin 999 2
+    (property 
+     (pinname RD4/PSP4)
+     (pintype 1)))
+   (pin 999 3
+    (property 
+     (pinname RD5/PSP5)
+     (pintype 1)))
+   (pin 999 4
+    (property 
+     (pinname RD6/PSP6)
+     (pintype 1)))
+   (pin 999 5
+    (property 
+     (pinname RD7/PSP7)
+     (pintype 1)))
+   (pin 999 6
+    (property 
+     (pinname GND)
+     (pintype 7)))
+   (pin 999 25
+    (property 
+     (pinname RE0/R\\D\\)
+     (pintype 1)))
+   (pin 999 26
+    (property 
+     (pinname RE1/W\\R\\)
+     (pintype 1)))
+   (pin 999 27
+    (property 
+     (pinname RE2/C\\S\\)
+     (pintype 1)))
+   (pin 999 29
+    (property 
+     (pinname GND)
+     (pintype 7)))
+   (pin 999 31
+    (property 
+     (pinname OSC2/CLKO/RA6)
+     (pintype 2)))
+   (pin 999 35
+    (property 
+     (pinname RC1/T10S0/CCP2)
+     (pintype 1)))
+   (pin 999 36
+    (property 
+     (pinname RC2/CCP1)
+     (pintype 1)))
+   (pin 999 37
+    (property 
+     (pinname RSC3/SCK/SCL)
+     (pintype 1)))
+   (pin 999 38
+    (property 
+     (pinname RD0/PSP0)
+     (pintype 1)))
+   (pin 999 39
+    (property 
+     (pinname RD1/PSP1)
+     (pintype 1)))
+   (pin 999 40
+    (property 
+     (pinname RD2/PSP2)
+     (pintype 1)))
+   (pin 999 41
+    (property 
+     (pinname RD3/PSP3)
+     (pintype 1)))
+   (pin 999 42
+    (property 
+     (pinname RC4/SDI/SDA)
+     (pintype 1)))
+   (pin 999 43
+    (property 
+     (pinname RC5/SDO)
+     (pintype 1)))
+   (pin 999 44
+    (property 
+     (pinname RC6/TX)
+     (pintype 1)))
+   (pin 999 32
+    (property 
+     (pinname RC0/T1OSI/T1CKI)
+     (pintype 1)))
+   (pin 999 18
+    (property 
+     (pinname M\\C\\L\\R\\/VPP/RE3)
+     (pintype 0)))
+   (pin 999 30
+    (property 
+     (pinname OSC1/CLKI/RA7)
+     (pintype 0)))
+   (pin 999 19
+    (property 
+     (pinname RA0/AN0)
+     (pintype 1)))
+   (pin 999 20
+    (property 
+     (pinname RA1/AN1)
+     (pintype 1)))
+   (pin 999 21
+    (property 
+     (pinname RA2/AN2)
+     (pintype 1)))
+   (pin 999 22
+    (property 
+     (pinname RA3/AN3)
+     (pintype 1)))
+   (pin 999 23
+    (property 
+     (pinname RA4/TOCKI)
+     (pintype 1)))
+   (pin 999 24
+    (property 
+     (pinname RA5/S\\S\\)
+     (pintype 1)))
+   (pin 999 8
+    (property 
+     (pinname RB0/INT)
+     (pintype 1)))
+   (pin 999 9
+    (property 
+     (pinname RB1/INT1)
+     (pintype 1)))
+   (pin 999 10
+    (property 
+     (pinname RB2/INT2)
+     (pintype 1)))
+   (pin 999 11
+    (property 
+     (pinname RB3/CCP2)
+     (pintype 1)))
+   (pin 999 14
+    (property 
+     (pinname RB4)
+     (pintype 1)))
+   (pin 999 15
+    (property 
+     (pinname RB5/PGM)
+     (pintype 1)))
+   (pin 999 16
+    (property 
+     (pinname RB6/PGC)
+     (pintype 1)))
+   (pin 999 17
+    (property 
+     (pinname RB7/PGD)
+     (pintype 1)))
+   (pin 999 28
+    (property 
+     (pinname VDD)
+     (pintype 7)))
+   (pin 999 7
+    (property 
+     (pinname VDD)
+     (pintype 7))))
+  (image LED
+   (property 
+    (sourcelib C:\\ORCAD\\ORCAD_10.0\\TOOLS\\CAPTURE\\LIBRARY\\DISCRETE.OLB))
+   (pin 999 1
+    (property 
+     (pinname ANODE)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname CATHODE)
+     (pintype 4))))
+  (image D02BZ2_2
+   (property 
+    (sourcelib C:\\ORCAD\\ORCAD_10.5\\TOOLS\\CAPTURE\\LIBRARY\\PSPICE\\JDIODE.OLB)
+    (PSpiceTemplate "D^@REFDES %1 %2 @MODEL ?AREA/@AREA/")
+    (COMPONENT 02BZ2_2))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image 1N4148
+   (property 
+    (sourcelib C:\\ORCAD\\ORCAD_10.5\\TOOLS\\CAPTURE\\LIBRARY\\PSPICE\\EDIODE.OLB)
+    (PSpiceTemplate "D^@REFDES %1 %2 @MODEL ?AREA/@AREA/")
+    (COMPONENT 1N4148))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image "HEADER 3"
+   (property 
+    (sourcelib C:\\ORCAD\\ORCAD_10.5\\TOOLS\\CAPTURE\\LIBRARY\\CONNECTOR.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4))))
+  (image "DIODE SCHOTTKY"
+   (property 
+    (sourcelib C:\\ORCAD\\ORCAD_10.5\\TOOLS\\CAPTURE\\LIBRARY\\DISCRETE.OLB))
+   (pin 999 1
+    (property 
+     (pinname ANODE)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname CATHODE)
+     (pintype 4))))
+  (image "SW DPDT/SM"
+   (property 
+    (sourcelib C:\\ORCAD\\ORCAD_10.5\\TOOLS\\CAPTURE\\LIBRARY\\DISCRETE.OLB))
+   (pin 999 2
+    (property 
+     (pinname COMMON1)
+     (pintype 4)))
+   (pin 999 1
+    (property 
+     (pinname NC1)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname NO1)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname COMMON2)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname NC2)
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname NO2)
+     (pintype 4))))
+  (image LM2587
+   (property 
+    (sourcelib "F:\\ORCAD PROJECTS LIBRARIES\\CAPTURE\\FLASH\\FLASH.OLB"))
+   (pin 999 1
+    (property 
+     (pinname Comp)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname Fb)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname Gnd)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname Swt)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname Vin)
+     (pintype 4))))
+  (image LM317H_1
+   (property 
+    (sourcelib "F:\\MUSHTAQ PCB\\SAJJAD HUSSAIN\\ICCC_PD_24PCBR0100\\DATA LOGGER.DSN")
+    (PSpiceTemplate "X^@REFDES %IN %ADJ %OUT @MODEL"))
+   (pin 999 3
+    (property 
+     (pinname IN)
+     (pintype 0)))
+   (pin 999 2
+    (property 
+     (pinname OUT)
+     (pintype 2)))
+   (pin 999 1
+    (property 
+     (pinname ADJ)
+     (pintype 4))))
+  (image MPSA14_1
+   (property 
+    (sourcelib "F:\\DATA LOGGER\\ORCAD\\PCB DESIGN\\SCHEMATIC\\DATA LOGGER\\DATA LOGGER.DSN")
+    (PSpiceTemplate "X^@REFDES %c %b %e @MODEL"))
+   (pin 999 2
+    (property 
+     (pinname b)
+     (pintype 4)))
+   (pin 999 1
+    (property 
+     (pinname c)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname e)
+     (pintype 4))))
+  (image AD7767
+   (property 
+    (sourcelib "F:\\ORCAD PROJECTS LIBRARIES\\CAPTURE\\DATA LOGGER\\FLASH.OLB"))
+   (pin 999 1
+    (property 
+     (pinname AVdd)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname VREF+)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname "REF GND")
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname VIN+)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname "VIN-")
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname AGND)
+     (pintype 4)))
+   (pin 999 7
+    (property 
+     (pinname SYNC/PD)
+     (pintype 4)))
+   (pin 999 8
+    (property 
+     (pinname DVdd)
+     (pintype 4)))
+   (pin 999 16
+    (property 
+     (pinname CS)
+     (pintype 4)))
+   (pin 999 15
+    (property 
+     (pinname SDI)
+     (pintype 4)))
+   (pin 999 14
+    (property 
+     (pinname MCLK)
+     (pintype 4)))
+   (pin 999 13
+    (property 
+     (pinname SCLK)
+     (pintype 4)))
+   (pin 999 12
+    (property 
+     (pinname DRDY)
+     (pintype 4)))
+   (pin 999 11
+    (property 
+     (pinname DGND)
+     (pintype 4)))
+   (pin 999 10
+    (property 
+     (pinname SDO)
+     (pintype 4)))
+   (pin 999 9
+    (property 
+     (pinname Vdrive)
+     (pintype 4))))
+  (image ADR445
+   (property 
+    (sourcelib "F:\\ORCAD PROJECTS LIBRARIES\\CAPTURE\\DATA LOGGER\\FLASH.OLB"))
+   (pin 999 1
+    (property 
+     (pinname TP)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname VIN)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname NC)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname GND)
+     (pintype 4)))
+   (pin 999 8
+    (property 
+     (pinname TP)
+     (pintype 4)))
+   (pin 999 7
+    (property 
+     (pinname NC)
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname VOUT)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname TRIM)
+     (pintype 4))))
+  (image "TEL 2-0521"
+   (property 
+    (sourcelib "F:\\ORCAD PROJECTS LIBRARIES\\CAPTURE\\DATA LOGGER\\FLASH.OLB"))
+   (pin 999 16
+    (property 
+     (pinname +Vin)
+     (pintype 4)))
+   (pin 999 1
+    (property 
+     (pinname "-Vin")
+     (pintype 4)))
+   (pin 999 10
+    (property 
+     (pinname "-Vout")
+     (pintype 4)))
+   (pin 999 9
+    (property 
+     (pinname +Vout)
+     (pintype 4)))
+   (pin 999 7
+    (property 
+     (pinname NC)
+     (pintype 4)))
+   (pin 999 8
+    (property 
+     (pinname Com)
+     (pintype 4)))))
+ (network
+  (net N18311445
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     R110-2 U29-4))
+  (net N18310173
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     U29-11 R117-1))
+  (net N18382500
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     U30-13 R131-1))
+  (net N2003288636
+   (pins
+     U14-37 R143-1))
+  (net N177223870
+   (pins
+     J10-1 R34-1))
+  (net N20652278
+   (pins
+     C24-1))
+  (net N20360891
+   (pins
+     R91-2 R92-2 R94-2 R95-2))
+  (net N196330798
+   (pins
+     J14-9 R99-1))
+  (net N2003288634
+   (pins
+     U14-35 R144-1))
+  (net N196330796
+   (pins
+     J14-7 R95-1))
+  (net N196330794
+   (pins
+     J14-5 R94-1))
+  (net VCCINT
+   (pins
+     U14-171 U14-38 U14-143 U14-128 U14-186 U14-118 U14-196 U14-13 U14-76
+     U14-91 U14-66 U14-28 C55-1 U18-7 C96-1 C94-1 C95-1 C130-1
+     C128-1 C129-1 C98-1 C127-1 C113-1 C97-1 C114-1 C115-1 C63-1
+     C126-1 C125-1 C64-1))
+  (net N196330792
+   (pins
+     J14-3 R92-1))
+  (net BAT
+   (pins
+     U69-19))
+  (net TMS
+   (pins
+     U14-2 U19-5 JTAG1-3))
+  (net ACS_18312304
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     R114-1))
+  (net N196330790
+   (pins
+     J14-1 R91-1))
+  (net N20032886133
+   (pins
+     U14-82 R145-2))
+  (net PRD4
+   (pins
+     R145-1 U69-2))
+  (net N20032886126
+   (pins
+     U14-75 R146-2))
+  (net PRB4
+   (pins
+     R15-2))
+  (net PRB2
+   (pins
+     U69-10 R12-2))
+  (net PRB0
+   (pins
+     U69-8 R10-2))
+  (net FPGA_CCLK
+   (pins
+     U14-155 R29-2))
+  (net PRD5
+   (pins
+     R146-1 U69-3))
+  (net TDI_FPGA
+   (pins
+     U14-159 U19-17))
+  (net PRD7
+   (pins
+     R9-2 U69-5))
+  (net PRB1
+   (pins
+     U69-9 R11-2))
+  (net PRB3
+   (pins
+     U69-11 R13-2))
+  (net PRD6
+   (pins
+     R8-2 U69-4))
+  (net INIT_B
+   (pins
+     U14-107 R22-1 U19-8))
+  (net N200438943
+   (pins
+     U19-4 R28-1))
+  (net N20087631
+   (pins
+     U69-14))
+  (net CLKIN
+   (pins
+     Y1-3 R47-1))
+  (net N200438942
+   (pins
+     R29-1 U19-3))
+  (net N20087637
+   (pins
+     U69-15))
+  (net N200438945
+   (pins
+     U19-6 R33-1))
+  (net FCLK
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     R135-1 U14-162))
+  (net FPGA_DONE
+   (pins
+     CR2-2 U14-104 U19-10))
+  (net N20047680
+   (pins
+     R64-2 JTAG1-1))
+  (net FPGA_D0
+   (pins
+     U14-153 U19-1))
+  (net ASDI
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     R110-1 U14-164))
+  (net ASCK
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     R123-1 U14-168))
+  (net TDI
+   (pins
+     R28-2 JTAG1-2))
+  (net ARDY
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     R119-2 U14-172))
+  (net N20032886108
+   (pins
+     U14-57 R15-1))
+  (net TCK
+   (pins
+     U14-207 R33-2 JTAG1-4))
+  (net PROG_B
+   (pins
+     U14-106 R21-1 U19-7))
+  (net ASDO
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     R118-2 U14-174))
+  (net ASYNC
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     R122-2 U14-176))
+  (net N20032886110
+   (pins
+     U14-59 R13-1))
+  (net VCCO
+   (pins
+     C11-2 U78-6 C4-2 R5-1 U5-8 R96-2 R93-2 R6-1 C5-2
+     U6-8 R7-1 C6-2 U16-8 R14-1 C7-2 U17-8 R101-2 R104-1
+     U14-130 U14-26 U14-144 U14-39 U14-156 U14-53 U14-208 U14-78 R48-2
+     U14-92 U14-65 U14-117 U14-197 U14-12 U14-184 U14-105 U14-170 R21-2
+     U19-18 U19-19 C58-1 U19-20 R22-2 JTAG1-5 C103-1 C99-1 C100-1
+     C81-1 C101-1 C102-1 C104-1 C105-1 C123-1 C121-1 C118-1 C122-1
+     C117-1 C116-1 C108-1 C107-1 C120-1 C106-1 C119-1 C124-1 R107-2
+     R108-2 R109-2 R124-2 U9-2 C17-1))
+  (net N20032886112
+   (pins
+     U14-61 R12-1))
+  (net N20032886114
+   (pins
+     U14-63 R11-1))
+  (net N20032886119
+   (pins
+     U14-68 R10-1))
+  (net N20032886121
+   (pins
+     U14-70 R9-1))
+  (net TDO
+   (pins
+     U14-157 R64-1))
+  (net N20032886124
+   (pins
+     R8-1 U14-73))
+  (net N2003288666
+   (pins
+     U14-142 R54-2))
+  (net N20131606
+   (pins
+     U14-140 R55-2))
+  (net N2003288670
+   (pins
+     R56-2 U14-138))
+  (net N2003288673
+   (pins
+     U14-135 R57-2))
+  (net VDD5
+   (pins
+     U68-8
+    (property 
+     (FLOAT Error))))
+  (net N2003288675
+   (pins
+     U14-133 R62-2))
+  (net N2003288679
+   (pins
+     U14-129 R63-2))
+  (net N2003288681
+   (pins
+     U14-127 R65-2))
+  (net BAT_20559932
+   (pins
+     U68-2
+    (property 
+     (FLOAT Error))
+     U68-1
+    (property 
+     (FLOAT Error))))
+  (net N19943035
+   (pins
+     R6-2 U6-7))
+  (net N19692557
+    (property 
+     (MINWIDTH 8.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (TESTPOINT NO)
+     (NETWEIGHT 50)
+     (RECONNTYPE STD))
+   (pins
+     J15-4 U78-10))
+  (net N19692558
+    (property 
+     (MINWIDTH 8.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (TESTPOINT NO)
+     (NETWEIGHT 50)
+     (RECONNTYPE STD))
+   (pins
+     J15-3 U78-9))
+  (net RIGHT
+   (pins
+     R88-1 J14-2 R75-2))
+  (net N20032886181
+   (pins
+     U14-182 R47-2))
+  (net DOWN
+   (pins
+     R85-1 J14-4 R77-2))
+  (net N19692559
+    (property 
+     (MINWIDTH 8.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (TESTPOINT NO)
+     (NETWEIGHT 50)
+     (RECONNTYPE STD))
+   (pins
+     J15-2 U78-8))
+  (net DB6
+   (pins
+     J1-2 U69-25))
+  (net VO
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (TESTPOINT NO)
+     (NETWEIGHT 50)
+     (RECONNTYPE STD))
+   (pins
+     J1-12 VAR2-2))
+  (net DB5
+   (pins
+     J1-3 U69-27))
+  (net LEFT
+   (pins
+     R86-1 J14-10 R76-2))
+  (net N19964501
+   (pins
+     R14-2 U17-7))
+  (net N19957068
+   (pins
+     R7-2 U16-7))
+  (net OK
+   (pins
+     R87-1 J14-6 R79-2))
+  (net N19954829
+   (pins
+     U16-3 R101-1))
+  (net EN1
+   (pins
+     J1-9 U69-24))
+  (net N19933082
+   (pins
+     R5-2 U5-7))
+  (net N19924730
+   (pins
+     U5-3 R93-1))
+  (net UP
+   (pins
+     R89-2 J14-8 R78-2))
+  (net N200328862
+   (pins
+     U14-3 R75-1))
+  (net N19920556
+   (pins
+     U6-3 R96-1))
+  (net DB7
+   (pins
+     J1-1 U69-26))
+  (net DB4
+   (pins
+     J1-4 U69-31))
+  (net BKL
+   (pins
+     Q1-2 U69-21))
+  (net RS
+   (pins
+     J1-11 U69-23))
+  (net N200328864
+   (pins
+     U14-5 R76-1))
+  (net A
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (TESTPOINT NO)
+     (NETWEIGHT 50)
+     (RECONNTYPE STD))
+   (pins
+     J1-17 Q1-1 R1-1))
+  (net N200328866
+   (pins
+     U14-7 R77-1))
+  (net N19692560
+    (property 
+     (MINWIDTH 8.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (TESTPOINT NO)
+     (NETWEIGHT 50)
+     (RECONNTYPE STD))
+   (pins
+     J15-1 U78-7))
+  (net EN2
+   (pins
+     J1-15 U69-22))
+  (net N181705982
+   (pins
+     R104-2 U17-3))
+  (net GND
+    (property 
+     (nettype S)
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (TESTPOINT NO)
+     (NETWEIGHT 50)
+     (RECONNTYPE STD))
+   (pins
+     C199-1 C190-1 U87-9 U87-15 U29-8 U29-2 C188-1 U30-8 U30-2
+     U96-2 U78-2 C4-1 U5-4 C5-1 U6-4 C7-1 U17-4 C6-1
+     U16-4 C11-1 J1-10 J1-18 J1-13 VAR2-3 Q1-3 U14-158 U14-52
+     U14-1 R18-2 U14-25 U14-54 U14-64 U14-116 U14-198 U14-11 U14-124
+     U14-19 U14-72 U14-131 U14-190 U14-79 U14-32 U14-137 U14-183 U14-145
+     U14-40 U14-177 U14-85 U14-169 U14-93 U14-103 U14-51 U14-50 U18-4
+     C55-2 C54-2 U18-6 U18-5 U19-11 C58-2 JTAG1-6 C98-2 C94-2
+     C95-2 C130-2 C128-2 C127-2 C97-2 C100-2 C103-2 C81-2 C102-2
+     C104-2 C105-2 C124-2 C120-2 C118-2 C122-2 C123-2 C117-2 C121-2
+     C116-2 C108-2 C107-2 C106-2 C119-2 C101-2 C126-2 C99-2 C63-2
+     C64-2 C125-2 C129-2 C113-2 C114-2 C115-2 C96-2 C20-2 C23-2
+     Y1-2 U69-6 U69-29 J11-3 R99-2 U9-1 C17-2 C16-2 C24-2
+     C25-2))
+  (net VDD
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     C190-2 U87-10 U87-16 U29-1 C188-2 U30-1 C199-2 U83-3 C174-1
+     C175-2 C176-1 J1-14 VAR2-1 R1-2 R88-2 R85-2 R87-2 R86-2
+     R89-1 U18-2 C54-1 U18-1 U18-3 C23-1 C20-1 Y1-4 U69-28
+     U69-7 R102-2 J11-2 U9-3 C25-1 C16-1))
+  (net N200328868
+   (pins
+     U14-9 R78-1))
+  (net N17712854
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     U75-3 D4-1 D6-2))
+  (net N18075676
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     R30-2 U70-1))
+  (net SW1_1
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     J8-1 SW3-2))
+  (net N17712950
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     U85-3 C180-1 C179-2 U76-16))
+  (net N2003288613
+   (pins
+     U14-14 R79-1))
+  (net N18075694
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     R31-1 R32-3 U70-2))
+  (net SW1_2
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     F2-1 SW3-1 SW3-3))
+  (net VDC
+    (property 
+     (nettype S)
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     D4-2 D7-2 SW3-5))
+  (net BATTERY
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     R98-1 U75-1 BT1-1 D7-1 U68-3
+    (property 
+     (FLOAT Error))))
+  (net N18075724
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     C146-2 R30-1 C149-2))
+  (net N17718772
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     U84-1 SW3-4 U85-1))
+  (net N20033178
+   (pins
+     CR2-1 R18-1))
+  (net 24V
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     C147-1 D1-2 R31-2 U91-1))
+  (net N17713123
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     R97-1 U75-2))
+  (net N18067986
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     U86-1 F2-2))
+  (net N20032969
+   (pins
+     U14-42))
+  (net N17712868
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     D6-1 C193-1 C192-2 U86-3))
+  (net N20032938
+   (pins
+     U14-74))
+  (net N17712763
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     U81-1 U76-9))
+  (net N20033087
+   (pins
+     U14-113))
+  (net N17716036
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     U84-3 C178-1 C177-2 U15-3))
+  (net N20033109
+   (pins
+     R48-1 U14-108))
+  (net N17712964
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     U82-1 U76-10))
+  (net N20033229
+   (pins
+     U14-132))
+  (net N18875971
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     R106-3 R106-2 R105-2))
+  (net N2003288660
+   (pins
+     U14-148 R67-2))
+  (net N20033092
+   (pins
+     U14-112))
+  (net N18075656
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     U70-4 D1-1 L1-2))
+  (net N17712724
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     R98-3 R98-2 R97-2))
+  (net N20033019
+   (pins
+     U14-126))
+  (net N18878731
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     U71-2 R106-1))
+  (net N20032984
+   (pins
+     U14-150))
+  (net N180758310
+   (pins
+     U71-3 U91-3))
+  (net N2003288661
+   (pins
+     U14-147 R70-2))
+  (net N177130080
+   (pins
+     U15-2 U83-1))
+  (net N2003288632
+   (pins
+     U14-33 R147-1))
+  (net N20033021
+   (pins
+     U14-125))
+  (net N17722518
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     U7-2
+    (property 
+     (FLOAT Error))
+     R59-2 C159-1 R58-1))
+  (net N20033129
+   (pins
+     U14-110))
+  (net N18126713
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     U72-7 R120-1))
+  (net N20032665
+   (pins
+     U14-120))
+  (net N17722435
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     C155-1 R69-2 U72-5))
+  (net N20033124
+   (pins
+     U14-109))
+  (net ECS2
+    (property 
+     (MINWIDTH 8.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     U17-1 R108-1 R137-2))
+  (net N20032886151
+   (pins
+     U14-100 R66-2))
+  (net ECLK0
+    (property 
+     (MINWIDTH 8.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (TESTPOINT NO)
+     (NETWEIGHT 50)
+     (RECONNTYPE STD))
+   (pins
+     U5-6 R144-2))
+  (net N18382496
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     U30-14 R132-1))
+  (net ESDO0
+   (pins
+     R142-2))
+  (net 2.5VA
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     R71-2 R73-2 U72-1 C197-2 "Ferrite Bead"-2 C164-2 U79-1))
+  (net PINT
+   (pins
+     R55-1))
+  (net ESDI0
+    (property 
+     (MINWIDTH 8.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (TESTPOINT NO)
+     (NETWEIGHT 50)
+     (RECONNTYPE STD))
+   (pins
+     U5-5 R143-2))
+  (net N19467495
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     U87-6 R120-2))
+  (net N20032954
+   (pins
+     U14-67))
+  (net PSEL1
+   (pins
+     U69-35 R67-1 R80-1))
+  (net ESDO1
+   (pins
+     U6-2 R147-2))
+  (net +5VA
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     U77-7 C162-2 U7-7
+    (property 
+     (FLOAT Error))
+     C183-2 U8-7
+    (property 
+     (FLOAT Error))
+     C181-2 U11-7
+    (property 
+     (FLOAT Error))
+     C185-2 D9-2 C208-2 U89-13 U81-3 C168-1 C169-2 C170-1 U80-2
+     U80-6 C166-2 U79-2 U79-6 C165-2 C148-1 L1-1 U70-5 C151-1
+     U73-2 C152-2))
+  (net N20032886149
+   (pins
+     U14-98 R80-2))
+  (net N2003288630
+   (pins
+     U14-31 R148-1))
+  (net ECS3
+   (pins
+     U16-1 R107-1 R141-2))
+  (net 0
+    (property 
+     (nettype S)
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     BT1-2 C174-2 C175-1 U83-2 C176-2 U76-1 C178-2 C177-1 U84-2
+     U15-1 C180-2 C179-1 U85-2 J8-2 C193-2 C192-1 U86-2 J8-3
+     U68-4
+    (property 
+     (FLOAT Error))))
+  (net PCLK
+   (pins
+     U69-30 R50-1))
+  (net N20032982
+   (pins
+     U14-77))
+  (net PSDI
+   (pins
+     U69-42 R63-1 R83-1))
+  (net N18311453
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     R123-2 U29-6))
+  (net PSCK
+   (pins
+     U69-37 R65-1 R82-1))
+  (net N18405654
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     U89-1 R132-2))
+  (net N2003288628
+   (pins
+     U14-29 R149-1))
+  (net PSEL2
+   (pins
+     U69-36 R66-1))
+  (net N18126378
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     U72-12 R111-1))
+  (net N20033114
+   (pins
+     U14-123))
+  (net ECS0
+    (property 
+     (MINWIDTH 8.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     U5-1 R109-1 R103-2))
+  (net N18273826
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     U72-8 C196-2 "Ferrite Bead"-1))
+  (net PSDO
+   (pins
+     U69-43 R62-1 R84-1))
+  (net N17722458
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     U11-2
+    (property 
+     (FLOAT Error))
+     U11-6
+    (property 
+     (FLOAT Error))
+     D9-1 D8-2 U77-8))
+  (net ECS1
+    (property 
+     (MINWIDTH 8.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     U6-1 R124-1 R133-2))
+  (net N2003288626
+   (pins
+     U14-27 R150-1))
+  (net PSEL0
+   (pins
+     U69-32 R70-1 R81-1))
+  (net PRX
+   (pins
+     U69-1 R57-1 R100-1))
+  (net PTX
+   (pins
+     U69-44 R56-1 R90-1))
+  (net 4MA
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     U89-3 R105-1 U71-1))
+  (net URX
+   (pins
+     U78-3))
+  (net N18126782
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     R118-1 U87-13))
+  (net N2003288623
+   (pins
+     U14-24 R151-1))
+  (net UTX
+   (pins
+     U78-4))
+  (net SWCS
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     R129-1 U14-201))
+  (net 3.3VA
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     U72-9 C187-2 U87-1 C191-2 U29-16 U29-10 C189-2 C198-2 U30-10
+     U30-16 U80-1 C167-2))
+  (net N20032886147
+   (pins
+     U14-96 R81-2))
+  (net SWIMP
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     R130-1 U14-203))
+  (net SWCAP
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     R134-1 U14-205))
+  (net N17722524
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     R71-1 U7-3
+    (property 
+     (FLOAT Error))
+     R72-2 C161-1))
+  (net N2003288621
+   (pins
+     U14-22 R152-1))
+  (net ACLK
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     R112-1 R54-1 U14-166))
+  (net N20032886153
+   (pins
+     U14-102 R50-2))
+  (net N18314346
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     U29-14 R126-1))
+  (net N18382463
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     R130-2 U30-4))
+  (net N18257982
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (TESTPOINT NO)
+     (NETWEIGHT 50)
+     (RECONNTYPE STD))
+   (pins
+     R115-2 U72-14))
+  (net N2003288619
+   (pins
+     U14-20 R153-1))
+  (net N18126743
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     U87-4 R113-2))
+  (net N20032886145
+   (pins
+     U14-94 R82-2))
+  (net N17722379
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     C150-1 R34-2 D3-2 U89-2))
+  (net N18113851
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     R59-1 U77-5))
+  (net N20032886141
+   (pins
+     U14-90 R83-2))
+  (net N18257956
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     R116-2 U72-15))
+  (net N2003288617
+   (pins
+     U14-18 R154-1))
+  (net N20032886139
+   (pins
+     U14-88 R84-2))
+  (net N17722443
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     U77-1 R136-2))
+  (net N18411378
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     U89-16 R131-2))
+  (net N2003288615
+   (pins
+     U14-16 R155-1))
+  (net "-5VA"
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     C184-2 U7-4
+    (property 
+     (FLOAT Error))
+     C182-2 U8-4
+    (property 
+     (FLOAT Error))
+     C186-2 U11-4
+    (property 
+     (FLOAT Error))
+     C163-2 U77-2 D8-1 U89-4 C209-2 U82-3 C171-2 C172-2 C173-2))
+  (net N202817950
+   (pins
+     D10-1 R102-1))
+  (net ESDI1
+   (pins
+     U6-5 R148-2))
+  (net N18312302
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     R114-2 U29-3))
+  (net N20032886137
+   (pins
+     U14-86 R90-2))
+  (net N18126723
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     U87-3 R111-2))
+  (net ECLK1
+   (pins
+     U6-6 R149-2))
+  (net N18382449
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     R129-2 U30-3))
+  (net ESDI3
+   (pins
+     U16-5 R154-2))
+  (net N17722437
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     R73-1 R74-2 U8-3
+    (property 
+     (FLOAT Error))
+     C160-2))
+  (net N18126388
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     U72-10 R113-1))
+  (net ECLK2
+   (pins
+     U17-6 R152-2))
+  (net N18310171
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     U29-12 R115-1))
+  (net ECLK3
+   (pins
+     U16-6 R155-2))
+  (net ESDO3
+   (pins
+     U16-2 R153-2))
+  (net N17722610
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     R68-1 R60-2 U8-6
+    (property 
+     (FLOAT Error))))
+  (net N20032886135
+   (pins
+     U14-84 R100-2))
+  (net ESDI2
+   (pins
+     U17-5 R151-2))
+  (net MCLR
+   (pins
+     U96-1 U69-18 D10-2 J11-1))
+  (net N17722540
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     R61-2 R69-1 C159-2 R58-2 U7-6
+    (property 
+     (FLOAT Error))))
+  (net PGC
+   (pins
+     U69-16 J11-5))
+  (net N17722560
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     U8-2
+    (property 
+     (FLOAT Error))
+     R61-1 R60-1))
+  (net PGD
+   (pins
+     U69-17 J11-4))
+  (net ESDO2
+   (pins
+     U17-2 R150-2))
+  (net ESD00
+    (property 
+     (MINWIDTH 8.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     U5-2))
+  (net N2003288648
+   (pins
+     U14-49 R103-1))
+  (net GND_SIGNAL
+    (property 
+     (nettype S)
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     C209-1 C191-1 C163-1 C181-1 C155-2 C161-2 U77-6 C154-1 R74-1
+     C162-1 R72-1 D3-1 J10-2 C182-1 C183-1 C184-1 C185-1 C186-1
+     U72-11 U72-6 C187-1 U87-8 U87-2 C160-1 C194-1 C195-2 C196-1
+     C197-1 U29-9 U29-15 C189-1 U72-3 R127-1 R128-1 C198-1 U30-9
+     U30-15 U89-5 C208-1 C168-2 C169-1 C171-1 C172-1 C173-1 U76-8
+     U81-2 C170-2 C167-1 C166-1 U80-4 C164-1 C165-1 U79-4 C147-2
+     C148-2 C146-1 U70-3 R32-1 R32-2 U73-4 C151-2 C152-1 C149-1
+     U91-2 U82-2))
+  (net N18725775
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     R134-2 U30-5))
+  (net N18310169
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     U29-13 R116-1))
+  (net N20640389
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     R135-2 U30-6))
+  (net N2003288646
+   (pins
+     U14-47 R133-1))
+  (net ACS
+   (pins
+     U14-178))
+  (net N19464531
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     R122-1 U87-11))
+  (net N17722450
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     C154-2 U72-4 R68-2))
+  (net N2003288644
+   (pins
+     U14-45 R137-1))
+  (net N18258000
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     R117-2 U72-13))
+  (net N20643445
+   (pins
+     U30-11 R136-1))
+  (net "2.5V REF"
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     C194-2 C195-1 U72-2 U73-6))
+  (net N2003288642
+   (pins
+     U14-43 R141-1))
+  (net S2
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     R128-2 U89-14))
+  (net N20644862
+   (pins
+     R138-1 U30-12))
+  (net N18311447
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     R112-2 U29-5))
+  (net N18126778
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     R119-1 U87-14))
+  (net N18928244
+   (pins
+     R126-2 U72-16))
+  (net D2
+    (property 
+     (MINWIDTH 12.000)
+     (MAXWIDTH 50.000)
+     (HIGHLIGHT NO)
+     (CONNWIDTH 12.000)
+     (NETGROUP 0)
+     (NETWEIGHT 50)
+     (TESTPOINT NO)
+     (RECONNTYPE STD))
+   (pins
+     U11-3
+    (property 
+     (FLOAT Error))
+     R127-2 C150-2 U89-15))
+  (net N2003288640
+   (pins
+     U14-41 R142-1)))
+)

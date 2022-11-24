@@ -1,0 +1,21 @@
+# Xilinx CORE Generator 6.1i
+# User = Sajjad
+Initializing default project...
+Loading plug-ins...
+All runtime messages will be recorded in D:\DNPR_DATA_LOGGER\131114\FPGA_Logger_R0000\coregen.log
+# busformat=BusFormatAngleBracketNotRipped
+# designflow=VHDL
+# expandedprojectpath=D:\DNPR_DATA_LOGGER\131114\FPGA_Logger_R0000
+# flowvendor=Foundation_iSE
+# formalverification=None
+# simulationoutputproducts=VHDL
+# xilinxfamily=Virtex2
+# outputoption=DesignFlow
+# overwritefiles=Default
+# simvendor=ModelSim
+# expandedprojectpath=D:\DNPR_DATA_LOGGER\131114\FPGA_Logger_R0000
+SETPROJECT .
+Set current Project to D:\DNPR_DATA_LOGGER\131114\FPGA_Logger_R0000
+SET BusFormat = BusFormatAngleBracketNotRipped
+SETXIPCPORTHOST 1053
+XIPCPJSENDCORES spartan2

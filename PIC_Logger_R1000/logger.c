@@ -1,0 +1,597 @@
+//       SAJJAD HUSSAIN, S.E.
+//       SEP. 2014
+//       DATA LOGGER
+
+#include "logger.h"
+
+
+//      MAIN PROGRAM
+void main()
+{
+  // Configure Resources
+   //setup_adc_ports(AN0|VSS_VDD);
+   setup_ccp1 (CCP_OFF);
+   setup_ccp2 (CCP_OFF);
+   //setup_adc(ADC_CLOCK_DIV_16|ADC_TAD_MUL_8);
+   setup_adc(ADC_CLOCK_INTERNAL );
+   setup_psp(PSP_DISABLED);
+   //setup_wdt(WDT_OFF);
+   setup_timer_0(RTCC_INTERNAL);
+   setup_timer_1(T1_DISABLED);
+   setup_timer_2(T2_DISABLED,0,1);
+   setup_timer_3(T3_DISABLED|T3_DIV_BY_1);
+   //setup_comparator(NC_NC_NC_NC);
+   //setup_vref(FALSE);
+   //setup_oscillator(OSC_4MHZ|OSC_INTRC|OSC_31250|OSC_PLL_OFF);
+   //set_adc_channel( 0 );
+   delay_ms(1000);
+   //setup_adc_ports(NO_ANALOGS);
+   // EEPROM SETTING USING HARWARE SPI
+   //SPI_MASTER = 0x24 SSPEN = 1
+   //SPI_SS_DISABLED = 0x24  SSPM2 = 1
+   //SPI_L_TO_H = 0x00 CKP=0
+   //SPI_H_TO_L = 0x10 CKP=1
+   //SPI_XMIT_L_TO_H = 0x4000 CKE = 1
+   setup_spi(SPI_MASTER|SPI_L_TO_H|SPI_CLK_DIV_4|SPI_XMIT_L_TO_H);//Mode = 0 that is CKP=0; CKE=1
+   /*
+   ext_int_edge( H_TO_L );  
+   ext_int_edge( 1, H_TO_L);
+   ext_int_edge( 2, H_TO_L);
+   enable_interrupts(INT_AD);
+   enable_interrupts(INT_EXT);
+   enable_interrupts(INT_EXT1);
+   enable_interrupts(INT_EXT2);
+   */
+   setup_timer_2 (T2_DIV_BY_16, 0xfa, 1);//step 16us, overflow 4ms
+   enable_interrupts(INT_TIMER2);
+   enable_interrupts(INT_TIMER1);
+   enable_interrupts(INT_RDA);
+   enable_interrupts(GLOBAL);
+   
+   ADCON1 = 0x0e;
+   // Configure I/O Directions
+   set_tris_a(0b10000001);// bat=in, clk=in
+   set_tris_b(0b00000100);//done = in
+   set_tris_c(0b10010000);//sdi=in, rx=in
+   set_tris_d(0b00000000);
+   set_tris_e(0b00000000);//mclr=in
+   
+   
+   
+   output_low(START);
+   output_low(RESET);
+   output_high(CSu);//EEPROM CS
+   output_bit(UART,FPGA);
+   output_low(eSDO);//EEPROM SDO
+   output_high(eSCLK);//EEPROM SCLK
+   
+   output_high(RESET);
+   delay_ms(1);
+   output_low(RESET);
+   delay_ms(10);
+   
+   
+   
+   
+   output_bit(UART,PC);
+   printf("Logger by Sajjad");
+   output_bit(UART,FPGA);
+   
+   
+   
+   
+   
+   
+   ReloadStatus();// reload variables from local mem
+   
+   GenStatus();// update the status
+   LcdInit();
+   LcdClear();
+   LcdGotoXY(2,1);
+   LcdWriteStr("            Data Logger ID:");
+   sprintf(s,"%u",Sid);LcdWriteStr(s);
+   delay_ms(3000);
+   
+   Display(REDY);
+
+   state = ready;
+     
+   while(true)
+   {
+      if(kflag)
+      {
+         kflag = 0;
+         
+         switch(rxChr+state)
+         {
+            //////////////////RIGHT//////////////////////////////////////////////
+            case rKey+ready:
+               LcdGotoXY(2,37);LcdWriteChar('-');
+               T2 = T/100;
+               T1 = T%100; T1=T1/10;
+               T0 = T%10;
+               state = hunderth;
+               break;
+            case rKey+hunderth:
+               LcdGotoXY(2,37);LcdWriteChar(T2+48);
+               LcdGotoXY(2,38);LcdWriteChar('-');
+               state = tenth;
+               break;
+            case rKey+tenth:
+               LcdGotoXY(2,38);LcdWriteChar(T1+48);
+               LcdGotoXY(2,39);LcdWriteChar('-');
+               state = unitary;
+               break;
+            case rKey+unitary:
+               LcdGotoXY(2,37);sprintf(s,"%03Lu",T);LcdWriteStr(s);
+               LcdGotoXY(4,1);LcdWriteStr("--");
+               state = sampling;
+               break;
+            case rKey+sampling:
+               LcdGotoXY(4,1);sprintf(s,"%02u",R);LcdWriteStr(s);
+               LcdGotoXY(4,11);LcdWriteStr("---");
+               state = impedance;
+               break;
+            case rKey+impedance:
+               LcdGotoXY(4,11);sprintf(s,"%3Lu",Z);LcdWriteStr(s);
+               LcdGotoXY(4,24);LcdWriteStr("----");
+               state = frequency;
+               break;
+            //////////////////LEFT//////////////////////////////////////////////
+           case lKey+ready:
+               WriteEE(0,EEP0);WriteEE(0,EEP1);
+               WriteEE(1,EEP0);WriteEE(1,EEP1);
+               WriteEE(2,EEP0);WriteEE(2,EEP1);
+               WriteEE(3,EEP0);WriteEE(3,EEP1);
+               RecStartAddr = 0;
+               RecStopAddr = 4;
+               Sel_UART(FPGA);
+               state = ready;
+               break;
+           case lKey+frequency:
+               LcdGotoXY(4,24);sprintf(s,"%4Lu",F);LcdWriteStr(s);
+               LcdGotoXY(4,11);LcdWriteStr("---");
+               state = impedance;
+               break;
+            case lKey+impedance:
+               LcdGotoXY(4,11);sprintf(s,"%3Lu",Z);LcdWriteStr(s);
+               LcdGotoXY(4,1);LcdWriteStr("--");
+               state = sampling;
+               break;
+            case lKey+sampling:
+               LcdGotoXY(4,1);sprintf(s,"%02u",R);LcdWriteStr(s);
+               LcdGotoXY(2,39);LcdWriteChar('-');
+               T0 = T%10;
+               T1 = T%100; T1=T1/10;
+               T2 = T/100;
+               state = unitary;
+               break;
+            case lKey+unitary:
+               LcdGotoXY(2,39);LcdWriteChar(T0+48);
+               LcdGotoXY(2,38);LcdWriteChar('-');
+               state = tenth;
+               break;
+            case lKey+tenth:
+               LcdGotoXY(2,38);LcdWriteChar(T1+48);
+               LcdGotoXY(2,37);LcdWriteChar('-');
+               state = hunderth;
+               break;
+            case lKey+hunderth:
+               LcdGotoXY(2,37);LcdWriteChar(T2+48);
+               state = ready;
+               break;
+            //return to main from menues
+            case lKey+mn_main:
+            case lKey+mn_acquire:
+            case lKey+mn_conn:
+            case lKey+mn_send:
+            case lKey+mn_erase:
+               Display(REDY);
+               state = ready;
+               break;
+            //////////////////UP//////////////////////////////////////////////
+            case uKey+ready:
+            /*
+               SendPage(0,EEP0); SendPage(0,EEP1);
+               SendPage(1,EEP0); SendPage(1,EEP1);
+               SendPage(2,EEP0); SendPage(2,EEP1);
+               SendPage(3,EEP0); SendPage(3,EEP1);
+               */
+               SendPage(31,EEP0); SendPage(31,EEP1);
+               SendPage(32,EEP0); SendPage(32,EEP1);
+               Sel_UART(FPGA);
+               state = ready;
+               break;
+            case uKey+mn_conn:
+               LcdGotoXY(1,11);LcdWriteChar('>');
+               LcdGotoXY(2,11);LcdWriteChar(' ');
+               state = mn_acquire;
+               break;
+            case uKey+mn_send:
+               LcdGotoXY(2,11);LcdWriteChar('>');
+               LcdGotoXY(3,11);LcdWriteChar(' ');
+               state = mn_conn;
+               break;
+            case uKey+mn_erase:
+               LcdGotoXY(3,11);LcdWriteChar('>');
+               LcdGotoXY(4,11);LcdWriteChar(' ');
+               state = mn_send;
+               break;
+            case uKey+unitary:
+               T0 = T0 + 1; 
+               if (T0==10) T0= 0;
+               LcdGotoXY(2,39);LcdWriteChar(T0+48);
+               break;
+            case uKey+tenth:
+               T1 = T1 + 1; 
+               if (T1==10) T1= 0;
+               LcdGotoXY(2,38);LcdWriteChar(T1+48);
+               break;
+            case uKey+hunderth:
+               T2 = T2 + 1; 
+               if (T2==10) T2= 0;
+               LcdGotoXY(2,37);LcdWriteChar(T2+48);
+               break;
+            case uKey+sampling:
+               if(R==1) R = 8;
+               else if (R==8) R = 16;
+               else if (R==16) R = 1;
+               LcdGotoXY(4,1);sprintf(s,"%02u",R);LcdWriteStr(s);
+               break;
+            case uKey+impedance:
+               if(Z==50) Z = 324;
+               else if (Z==324) Z = 50;
+               LcdGotoXY(4,11);sprintf(s,"%3Lu",Z);LcdWriteStr(s);
+               break;
+            case uKey+frequency:
+               if(F==400) F = 4000;
+               else if (F==4000) F = 400;
+               LcdGotoXY(4,24);sprintf(s,"%4Lu",F);LcdWriteStr(s);
+               break;
+            case uKey+mn_yes:
+               LcdGotoXY(3,11);LcdWriteChar(' ');
+               LcdGotoXY(2,11);LcdWriteChar('>');
+               state = mem_erase;
+               break;
+            //////////////////DOWN//////////////////////////////////////////////
+            case dKey+mn_main:
+               LcdGotoXY(1,11);LcdWriteChar('>');
+               state = mn_acquire;
+               break;
+            case dKey+mn_acquire:
+               LcdGotoXY(1,11);LcdWriteChar(' ');
+               LcdGotoXY(2,11);LcdWriteChar('>');
+               state = mn_conn;
+               break;
+            case dKey+mn_conn:
+               LcdGotoXY(2,11);LcdWriteChar(' ');
+               LcdGotoXY(3,11);LcdWriteChar('>');
+               state = mn_send;
+               break;
+            case dKey+mn_send:
+               LcdGotoXY(3,11);LcdWriteChar(' ');
+               LcdGotoXY(4,11);LcdWriteChar('>');
+               state = mn_erase;
+               break;
+            case dKey+unitary:
+               T0 = T0 - 1; 
+               if (T0== (-1)) T0= 9;
+               LcdGotoXY(2,39);LcdWriteChar(T0+48);
+               break;
+            case dKey+tenth:
+               T1 = T1 - 1; 
+               if (T1== (-1)) T1= 9;
+               LcdGotoXY(2,38);LcdWriteChar(T1+48);
+               break;
+            case dKey+hunderth:
+               T2 = T2 - 1; 
+               if (T2== (-1)) T2= 9;
+               LcdGotoXY(2,37);LcdWriteChar(T2+48);
+               break;
+            case dKey+sampling:
+               if(R==1) R = 8;
+               else if (R==8) R = 16;
+               else if (R==16) R = 1;
+               LcdGotoXY(4,1);sprintf(s,"%02u",R);LcdWriteStr(s);
+               break;
+            case dKey+impedance:
+               if(Z==50) Z = 324;
+               else if (Z==324) Z = 50;
+               LcdGotoXY(4,11);sprintf(s,"%3Lu",Z);LcdWriteStr(s);
+               break;
+            case dKey+frequency:
+               if(F==400) F = 4000;
+               else if (F==4000) F = 400;
+               LcdGotoXY(4,24);sprintf(s,"%4Lu",F);LcdWriteStr(s);
+               break;
+            case dKey+mem_erase:
+               LcdGotoXY(2,11);LcdWriteChar(' ');
+               LcdGotoXY(3,11);LcdWriteChar('>');
+               state = mn_yes;
+               break;
+            //////////////////OK//////////////////////////////////////////////
+            case oKey+ready:
+               LcdGotoXY(1,1);
+               LcdWriteStr("MENU:      1.Acquire Data               ");
+               LcdGotoXY(2,1);
+               LcdWriteStr("           2.Connect to PC              ");
+               LcdGotoXY(3,1);
+               LcdWriteStr("           3.Send Data                  ");
+               LcdGotoXY(4,1);
+               LcdWriteStr("           4.Erase Memory               ");
+               state = mn_main;
+               break;
+            case oKey+mn_acquire:
+            
+               output_high(RESET);
+               delay_ms(1);
+               output_low(RESET);
+   
+               Display(ACQR);
+               //read data from ADC and wait for data_done signal
+               Acquire();
+               
+               Display(REDY);
+               
+               LcdGotoXY(2,1);
+               sprintf(s,"%Lu",StartAddr);LcdWriteStr(s);
+               LcdWriteChar(' ');
+               sprintf(s,"%Lu",StopAddr);LcdWriteStr(s);
+               
+               state = ready;
+               break;
+            case oKey+mn_conn:
+               Sel_UART(PC);
+               SendCmd(CMD_CONECT|status);
+               
+               Start_TimeOut();
+               Display(CNCT);
+               
+               state = wait_cAck;
+               break;
+            case oKey+mn_send:
+               if(online)
+               {
+                  Display(SEND);
+                  record = 0;
+                  ReadRec(record);
+                  Start_TimeOut();
+                  
+                  LcdGotoXY(2,1);
+                  sprintf(s,"%Lu",RecStartAddr);LcdWriteStr(s);
+                  LcdWriteChar(' ');
+                  sprintf(s,"%Lu",RecStopAddr);LcdWriteStr(s);
+                  
+                  state = wait_sAck;
+               }
+               else
+               {
+                  LcdGotoXY(1,1);
+                  LcdWriteStr("Unconnected              ");
+                  delay_ms(2000);
+                  
+                  Display(REDY);
+                  state = ready;
+               }
+               break;
+            case oKey+mn_erase:
+               LcdGotoXY(1,1);
+               LcdWriteStr("MENU:      Erase Memory?                ");
+               LcdGotoXY(2,1);
+               LcdWriteStr("          >1.No                         ");
+               LcdGotoXY(3,1);
+               LcdWriteStr("           2.Yes                        ");
+               LcdGotoXY(4,1);
+               LcdWriteStr("                                        ");
+               state = mem_erase;
+               break;
+            case oKey+mn_yes:   
+               Display(ERAS);
+               EraseAll();
+               
+               Display(REDY);
+               state = ready;
+               break;
+            case oKey+unitary:
+            case oKey+tenth:
+            case oKey+hunderth:
+            case oKey+sampling:
+            case oKey+impedance:
+            case oKey+frequency:
+            //case oKey+mem_erase:
+               T = T2;
+               T = T*10 + T1;
+               T = T*10 + T0;
+               GenStatus();
+               Display(REDY);
+               state = ready;
+               break;
+            ////////////////////////////////////////////////////////////////
+            case cAck+wait_cAck://PC Connection ACK
+               online = 1;
+               Display(REDY);
+               Stop_TimeOut();
+               Sel_UART(FPGA);
+               state = ready;
+               break;
+            ////////////////////////////////////////////////////////////////
+            case sAck+wait_sAck://Status Ack
+               Stop_TimeOut();
+               //send pages from RecStartAddr to RecStopAddr
+               //send the first page
+               page = RecStartAddr;
+               SendPage(page,EEP0);
+               Start_TimeOut();
+               //Sel_UART(PC);
+               state = wait_pAck1;
+   
+               break;
+            ////////////////////////////////////////////////////////////////
+            case pAck+wait_pAck1://Page Ack
+               Stop_TimeOut();
+               //send the first page from second eeprom
+               SendPage(page,EEP1);
+               Start_TimeOut();
+               state = wait_pAck2;
+               break;
+            case pAck+wait_pAck2:
+               Stop_TimeOut();
+               //send the next pages
+               page++;
+               if(page<RecStopAddr)
+               {
+                  SendPage(page,EEP0);
+                  state = wait_pAck1;
+               }
+               else
+               {
+                  //Sel_UART(PC);
+                  SendCmd(CMD_EOF|status);
+                  state = wait_eAck;
+               }
+               Start_TimeOut();
+               break;
+            ////////////////////////////////////////////////////////////////
+            case eAck+wait_eAck:
+               Stop_TimeOut();               
+               record++;
+               if(record<Tid)
+               {
+                  ReadRec(record);
+                  
+                                    
+                  LcdGotoXY(2,1);
+                  sprintf(s,"%Lu",RecStartAddr);LcdWriteStr(s);
+                  LcdWriteChar(' ');
+                  sprintf(s,"%Lu",RecStopAddr);LcdWriteStr(s);
+                  
+                  state = wait_sAck;
+               }
+               else// a record completed
+               {
+                  
+                  SendCmd(CMD_EOF2|status);
+                  state = wait_eAck2;
+               }
+               Start_TimeOut();
+               break;
+            ////////////////////////////////////////////////////////////////
+            case eAck2+wait_eAck2:
+               Stop_TimeOut();               
+               // all record completed
+               Sel_UART(FPGA);
+               online = 0;
+               LcdGotoXY(1,1);
+               LcdWriteStr("Sent                     ");
+               delay_ms(2000);
+               
+               Display(REDY);
+               state = ready;
+               break;
+            ////////////////////////////////////////////////////////////////
+         }//sw key
+      }//kflag
+   if(expired)
+   {
+      expired = 0;
+      switch(state)
+      {
+         case wait_cAck:
+         case wait_sAck:
+         case wait_pAck1:
+         case wait_pAck2:
+         case wait_eAck:
+         case wait_eAck2:
+            Stop_TimeOut();
+            Sel_UART(FPGA);
+            online = 0;
+            
+            LcdGotoXY(1,1);
+            LcdWriteStr("Error!!!                 ");
+            delay_ms(2000);
+            
+            Display(REDY);
+            
+            state = ready;
+            break;
+      }//switch state
+   }//expired
+   }//while
+   
+}
+
+//          INTERUPT SERVICE ROUTINES
+#int_AD
+void  AD_isr(void) 
+{
+   /*
+   B=read_adc(ADC_READ_ONLY);
+   printf("%u ",B);
+   //if(B>245) B = 245;
+   if(B>204)
+   B = ((B - 205)/4)*10;
+   else B = 0;
+   //printf("%u\n\r",B);
+   if(state == ready)
+   {
+      LcdGotoXY(3,37);sprintf(s,"%3u",B);LcdWriteStr(s);
+   }
+   */
+}
+
+#INT_TIMER1
+void wave_timer() 
+{
+   set_timer1(0x3CB0);
+   cntms++;//200ms
+   if(cntms==50)
+   {
+      cntms = 0;
+      switch(state)
+      {
+         case wait_cAck:
+         case wait_sAck:
+         case wait_pAck1:
+         case wait_pAck2:
+         case wait_eAck:
+         case wait_eAck2:
+            expired = 1;
+            break;
+      }
+      
+   }
+}
+#INT_TIMER2
+void adc_timer() 
+{
+   cnt40ms++;
+   if(cnt40ms==50)
+   {
+      cnt40ms = 0;
+      B=read_adc();
+   }
+}
+#int_EXT
+void  EXT_Nibble_isr(void) 
+{  
+}
+
+#int_EXT2
+void  EXT2_busy_isr(void) 
+{
+}
+
+#int_EXT1
+void  EXT1_isr(void) 
+{
+}
+
+#int_RDA
+void  RDA_isr(void) 
+{
+   rxChr = getc();
+   rxChr= rxChr<<4;
+   kflag = 1;
+}
+
+

@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator G.23
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o d:\dnpr_data_logger\131114\fpga_logger_r0000//top -u 0 D:\DNPR_DATA_LOGGER\131114\FPGA_Logger_R0000\main.bit -x xc17v01 
+
+PROM d:\dnpr_data_logger\131114\fpga_logger_r0000//top.prm map: Fri Nov 14 15:46:36 2014
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          205K
+PROM start    0000:0000
+PROM end      0003:33ff
+PROM checksum 01551f21
+
+        Addr1        Addr2 File(s)
+    0000:0000    0002:8c43 D:/DNPR_DATA_LOGGER/131114/FPGA_Logger_R0000/main.bit

@@ -1,0 +1,28 @@
+Release 6.1i - ngdbuild G.23
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -intstyle ise -dd
+d:\dnpr_data_logger\131114\fpga_logger_r0000/_ngo -uc main_pins.ucf -p
+xc2s200-pq208-6 main.ngc main.ngd 
+
+Reading NGO file "D:/DNPR_DATA_LOGGER/131114/FPGA_Logger_R0000/main.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "main_pins.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+INFO:NgdBuild:526 - On the RAMB4_S8_S8 symbol "t1_ppb_dual_buff", the following
+   properties are undefined: INIT_00, INIT_01, INIT_02, INIT_03, INIT_04,
+   INIT_05, INIT_06, INIT_07, INIT_08, INIT_09, INIT_0A, INIT_0B, INIT_0C,
+   INIT_0D, INIT_0E, INIT_0F. A default value of all zeroes will be used.
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 40012 kilobytes
+
+Writing NGD file "main.ngd" ...
+
+Writing NGDBUILD log file "main.bld"...

@@ -1,0 +1,51 @@
+[Directories]
+Include=C:\Program Files\PICC\devices\;C:\Program Files\PICC\drivers\;
+Library=
+LinkerScript=
+[defines]
+enabled=0
+D1=
+V1=
+[fileformats]
+forcecoff=0
+debug=4
+error=2
+object=0
+list=0
+scratch=0
+sta=1
+tre=1
+allerrors=1
+allwarnings=1
+stayupne=3
+stayupoe=0
+[PROJECT]
+Target=logger.hex
+Development_Mode=
+Processor=0x8458
+Processor_Text=PIC18F458
+ToolSuite=CCS
+[Target Data]
+BuildTool=C-COMPILER
+OptionString=+FH
+AdditionalOptionString=
+BuildRequired=1
+FileList=D:\DNPR_DATA_LOGGER\131114\PIC_Logger_R1000\logger.c
+[logger.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+[mru-list]
+1=D:\DNPR_DATA_LOGGER\PIC_Logger_R1000\logger.c
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+[Opened Files]
+1=logger.c
+2=logger.h
+3=
+[Units]
+Count=1
+1=logger (main)

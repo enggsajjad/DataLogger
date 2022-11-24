@@ -1,0 +1,3 @@
+set ADucfFile {main_pins.ucf}
+set AD {}
+set ADcdcFile {}

@@ -1,0 +1,38 @@
+xst -intstyle ise -ifn __projnav/main.xst -ofn main.syr
+ngdbuild -intstyle ise -dd d:\dnpr_data_logger\fpga_logger_r0000/_ngo -uc main_pins.ucf  -p xc2s200-pq208-6 main.ngc main.ngd
+map -intstyle ise -p xc2s200-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o main_map.ncd main.ngd main.pcf
+par -w -intstyle ise -ol std -t 1 main_map.ncd main.ncd main.pcf
+trce -intstyle ise -e 3 -l 3 -xml main main.ncd -o main.twr main.pcf
+bitgen -intstyle ise -f main.ut main.ncd
+xst -intstyle ise -ifn __projnav/main.xst -ofn main.syr
+xst -intstyle ise -ifn __projnav/main.xst -ofn main.syr
+xst -intstyle ise -ifn __projnav/main.xst -ofn main.syr
+ngdbuild -intstyle ise -dd d:\dnpr_data_logger\131114\fpga_logger_r0000/_ngo -uc main_pins.ucf  -p xc2s200-pq208-6 main.ngc main.ngd
+ngdbuild -intstyle ise -dd d:\dnpr_data_logger\131114\fpga_logger_r0000/_ngo -uc main_pins.ucf  -p xc2s200-pq208-6 main.ngc main.ngd
+ngdbuild -intstyle ise -dd d:\dnpr_data_logger\131114\fpga_logger_r0000/_ngo -uc main_pins.ucf  -p xc2s200-pq208-6 main.ngc main.ngd
+xst -intstyle ise -ifn __projnav/main.xst -ofn main.syr
+ngdbuild -intstyle ise -dd d:\dnpr_data_logger\131114\fpga_logger_r0000/_ngo -uc main_pins.ucf  -p xc2s200-pq208-6 main.ngc main.ngd
+map -intstyle ise -p xc2s200-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o main_map.ncd main.ngd main.pcf
+par -w -intstyle ise -ol std -t 1 main_map.ncd main.ncd main.pcf
+trce -intstyle ise -e 3 -l 3 -xml main main.ncd -o main.twr main.pcf
+bitgen -intstyle ise -f main.ut main.ncd
+xst -intstyle ise -ifn __projnav/main.xst -ofn main.syr
+ngdbuild -intstyle ise -dd d:\dnpr_data_logger\131114\fpga_logger_r0000/_ngo -uc main_pins.ucf  -p xc2s200-pq208-6 main.ngc main.ngd
+xst -intstyle ise -ifn __projnav/main.xst -ofn main.syr
+ngdbuild -intstyle ise -dd d:\dnpr_data_logger\131114\fpga_logger_r0000/_ngo -uc main_pins.ucf  -p xc2s200-pq208-6 main.ngc main.ngd
+map -intstyle ise -p xc2s200-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o main_map.ncd main.ngd main.pcf
+par -w -intstyle ise -ol std -t 1 main_map.ncd main.ncd main.pcf
+trce -intstyle ise -e 3 -l 3 -xml main main.ncd -o main.twr main.pcf
+bitgen -intstyle ise -f main.ut main.ncd
+xst -intstyle ise -ifn __projnav/main.xst -ofn main.syr
+ngdbuild -intstyle ise -dd d:\dnpr_data_logger\131114\fpga_logger_r0000/_ngo -uc main_pins.ucf  -p xc2s200-pq208-6 main.ngc main.ngd
+map -intstyle ise -p xc2s200-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o main_map.ncd main.ngd main.pcf
+par -w -intstyle ise -ol std -t 1 main_map.ncd main.ncd main.pcf
+trce -intstyle ise -e 3 -l 3 -xml main main.ncd -o main.twr main.pcf
+bitgen -intstyle ise -f main.ut main.ncd
+xst -intstyle ise -ifn __projnav/main.xst -ofn main.syr
+ngdbuild -intstyle ise -dd d:\dnpr_data_logger\131114\fpga_logger_r0000/_ngo -uc main_pins.ucf  -p xc2s200-pq208-6 main.ngc main.ngd
+map -intstyle ise -p xc2s200-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o main_map.ncd main.ngd main.pcf
+par -w -intstyle ise -ol std -t 1 main_map.ncd main.ncd main.pcf
+trce -intstyle ise -e 3 -l 3 -xml main main.ncd -o main.twr main.pcf
+bitgen -intstyle ise -f main.ut main.ncd

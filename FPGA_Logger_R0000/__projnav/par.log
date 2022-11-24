@@ -1,0 +1,3 @@
+Place & Route Module main . . .
+PAR command line: par -w -intstyle ise -ol std -t 1 main_map.ncd main.ncd main.pcf
+PAR completed successfully

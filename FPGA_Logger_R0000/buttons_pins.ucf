@@ -1,0 +1,9 @@
+NET "clk" LOC = "p77";
+NET "reset" LOC = "p151";
+NET "tx" LOC = "p179";
+NET "sw<0>" LOC = "p3";
+NET "sw<1>" LOC = "p4";
+NET "sw<2>" LOC = "p6";
+NET "sw<3>" LOC = "p8";
+NET "sw<4>" LOC = "p10";
+

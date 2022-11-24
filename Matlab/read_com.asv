@@ -1,0 +1,30 @@
+clc
+clear all
+clf
+close all
+clear all
+
+
+oldSerial= instrfind;
+delete(oldSerial);
+clear oldSerial
+s=serial('COM2','BaudRate',57600,)
+%s.OutputBufferSize=1;
+%s.InputBufferSize=1;
+fopen(s)
+pause(1)
+state = 1;
+switch(state)
+    case 1
+        c = fread(s,1)
+        if(c==176)
+            state = 2;
+        else
+            state = 1;
+        end
+    case 2
+        c = fread(s,6)
+        fwrite(s,176)
+end
+
+fclose(s)

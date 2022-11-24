@@ -1,0 +1,151 @@
+
+Constraints file: main.pcf
+
+Loading device database for application Par from file "main_map.ncd".
+   "main" is an NCD, version 2.38, device xc2s200, package pq208, speed -6
+Loading device for application Par from file 'v200.nph' in environment
+C:/Xilinx.
+Device speed data version:  PRODUCTION 1.27 2003-06-19.
+
+
+Resolved that IOB <CLK1> must be placed at site P164.
+Resolved that IOB <sw<0>> must be placed at site P3.
+Resolved that IOB <sw<1>> must be placed at site P5.
+Resolved that IOB <sw<2>> must be placed at site P7.
+Resolved that IOB <sw<3>> must be placed at site P9.
+Resolved that IOB <data_done> must be placed at site P61.
+Resolved that IOB <sw<4>> must be placed at site P14.
+Resolved that IOB <RXpc> must be placed at site P147.
+Resolved that IOB <TXpc> must be placed at site P148.
+Resolved that IOB <SCLK1> must be placed at site P162.
+Resolved that IOB <pCLK> must be placed at site P111.
+Resolved that IOB <reset> must be placed at site P68.
+Resolved that IOB <SCLKe> must be placed at site P43.
+Resolved that IOB <SDINe> must be placed at site P45.
+Resolved that IOB <SCLKu> must be placed at site P94.
+Resolved that IOB <SDINu> must be placed at site P90.
+Resolved that IOB <start_pulse> must be placed at site P63.
+Resolved that IOB <CS1> must be placed at site P168.
+Resolved that IOB <SYNC1> must be placed at site P178.
+Resolved that IOB <CSu> must be placed at site P100.
+Resolved that IOB <sel_uart> must be placed at site P109.
+Resolved that IOB <RXu> must be placed at site P84.
+Resolved that IOB <TXu> must be placed at site P86.
+Resolved that IOB <relayAn> must be placed at site P201.
+Resolved that IOB <relayAp> must be placed at site P199.
+Resolved that IOB <relayBn> must be placed at site P205.
+Resolved that IOB <CSe<0>> must be placed at site P49.
+Resolved that IOB <relayBp> must be placed at site P203.
+Resolved that IOB <CSe<1>> must be placed at site P41.
+Resolved that GCLKIOB <clk> must be placed at site P182.
+Resolved that IOB <nDRDY> must be placed at site P172.
+Resolved that IOB <SDOUT1> must be placed at site P174.
+Resolved that IOB <filter_clk> must be placed at site P176.
+Resolved that IOB <SDOUTe> must be placed at site P47.
+Resolved that IOB <SDOUTu> must be placed at site P88.
+
+
+Device utilization summary:
+
+   Number of External GCLKIOBs         1 out of 4      25%
+   Number of External IOBs            36 out of 140    25%
+      Number of LOCed External IOBs   34 out of 36     94%
+
+   Number of BLOCKRAMs                 1 out of 14      7%
+   Number of SLICEs                  346 out of 2352   14%
+
+   Number of GCLKs                     1 out of 4      25%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Phase 1.1
+Phase 1.1 (Checksum:98a609) REAL time: 0 secs 
+
+Phase 2.23
+Phase 2.23 (Checksum:1312cfe) REAL time: 0 secs 
+
+Phase 3.3
+Phase 3.3 (Checksum:1c9c37d) REAL time: 0 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.8
+........................
+Phase 5.8 (Checksum:9fe5fb) REAL time: 2 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 2 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 2 secs 
+
+Writing design to file main.ncd.
+
+Total REAL time to Placer completion: 2 secs 
+Total CPU time to Placer completion: 1 secs 
+
+
+Phase 1: 2396 unrouted;       REAL time: 2 secs 
+
+Phase 2: 2092 unrouted;       REAL time: 14 secs 
+
+Phase 3: 537 unrouted;       REAL time: 15 secs 
+
+Phase 4: 0 unrouted;       REAL time: 15 secs 
+
+Total REAL time to Router completion: 15 secs 
+Total CPU time to Router completion: 14 secs 
+
+Generating "par" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++----------------------------+----------+--------+------------+-------------+
+|         Clock Net          | Resource | Fanout |Net Skew(ns)|Max Delay(ns)|
++----------------------------+----------+--------+------------+-------------+
+|         clk_BUFGP          |  Global  |  270   |  0.358     |  0.566      |
++----------------------------+----------+--------+------------+-------------+
+
+
+   The Delay Summary Report
+
+   The SCORE FOR THIS DESIGN is: 188
+
+
+The NUMBER OF SIGNALS NOT COMPLETELY ROUTED for this design is: 0
+
+   The AVERAGE CONNECTION DELAY for this design is:        1.180
+   The MAXIMUM PIN DELAY IS:                               5.575
+   The AVERAGE CONNECTION DELAY on the 10 WORST NETS is:   3.485
+
+   Listing Pin Delays by value: (nsec)
+
+    d < 1.00   < d < 2.00  < d < 3.00  < d < 4.00  < d < 6.00  d >= 6.00
+   ---------   ---------   ---------   ---------   ---------   ---------
+        1235         880         199          52          30           0
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 16 secs 
+Total CPU time to PAR completion: 14 secs 
+
+Peak Memory Usage:  65 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Writing design to file main.ncd.
+
+
+PAR done.

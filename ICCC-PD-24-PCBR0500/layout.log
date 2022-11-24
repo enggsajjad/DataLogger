@@ -1,0 +1,1640 @@
+Thu Oct 02 12:49:06 Log file reset
+Thu Oct 02 12:49:06 Loaded file BACKUP0.MAX
+Thu Oct 02 12:49:06 Error code 0021.420 (312)
+Thu Oct 02 12:49:06 Windows which were open at time of error:
+Thu Oct 02 12:49:06 End-of-list
+Thu Oct 02 12:52:19 Saved as file BACKUP1.MAX
+Thu Oct 02 12:52:19 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-60.MAX
+Thu Oct 02 12:52:20 UserDiv from Layout.INI for AutoECO: 60
+Thu Oct 02 12:52:20 Loaded file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-60.MAX
+Thu Oct 02 12:52:20 Loaded file E:\DATA LOGGER\DATA LOGGER-20.MAX
+Thu Oct 02 12:52:20 Loaded file F:\MUSHTAQ LIB\INALONG_INPUT.LLB
+Thu Oct 02 12:52:20 Loaded file F:\MUSHTAQ LIB\DATA LOGGER.LLB
+Thu Oct 02 12:52:20 Loaded file F:\MUSHTAQ PCB\SAEED AHMED\DIGITAL OUTPUT CARD\DIGITAL OUTPUT CARDR1\DIGITAL OUTPUT CARD.MAX
+Thu Oct 02 12:52:21 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\CHRONO96.LLB
+Thu Oct 02 12:52:21 Loaded file F:\MUSHTAQ PCB\NEW FOLDER\CHILLER CARD\CHILLER CARD-13.MAX
+Thu Oct 02 12:52:21 Loaded file F:\MUSHTAQ LIB\COMMON.LLB
+Thu Oct 02 12:52:21 Loaded file F:\MUSHTAQ LIB\BILAL.LLB
+Thu Oct 02 12:52:21 Loaded file F:\MUSHTAQ PCB\MUSHTAQ DOC\PCB'S\FPGA MODULE S3\FPGA\MODULE_FIANL4-32.MAX
+Thu Oct 02 12:52:21 Loaded file F:\MUSHTAQ PCB\NEW FOLDER\DIGITAL INPUT CARD\DIGITAL INPUT CARD.MAX
+Thu Oct 02 12:52:21 Loaded file F:\MUSHTAQ LIB\GENRAL.LLB
+Thu Oct 02 12:52:21 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Thu Oct 02 12:52:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON100T.llb
+Thu Oct 02 12:52:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON156T.llb
+Thu Oct 02 12:52:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BGA.llb
+Thu Oct 02 12:52:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\CLCC.llb
+Thu Oct 02 12:52:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON050T.llb
+Thu Oct 02 12:52:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON085T.llb
+Thu Oct 02 12:52:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050F.llb
+Thu Oct 02 12:52:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050T.llb
+Thu Oct 02 12:52:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIN.llb
+Thu Oct 02 12:52:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100B.llb
+Thu Oct 02 12:52:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100T.llb
+Thu Oct 02 12:52:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT.llb
+Thu Oct 02 12:52:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT_HD.LLB
+Thu Oct 02 12:52:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ECON100T.llb
+Thu Oct 02 12:52:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\FBUS.llb
+Thu Oct 02 12:52:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ISA.llb
+Thu Oct 02 12:52:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\JUMPER.LLB
+Thu Oct 02 12:52:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LAYOUT.llb
+Thu Oct 02 12:52:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LCON100T.llb
+Thu Oct 02 12:52:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PC104.llb
+Thu Oct 02 12:52:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCI.llb
+Thu Oct 02 12:52:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON100T.llb
+Thu Oct 02 12:52:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON156T.llb
+Thu Oct 02 12:52:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PGA.llb
+Thu Oct 02 12:52:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PLCC.llb
+Thu Oct 02 12:52:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUAD.llb
+Thu Oct 02 12:52:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUADB.llb
+Thu Oct 02 12:52:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RELAY.llb
+Thu Oct 02 12:52:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RF.llb
+Thu Oct 02 12:52:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SBUS.llb
+Thu Oct 02 12:52:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050F.llb
+Thu Oct 02 12:52:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050T.llb
+Thu Oct 02 12:52:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100F.llb
+Thu Oct 02 12:52:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100T.llb
+Thu Oct 02 12:52:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIP.llb
+Thu Oct 02 12:52:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SM.llb
+Thu Oct 02 12:52:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOG.llb
+Thu Oct 02 12:52:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOJ.llb
+Thu Oct 02 12:52:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\STIFF.llb
+Thu Oct 02 12:52:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TELE.llb
+Thu Oct 02 12:52:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_AXIAL.llb
+Thu Oct 02 12:52:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CAP_P.llb
+Thu Oct 02 12:52:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CYLND.llb
+Thu Oct 02 12:52:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DIODE.llb
+Thu Oct 02 12:52:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DISC.llb
+Thu Oct 02 12:52:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_RAD.llb
+Thu Oct 02 12:52:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TO.llb
+Thu Oct 02 12:52:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TRAINING.LLB
+Thu Oct 02 12:52:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\VRES.llb
+Thu Oct 02 12:52:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\WCON100T.llb
+Thu Oct 02 12:52:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\XT.llb
+Thu Oct 02 12:52:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ZIGZAG.llb
+Thu Oct 02 12:52:28 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-61.MAX
+Thu Oct 02 12:52:28 Loaded file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-61.MAX
+Thu Oct 02 12:58:28 Saved as file ~undo.max
+Thu Oct 02 12:58:31 Saved as file ~undo.max
+Thu Oct 02 12:58:57 Saved as file ~undo.max
+Thu Oct 02 12:59:22 Saved as file ~undo.max
+Thu Oct 02 13:00:18 Saved as file BACKUP1.MAX
+Thu Oct 02 13:00:28 Saved as file ~undo.max
+Thu Oct 02 13:01:17 Saved as file ~undo.max
+Thu Oct 02 13:01:43 Saved as file ~undo.max
+Thu Oct 02 13:01:56 Saved as file ~undo.max
+Thu Oct 02 13:02:15 Saved as file ~undo.max
+Thu Oct 02 13:02:27 Saved as file ~undo.max
+Thu Oct 02 13:02:31 Saved as file ~undo.max
+Thu Oct 02 13:04:59 Saved as file ~undo.max
+Thu Oct 02 13:05:25 Saved as file ~undo.max
+Thu Oct 02 13:05:55 Saved as file ~undo.max
+Thu Oct 02 13:06:27 Saved as file ~undo.max
+Thu Oct 02 13:10:48 Saved as file BACKUP1.MAX
+Thu Oct 02 13:13:56 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-61.MAX
+Thu Oct 02 13:15:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Thu Oct 02 13:15:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Thu Oct 02 13:15:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Thu Oct 02 13:15:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Thu Oct 02 13:15:15 Saved as file ~undo.max
+Thu Oct 02 13:21:18 Saved as file BACKUP1.MAX
+Thu Oct 02 13:25:01 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Thu Oct 02 13:25:01 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Thu Oct 02 13:25:03 Loaded file E:\DATA LOGGER\DATA LOGGER-20.MAX
+Thu Oct 02 13:25:03 Loaded file F:\MUSHTAQ LIB\INALONG_INPUT.LLB
+Thu Oct 02 13:25:03 Loaded file F:\MUSHTAQ LIB\DATA LOGGER.LLB
+Thu Oct 02 13:25:03 Loaded file F:\MUSHTAQ PCB\SAEED AHMED\DIGITAL OUTPUT CARD\DIGITAL OUTPUT CARDR1\DIGITAL OUTPUT CARD.MAX
+Thu Oct 02 13:25:03 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\CHRONO96.LLB
+Thu Oct 02 13:25:03 Loaded file F:\MUSHTAQ PCB\NEW FOLDER\CHILLER CARD\CHILLER CARD-13.MAX
+Thu Oct 02 13:25:03 Loaded file F:\MUSHTAQ LIB\COMMON.LLB
+Thu Oct 02 13:25:03 Loaded file F:\MUSHTAQ LIB\BILAL.LLB
+Thu Oct 02 13:25:03 Loaded file F:\MUSHTAQ PCB\MUSHTAQ DOC\PCB'S\FPGA MODULE S3\FPGA\MODULE_FIANL4-32.MAX
+Thu Oct 02 13:25:03 Loaded file F:\MUSHTAQ PCB\NEW FOLDER\DIGITAL INPUT CARD\DIGITAL INPUT CARD.MAX
+Thu Oct 02 13:25:03 Loaded file F:\MUSHTAQ LIB\GENRAL.LLB
+Thu Oct 02 13:25:03 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Thu Oct 02 13:25:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON100T.llb
+Thu Oct 02 13:25:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON156T.llb
+Thu Oct 02 13:25:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BGA.llb
+Thu Oct 02 13:25:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\CLCC.llb
+Thu Oct 02 13:25:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON050T.llb
+Thu Oct 02 13:25:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON085T.llb
+Thu Oct 02 13:25:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050F.llb
+Thu Oct 02 13:25:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050T.llb
+Thu Oct 02 13:25:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIN.llb
+Thu Oct 02 13:25:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100B.llb
+Thu Oct 02 13:25:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100T.llb
+Thu Oct 02 13:25:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT.llb
+Thu Oct 02 13:25:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT_HD.LLB
+Thu Oct 02 13:25:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ECON100T.llb
+Thu Oct 02 13:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\FBUS.llb
+Thu Oct 02 13:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ISA.llb
+Thu Oct 02 13:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\JUMPER.LLB
+Thu Oct 02 13:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LAYOUT.llb
+Thu Oct 02 13:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LCON100T.llb
+Thu Oct 02 13:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PC104.llb
+Thu Oct 02 13:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCI.llb
+Thu Oct 02 13:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON100T.llb
+Thu Oct 02 13:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON156T.llb
+Thu Oct 02 13:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PGA.llb
+Thu Oct 02 13:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PLCC.llb
+Thu Oct 02 13:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUAD.llb
+Thu Oct 02 13:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUADB.llb
+Thu Oct 02 13:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RELAY.llb
+Thu Oct 02 13:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RF.llb
+Thu Oct 02 13:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SBUS.llb
+Thu Oct 02 13:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050F.llb
+Thu Oct 02 13:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050T.llb
+Thu Oct 02 13:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100F.llb
+Thu Oct 02 13:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100T.llb
+Thu Oct 02 13:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIP.llb
+Thu Oct 02 13:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SM.llb
+Thu Oct 02 13:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOG.llb
+Thu Oct 02 13:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOJ.llb
+Thu Oct 02 13:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\STIFF.llb
+Thu Oct 02 13:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TELE.llb
+Thu Oct 02 13:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_AXIAL.llb
+Thu Oct 02 13:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CAP_P.llb
+Thu Oct 02 13:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CYLND.llb
+Thu Oct 02 13:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DIODE.llb
+Thu Oct 02 13:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DISC.llb
+Thu Oct 02 13:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_RAD.llb
+Thu Oct 02 13:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TO.llb
+Thu Oct 02 13:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TRAINING.LLB
+Thu Oct 02 13:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\VRES.llb
+Thu Oct 02 13:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\WCON100T.llb
+Thu Oct 02 13:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\XT.llb
+Thu Oct 02 13:25:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ZIGZAG.llb
+Thu Oct 02 13:25:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Thu Oct 02 13:25:11 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Thu Oct 02 13:25:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Thu Oct 02 13:25:16 Saved as file ~undo.max
+Thu Oct 02 13:25:24 Saved as file ~undo2.max
+Thu Oct 02 13:25:24 Loaded file ~undo.max
+Thu Oct 02 13:31:48 Saved as file BACKUP1.MAX
+Thu Oct 02 13:42:18 Saved as file BACKUP1.MAX
+Thu Oct 02 13:46:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Thu Oct 02 13:46:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Thu Oct 02 13:46:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Thu Oct 02 13:46:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Thu Oct 02 13:46:59 Loaded file E:\DATA LOGGER\DATA LOGGER-20.MAX
+Thu Oct 02 13:46:59 Loaded file F:\MUSHTAQ LIB\INALONG_INPUT.LLB
+Thu Oct 02 13:46:59 Loaded file F:\MUSHTAQ LIB\DATA LOGGER.LLB
+Thu Oct 02 13:46:59 Loaded file F:\MUSHTAQ PCB\SAEED AHMED\DIGITAL OUTPUT CARD\DIGITAL OUTPUT CARDR1\DIGITAL OUTPUT CARD.MAX
+Thu Oct 02 13:46:59 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\CHRONO96.LLB
+Thu Oct 02 13:46:59 Loaded file F:\MUSHTAQ PCB\NEW FOLDER\CHILLER CARD\CHILLER CARD-13.MAX
+Thu Oct 02 13:46:59 Loaded file F:\MUSHTAQ LIB\COMMON.LLB
+Thu Oct 02 13:46:59 Loaded file F:\MUSHTAQ LIB\BILAL.LLB
+Thu Oct 02 13:46:59 Loaded file F:\MUSHTAQ PCB\MUSHTAQ DOC\PCB'S\FPGA MODULE S3\FPGA\MODULE_FIANL4-32.MAX
+Thu Oct 02 13:47:00 Loaded file F:\MUSHTAQ PCB\NEW FOLDER\DIGITAL INPUT CARD\DIGITAL INPUT CARD.MAX
+Thu Oct 02 13:47:00 Loaded file F:\MUSHTAQ LIB\GENRAL.LLB
+Thu Oct 02 13:47:00 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON100T.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON156T.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BGA.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\CLCC.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON050T.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON085T.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050F.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050T.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIN.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100B.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100T.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT_HD.LLB
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ECON100T.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\FBUS.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ISA.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\JUMPER.LLB
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LAYOUT.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LCON100T.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PC104.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCI.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON100T.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON156T.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PGA.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PLCC.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUAD.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUADB.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RELAY.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RF.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SBUS.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050F.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050T.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100F.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100T.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIP.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SM.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOG.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOJ.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\STIFF.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TELE.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_AXIAL.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CAP_P.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CYLND.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DIODE.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DISC.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_RAD.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TO.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TRAINING.LLB
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\VRES.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\WCON100T.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\XT.llb
+Thu Oct 02 13:47:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ZIGZAG.llb
+Thu Oct 02 13:47:06 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Thu Oct 02 13:47:15 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Thu Oct 02 13:47:17 Saved as file ~undo.max
+Thu Oct 02 13:47:26 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-61.MAX
+Thu Oct 02 13:47:51 Saved as file BACKUP1.MAX
+Thu Oct 02 13:47:51 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-61.MAX
+Thu Oct 02 13:47:52 UserDiv from Layout.INI for AutoECO: 60
+Thu Oct 02 13:47:52 Loaded file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-61.MAX
+Thu Oct 02 13:47:52 Loaded file E:\DATA LOGGER\DATA LOGGER-20.MAX
+Thu Oct 02 13:47:52 Loaded file F:\MUSHTAQ LIB\INALONG_INPUT.LLB
+Thu Oct 02 13:47:52 Loaded file F:\MUSHTAQ LIB\DATA LOGGER.LLB
+Thu Oct 02 13:47:52 Loaded file F:\MUSHTAQ PCB\SAEED AHMED\DIGITAL OUTPUT CARD\DIGITAL OUTPUT CARDR1\DIGITAL OUTPUT CARD.MAX
+Thu Oct 02 13:47:52 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\CHRONO96.LLB
+Thu Oct 02 13:47:52 Loaded file F:\MUSHTAQ PCB\NEW FOLDER\CHILLER CARD\CHILLER CARD-13.MAX
+Thu Oct 02 13:47:52 Loaded file F:\MUSHTAQ LIB\COMMON.LLB
+Thu Oct 02 13:47:52 Loaded file F:\MUSHTAQ LIB\BILAL.LLB
+Thu Oct 02 13:47:52 Loaded file F:\MUSHTAQ PCB\MUSHTAQ DOC\PCB'S\FPGA MODULE S3\FPGA\MODULE_FIANL4-32.MAX
+Thu Oct 02 13:47:52 Loaded file F:\MUSHTAQ PCB\NEW FOLDER\DIGITAL INPUT CARD\DIGITAL INPUT CARD.MAX
+Thu Oct 02 13:47:53 Loaded file F:\MUSHTAQ LIB\GENRAL.LLB
+Thu Oct 02 13:47:53 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Thu Oct 02 13:47:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON100T.llb
+Thu Oct 02 13:47:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON156T.llb
+Thu Oct 02 13:47:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BGA.llb
+Thu Oct 02 13:47:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\CLCC.llb
+Thu Oct 02 13:47:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON050T.llb
+Thu Oct 02 13:47:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON085T.llb
+Thu Oct 02 13:47:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050F.llb
+Thu Oct 02 13:47:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050T.llb
+Thu Oct 02 13:47:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIN.llb
+Thu Oct 02 13:47:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100B.llb
+Thu Oct 02 13:47:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100T.llb
+Thu Oct 02 13:47:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT.llb
+Thu Oct 02 13:47:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT_HD.LLB
+Thu Oct 02 13:47:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ECON100T.llb
+Thu Oct 02 13:47:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\FBUS.llb
+Thu Oct 02 13:47:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ISA.llb
+Thu Oct 02 13:47:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\JUMPER.LLB
+Thu Oct 02 13:47:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LAYOUT.llb
+Thu Oct 02 13:47:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LCON100T.llb
+Thu Oct 02 13:47:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PC104.llb
+Thu Oct 02 13:47:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCI.llb
+Thu Oct 02 13:47:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON100T.llb
+Thu Oct 02 13:47:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON156T.llb
+Thu Oct 02 13:47:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PGA.llb
+Thu Oct 02 13:47:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PLCC.llb
+Thu Oct 02 13:47:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUAD.llb
+Thu Oct 02 13:47:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUADB.llb
+Thu Oct 02 13:47:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RELAY.llb
+Thu Oct 02 13:47:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RF.llb
+Thu Oct 02 13:47:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SBUS.llb
+Thu Oct 02 13:47:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050F.llb
+Thu Oct 02 13:47:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050T.llb
+Thu Oct 02 13:47:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100F.llb
+Thu Oct 02 13:47:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100T.llb
+Thu Oct 02 13:47:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIP.llb
+Thu Oct 02 13:47:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SM.llb
+Thu Oct 02 13:47:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOG.llb
+Thu Oct 02 13:47:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOJ.llb
+Thu Oct 02 13:47:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\STIFF.llb
+Thu Oct 02 13:47:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TELE.llb
+Thu Oct 02 13:47:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_AXIAL.llb
+Thu Oct 02 13:47:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CAP_P.llb
+Thu Oct 02 13:47:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CYLND.llb
+Thu Oct 02 13:47:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DIODE.llb
+Thu Oct 02 13:47:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DISC.llb
+Thu Oct 02 13:47:54 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_RAD.llb
+Thu Oct 02 13:47:54 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TO.llb
+Thu Oct 02 13:47:54 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TRAINING.LLB
+Thu Oct 02 13:47:54 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\VRES.llb
+Thu Oct 02 13:47:54 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\WCON100T.llb
+Thu Oct 02 13:47:54 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\XT.llb
+Thu Oct 02 13:47:54 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ZIGZAG.llb
+Thu Oct 02 13:47:54 Loaded file F:\MUSHTAQ LIB\GENRAL.LLB
+Thu Oct 02 13:47:55 Loaded file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-61.MAX
+Thu Oct 02 13:47:55 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-61.MAX
+Thu Oct 02 13:47:55 Loaded file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-61.MAX
+Thu Oct 02 13:48:14 Saved as file BACKUP1.MAX
+Thu Oct 02 13:48:14 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-61.MAX
+Thu Oct 02 13:48:16 UserDiv from Layout.INI for AutoECO: 60
+Thu Oct 02 13:48:16 Loaded file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-61.MAX
+Thu Oct 02 13:48:16 Loaded file E:\DATA LOGGER\DATA LOGGER-20.MAX
+Thu Oct 02 13:48:16 Loaded file F:\MUSHTAQ LIB\INALONG_INPUT.LLB
+Thu Oct 02 13:48:16 Loaded file F:\MUSHTAQ LIB\DATA LOGGER.LLB
+Thu Oct 02 13:48:16 Loaded file F:\MUSHTAQ PCB\SAEED AHMED\DIGITAL OUTPUT CARD\DIGITAL OUTPUT CARDR1\DIGITAL OUTPUT CARD.MAX
+Thu Oct 02 13:48:16 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\CHRONO96.LLB
+Thu Oct 02 13:48:16 Loaded file F:\MUSHTAQ PCB\NEW FOLDER\CHILLER CARD\CHILLER CARD-13.MAX
+Thu Oct 02 13:48:16 Loaded file F:\MUSHTAQ LIB\COMMON.LLB
+Thu Oct 02 13:48:16 Loaded file F:\MUSHTAQ LIB\BILAL.LLB
+Thu Oct 02 13:48:16 Loaded file F:\MUSHTAQ PCB\MUSHTAQ DOC\PCB'S\FPGA MODULE S3\FPGA\MODULE_FIANL4-32.MAX
+Thu Oct 02 13:48:16 Loaded file F:\MUSHTAQ PCB\NEW FOLDER\DIGITAL INPUT CARD\DIGITAL INPUT CARD.MAX
+Thu Oct 02 13:48:17 Loaded file F:\MUSHTAQ LIB\GENRAL.LLB
+Thu Oct 02 13:48:17 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Thu Oct 02 13:48:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON100T.llb
+Thu Oct 02 13:48:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON156T.llb
+Thu Oct 02 13:48:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BGA.llb
+Thu Oct 02 13:48:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\CLCC.llb
+Thu Oct 02 13:48:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON050T.llb
+Thu Oct 02 13:48:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON085T.llb
+Thu Oct 02 13:48:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050F.llb
+Thu Oct 02 13:48:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050T.llb
+Thu Oct 02 13:48:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIN.llb
+Thu Oct 02 13:48:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100B.llb
+Thu Oct 02 13:48:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100T.llb
+Thu Oct 02 13:48:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT.llb
+Thu Oct 02 13:48:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT_HD.LLB
+Thu Oct 02 13:48:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ECON100T.llb
+Thu Oct 02 13:48:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\FBUS.llb
+Thu Oct 02 13:48:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ISA.llb
+Thu Oct 02 13:48:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\JUMPER.LLB
+Thu Oct 02 13:48:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LAYOUT.llb
+Thu Oct 02 13:48:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LCON100T.llb
+Thu Oct 02 13:48:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PC104.llb
+Thu Oct 02 13:48:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCI.llb
+Thu Oct 02 13:48:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON100T.llb
+Thu Oct 02 13:48:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON156T.llb
+Thu Oct 02 13:48:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PGA.llb
+Thu Oct 02 13:48:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PLCC.llb
+Thu Oct 02 13:48:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUAD.llb
+Thu Oct 02 13:48:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUADB.llb
+Thu Oct 02 13:48:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RELAY.llb
+Thu Oct 02 13:48:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RF.llb
+Thu Oct 02 13:48:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SBUS.llb
+Thu Oct 02 13:48:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050F.llb
+Thu Oct 02 13:48:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050T.llb
+Thu Oct 02 13:48:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100F.llb
+Thu Oct 02 13:48:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100T.llb
+Thu Oct 02 13:48:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIP.llb
+Thu Oct 02 13:48:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SM.llb
+Thu Oct 02 13:48:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOG.llb
+Thu Oct 02 13:48:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOJ.llb
+Thu Oct 02 13:48:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\STIFF.llb
+Thu Oct 02 13:48:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TELE.llb
+Thu Oct 02 13:48:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_AXIAL.llb
+Thu Oct 02 13:48:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CAP_P.llb
+Thu Oct 02 13:48:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CYLND.llb
+Thu Oct 02 13:48:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DIODE.llb
+Thu Oct 02 13:48:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DISC.llb
+Thu Oct 02 13:48:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_RAD.llb
+Thu Oct 02 13:48:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TO.llb
+Thu Oct 02 13:48:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TRAINING.LLB
+Thu Oct 02 13:48:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\VRES.llb
+Thu Oct 02 13:48:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\WCON100T.llb
+Thu Oct 02 13:48:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\XT.llb
+Thu Oct 02 13:48:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ZIGZAG.llb
+Thu Oct 02 13:48:18 Loaded file F:\MUSHTAQ LIB\GENRAL.LLB
+Thu Oct 02 13:48:26 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-62.MAX
+Thu Oct 02 13:48:26 Loaded file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-62.MAX
+Thu Oct 02 13:52:48 Saved as file BACKUP1.MAX
+Thu Oct 02 13:52:57 Saved as file BACKUP1.MAX
+Thu Oct 02 13:52:57 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-62.MAX
+Thu Oct 02 13:53:00 UserDiv from Layout.INI for AutoECO: 60
+Thu Oct 02 13:53:00 Loaded file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-62.MAX
+Thu Oct 02 13:53:00 Loaded file E:\DATA LOGGER\DATA LOGGER-20.MAX
+Thu Oct 02 13:53:00 Loaded file F:\MUSHTAQ LIB\INALONG_INPUT.LLB
+Thu Oct 02 13:53:00 Loaded file F:\MUSHTAQ LIB\DATA LOGGER.LLB
+Thu Oct 02 13:53:00 Loaded file F:\MUSHTAQ PCB\SAEED AHMED\DIGITAL OUTPUT CARD\DIGITAL OUTPUT CARDR1\DIGITAL OUTPUT CARD.MAX
+Thu Oct 02 13:53:00 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\CHRONO96.LLB
+Thu Oct 02 13:53:00 Loaded file F:\MUSHTAQ PCB\NEW FOLDER\CHILLER CARD\CHILLER CARD-13.MAX
+Thu Oct 02 13:53:00 Loaded file F:\MUSHTAQ LIB\COMMON.LLB
+Thu Oct 02 13:53:00 Loaded file F:\MUSHTAQ LIB\BILAL.LLB
+Thu Oct 02 13:53:00 Loaded file F:\MUSHTAQ PCB\MUSHTAQ DOC\PCB'S\FPGA MODULE S3\FPGA\MODULE_FIANL4-32.MAX
+Thu Oct 02 13:53:00 Loaded file F:\MUSHTAQ PCB\NEW FOLDER\DIGITAL INPUT CARD\DIGITAL INPUT CARD.MAX
+Thu Oct 02 13:53:01 Loaded file F:\MUSHTAQ LIB\GENRAL.LLB
+Thu Oct 02 13:53:01 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Thu Oct 02 13:53:01 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON100T.llb
+Thu Oct 02 13:53:01 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON156T.llb
+Thu Oct 02 13:53:01 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BGA.llb
+Thu Oct 02 13:53:01 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\CLCC.llb
+Thu Oct 02 13:53:01 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON050T.llb
+Thu Oct 02 13:53:01 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON085T.llb
+Thu Oct 02 13:53:01 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050F.llb
+Thu Oct 02 13:53:01 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050T.llb
+Thu Oct 02 13:53:01 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIN.llb
+Thu Oct 02 13:53:01 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100B.llb
+Thu Oct 02 13:53:01 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100T.llb
+Thu Oct 02 13:53:01 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT.llb
+Thu Oct 02 13:53:01 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT_HD.LLB
+Thu Oct 02 13:53:01 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ECON100T.llb
+Thu Oct 02 13:53:01 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\FBUS.llb
+Thu Oct 02 13:53:01 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ISA.llb
+Thu Oct 02 13:53:01 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\JUMPER.LLB
+Thu Oct 02 13:53:01 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LAYOUT.llb
+Thu Oct 02 13:53:01 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LCON100T.llb
+Thu Oct 02 13:53:01 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PC104.llb
+Thu Oct 02 13:53:01 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCI.llb
+Thu Oct 02 13:53:01 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON100T.llb
+Thu Oct 02 13:53:01 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON156T.llb
+Thu Oct 02 13:53:01 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PGA.llb
+Thu Oct 02 13:53:01 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PLCC.llb
+Thu Oct 02 13:53:01 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUAD.llb
+Thu Oct 02 13:53:01 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUADB.llb
+Thu Oct 02 13:53:01 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RELAY.llb
+Thu Oct 02 13:53:01 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RF.llb
+Thu Oct 02 13:53:01 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SBUS.llb
+Thu Oct 02 13:53:01 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050F.llb
+Thu Oct 02 13:53:01 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050T.llb
+Thu Oct 02 13:53:02 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100F.llb
+Thu Oct 02 13:53:02 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100T.llb
+Thu Oct 02 13:53:02 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIP.llb
+Thu Oct 02 13:53:02 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SM.llb
+Thu Oct 02 13:53:02 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOG.llb
+Thu Oct 02 13:53:02 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOJ.llb
+Thu Oct 02 13:53:02 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\STIFF.llb
+Thu Oct 02 13:53:02 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TELE.llb
+Thu Oct 02 13:53:02 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_AXIAL.llb
+Thu Oct 02 13:53:02 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CAP_P.llb
+Thu Oct 02 13:53:02 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CYLND.llb
+Thu Oct 02 13:53:02 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DIODE.llb
+Thu Oct 02 13:53:02 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DISC.llb
+Thu Oct 02 13:53:02 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_RAD.llb
+Thu Oct 02 13:53:02 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TO.llb
+Thu Oct 02 13:53:02 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TRAINING.LLB
+Thu Oct 02 13:53:02 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\VRES.llb
+Thu Oct 02 13:53:02 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\WCON100T.llb
+Thu Oct 02 13:53:02 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\XT.llb
+Thu Oct 02 13:53:02 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ZIGZAG.llb
+Thu Oct 02 13:53:02 Loaded file F:\MUSHTAQ LIB\GENRAL.LLB
+Thu Oct 02 13:53:06 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-63.MAX
+Thu Oct 02 13:53:06 Loaded file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-63.MAX
+Thu Oct 02 13:55:18 Saved as file ~undo.max
+Thu Oct 02 13:56:45 Saved as file ~undo.max
+Thu Oct 02 13:57:32 Saved as file ~undo.max
+Thu Oct 02 13:59:06 Saved as file ~undo.max
+Thu Oct 02 13:59:27 Saved as file ~undo.max
+Thu Oct 02 14:00:57 Saved as file ~undo.max
+Thu Oct 02 14:03:48 Saved as file BACKUP1.MAX
+Thu Oct 02 14:04:51 Saved as file ~undo.max
+Thu Oct 02 14:05:08 Saved as file ~undo.max
+Thu Oct 02 14:06:52 Saved as file ~undo.max
+Thu Oct 02 14:07:59 Saved as file ~undo.max
+Thu Oct 02 14:10:50 Saved as file ~undo.max
+Thu Oct 02 14:11:04 Saved as file ~undo.max
+Thu Oct 02 14:11:29 Saved as file ~undo.max
+Thu Oct 02 14:11:57 Saved as file ~undo.max
+Thu Oct 02 14:12:17 Saved as file ~undo.max
+Thu Oct 02 14:12:28 Saved as file ~undo.max
+Thu Oct 02 14:14:12 Saved as file BACKUP1.MAX
+Thu Oct 02 14:14:12 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-63.MAX
+Thu Oct 02 14:14:19 UserDiv from Layout.INI for AutoECO: 60
+Thu Oct 02 14:14:19 Loaded file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-63.MAX
+Thu Oct 02 14:14:19 Loaded file E:\DATA LOGGER\DATA LOGGER-20.MAX
+Thu Oct 02 14:14:19 Loaded file F:\MUSHTAQ LIB\INALONG_INPUT.LLB
+Thu Oct 02 14:14:19 Loaded file F:\MUSHTAQ LIB\DATA LOGGER.LLB
+Thu Oct 02 14:14:19 Loaded file F:\MUSHTAQ PCB\SAEED AHMED\DIGITAL OUTPUT CARD\DIGITAL OUTPUT CARDR1\DIGITAL OUTPUT CARD.MAX
+Thu Oct 02 14:14:19 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\CHRONO96.LLB
+Thu Oct 02 14:14:19 Loaded file F:\MUSHTAQ PCB\NEW FOLDER\CHILLER CARD\CHILLER CARD-13.MAX
+Thu Oct 02 14:14:19 Loaded file F:\MUSHTAQ LIB\COMMON.LLB
+Thu Oct 02 14:14:19 Loaded file F:\MUSHTAQ LIB\BILAL.LLB
+Thu Oct 02 14:14:19 Loaded file F:\MUSHTAQ PCB\MUSHTAQ DOC\PCB'S\FPGA MODULE S3\FPGA\MODULE_FIANL4-32.MAX
+Thu Oct 02 14:14:19 Loaded file F:\MUSHTAQ PCB\NEW FOLDER\DIGITAL INPUT CARD\DIGITAL INPUT CARD.MAX
+Thu Oct 02 14:14:20 Loaded file F:\MUSHTAQ LIB\GENRAL.LLB
+Thu Oct 02 14:14:20 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON100T.llb
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON156T.llb
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BGA.llb
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\CLCC.llb
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON050T.llb
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON085T.llb
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050F.llb
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050T.llb
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIN.llb
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100B.llb
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100T.llb
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT.llb
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT_HD.LLB
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ECON100T.llb
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\FBUS.llb
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ISA.llb
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\JUMPER.LLB
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LAYOUT.llb
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LCON100T.llb
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PC104.llb
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCI.llb
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON100T.llb
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON156T.llb
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PGA.llb
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PLCC.llb
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUAD.llb
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUADB.llb
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RELAY.llb
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RF.llb
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SBUS.llb
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050F.llb
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050T.llb
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100F.llb
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100T.llb
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIP.llb
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SM.llb
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOG.llb
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOJ.llb
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\STIFF.llb
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TELE.llb
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_AXIAL.llb
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CAP_P.llb
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CYLND.llb
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DIODE.llb
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DISC.llb
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_RAD.llb
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TO.llb
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TRAINING.LLB
+Thu Oct 02 14:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\VRES.llb
+Thu Oct 02 14:14:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\WCON100T.llb
+Thu Oct 02 14:14:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\XT.llb
+Thu Oct 02 14:14:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ZIGZAG.llb
+Thu Oct 02 14:14:24 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-64.MAX
+Thu Oct 02 14:14:24 Loaded file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-64.MAX
+Thu Oct 02 14:14:48 Saved as file BACKUP1.MAX
+Thu Oct 02 14:14:55 Saved as file ~undo.max
+Thu Oct 02 14:15:13 Saved as file ~undo.max
+Thu Oct 02 14:15:48 Saved as file ~undo.max
+Thu Oct 02 14:16:18 Saved as file ~undo.max
+Thu Oct 02 14:16:54 Saved as file BACKUP1.MAX
+Thu Oct 02 14:16:54 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-64.MAX
+Thu Oct 02 14:16:56 UserDiv from Layout.INI for AutoECO: 60
+Thu Oct 02 14:16:56 Loaded file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-64.MAX
+Thu Oct 02 14:16:56 Loaded file E:\DATA LOGGER\DATA LOGGER-20.MAX
+Thu Oct 02 14:16:56 Loaded file F:\MUSHTAQ LIB\INALONG_INPUT.LLB
+Thu Oct 02 14:16:56 Loaded file F:\MUSHTAQ LIB\DATA LOGGER.LLB
+Thu Oct 02 14:16:56 Loaded file F:\MUSHTAQ PCB\SAEED AHMED\DIGITAL OUTPUT CARD\DIGITAL OUTPUT CARDR1\DIGITAL OUTPUT CARD.MAX
+Thu Oct 02 14:16:57 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\CHRONO96.LLB
+Thu Oct 02 14:16:57 Loaded file F:\MUSHTAQ PCB\NEW FOLDER\CHILLER CARD\CHILLER CARD-13.MAX
+Thu Oct 02 14:16:57 Loaded file F:\MUSHTAQ LIB\COMMON.LLB
+Thu Oct 02 14:16:57 Loaded file F:\MUSHTAQ LIB\BILAL.LLB
+Thu Oct 02 14:16:57 Loaded file F:\MUSHTAQ PCB\MUSHTAQ DOC\PCB'S\FPGA MODULE S3\FPGA\MODULE_FIANL4-32.MAX
+Thu Oct 02 14:16:57 Loaded file F:\MUSHTAQ PCB\NEW FOLDER\DIGITAL INPUT CARD\DIGITAL INPUT CARD.MAX
+Thu Oct 02 14:16:57 Loaded file F:\MUSHTAQ LIB\GENRAL.LLB
+Thu Oct 02 14:16:57 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Thu Oct 02 14:16:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON100T.llb
+Thu Oct 02 14:16:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON156T.llb
+Thu Oct 02 14:16:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BGA.llb
+Thu Oct 02 14:16:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\CLCC.llb
+Thu Oct 02 14:16:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON050T.llb
+Thu Oct 02 14:16:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON085T.llb
+Thu Oct 02 14:16:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050F.llb
+Thu Oct 02 14:16:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050T.llb
+Thu Oct 02 14:16:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIN.llb
+Thu Oct 02 14:16:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100B.llb
+Thu Oct 02 14:16:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100T.llb
+Thu Oct 02 14:16:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT.llb
+Thu Oct 02 14:16:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT_HD.LLB
+Thu Oct 02 14:16:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ECON100T.llb
+Thu Oct 02 14:16:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\FBUS.llb
+Thu Oct 02 14:16:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ISA.llb
+Thu Oct 02 14:16:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\JUMPER.LLB
+Thu Oct 02 14:16:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LAYOUT.llb
+Thu Oct 02 14:16:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LCON100T.llb
+Thu Oct 02 14:16:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PC104.llb
+Thu Oct 02 14:16:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCI.llb
+Thu Oct 02 14:16:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON100T.llb
+Thu Oct 02 14:16:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON156T.llb
+Thu Oct 02 14:16:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PGA.llb
+Thu Oct 02 14:16:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PLCC.llb
+Thu Oct 02 14:16:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUAD.llb
+Thu Oct 02 14:16:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUADB.llb
+Thu Oct 02 14:16:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RELAY.llb
+Thu Oct 02 14:16:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RF.llb
+Thu Oct 02 14:16:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SBUS.llb
+Thu Oct 02 14:16:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050F.llb
+Thu Oct 02 14:16:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050T.llb
+Thu Oct 02 14:16:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100F.llb
+Thu Oct 02 14:16:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100T.llb
+Thu Oct 02 14:16:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIP.llb
+Thu Oct 02 14:16:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SM.llb
+Thu Oct 02 14:16:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOG.llb
+Thu Oct 02 14:16:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOJ.llb
+Thu Oct 02 14:16:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\STIFF.llb
+Thu Oct 02 14:16:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TELE.llb
+Thu Oct 02 14:16:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_AXIAL.llb
+Thu Oct 02 14:16:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CAP_P.llb
+Thu Oct 02 14:16:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CYLND.llb
+Thu Oct 02 14:16:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DIODE.llb
+Thu Oct 02 14:16:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DISC.llb
+Thu Oct 02 14:16:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_RAD.llb
+Thu Oct 02 14:16:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TO.llb
+Thu Oct 02 14:16:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TRAINING.LLB
+Thu Oct 02 14:16:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\VRES.llb
+Thu Oct 02 14:16:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\WCON100T.llb
+Thu Oct 02 14:16:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\XT.llb
+Thu Oct 02 14:16:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ZIGZAG.llb
+Thu Oct 02 14:17:00 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-65.MAX
+Thu Oct 02 14:17:00 Loaded file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-65.MAX
+Thu Oct 02 14:17:05 Saved as file ~undo.max
+Thu Oct 02 14:19:15 Saved as file ~undo.max
+Thu Oct 02 14:19:54 Saved as file ~undo.max
+Thu Oct 02 14:19:59 Saved as file ~undo.max
+Thu Oct 02 14:20:25 Saved as file ~undo.max
+Thu Oct 02 14:21:34 Saved as file ~undo.max
+Thu Oct 02 14:22:08 Saved as file ~undo.max
+Thu Oct 02 14:22:41 Saved as file ~undo.max
+Thu Oct 02 14:24:35 Saved as file ~undo.max
+Thu Oct 02 14:24:40 Saved as file ~undo.max
+Thu Oct 02 14:24:44 Saved as file ~undo.max
+Thu Oct 02 14:25:03 Saved as file ~undo.max
+Thu Oct 02 14:25:10 Saved as file ~undo.max
+Thu Oct 02 14:25:18 Saved as file BACKUP1.MAX
+Thu Oct 02 14:25:18 Saved as file ~undo.max
+Thu Oct 02 14:25:37 Saved as file ~undo.max
+Thu Oct 02 14:25:46 Saved as file ~undo.max
+Thu Oct 02 14:25:58 Saved as file ~undo.max
+Thu Oct 02 14:26:32 Saved as file ~undo.max
+Thu Oct 02 14:26:44 Saved as file ~undo.max
+Thu Oct 02 14:26:56 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-65.MAX
+Thu Oct 02 14:27:09 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-65.MAX
+Thu Oct 02 14:27:10 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-65.MAX
+Thu Oct 02 14:27:10 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-65.MAX
+Thu Oct 02 14:27:10 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-65.MAX
+Thu Oct 02 14:27:11 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-65.MAX
+Thu Oct 02 14:27:23 Saved as file ~undo.max
+Thu Oct 02 14:27:34 Saved as file ~undo.max
+Thu Oct 02 14:27:41 Saved as file ~undo.max
+Thu Oct 02 14:28:01 Saved as file ~undo.max
+Thu Oct 02 14:28:04 Saved as file ~undo.max
+Thu Oct 02 14:28:25 Saved as file ~undo.max
+Thu Oct 02 14:29:09 Saved as file ~undo.max
+Thu Oct 02 14:29:10 Saved as file ~undo.max
+Thu Oct 02 14:29:43 Saved as file ~undo.max
+Thu Oct 02 14:29:56 Saved as file ~undo.max
+Thu Oct 02 14:30:00 Saved as file ~undo.max
+Thu Oct 02 14:30:06 Saved as file ~undo.max
+Thu Oct 02 14:30:13 Saved as file ~undo.max
+Thu Oct 02 14:32:54 Saved as file ~undo.max
+Thu Oct 02 14:33:06 Saved as file ~undo.max
+Thu Oct 02 14:33:14 Saved as file ~undo.max
+Thu Oct 02 14:33:31 Saved as file ~undo.max
+Thu Oct 02 14:33:41 Saved as file ~undo.max
+Thu Oct 02 14:33:52 Saved as file ~undo.max
+Thu Oct 02 14:34:09 Saved as file ~undo.max
+Thu Oct 02 14:34:28 Saved as file ~undo.max
+Thu Oct 02 14:35:13 Saved as file ~undo.max
+Thu Oct 02 14:35:40 Saved as file ~undo.max
+Thu Oct 02 14:35:46 Saved as file ~undo.max
+Thu Oct 02 14:35:48 Saved as file BACKUP1.MAX
+Thu Oct 02 14:36:12 Saved as file ~undo.max
+Thu Oct 02 14:36:15 Saved as file ~undo.max
+Thu Oct 02 14:36:27 Saved as file ~undo.max
+Thu Oct 02 14:37:30 Saved as file ~undo.max
+Thu Oct 02 14:37:34 Saved as file ~undo.max
+Thu Oct 02 14:38:10 Saved as file ~undo.max
+Thu Oct 02 14:40:58 Saved as file ~undo.max
+Thu Oct 02 14:46:18 Saved as file BACKUP1.MAX
+Thu Oct 02 14:56:12 Saved as file ~undo.max
+Thu Oct 02 14:56:15 Saved as file ~undo.max
+Thu Oct 02 14:56:48 Saved as file BACKUP1.MAX
+Thu Oct 02 15:07:18 Saved as file BACKUP1.MAX
+Thu Oct 02 15:17:48 Saved as file BACKUP1.MAX
+Thu Oct 02 15:28:18 Saved as file BACKUP1.MAX
+Thu Oct 02 15:38:48 Saved as file BACKUP1.MAX
+Thu Oct 02 15:49:18 Saved as file BACKUP1.MAX
+Thu Oct 02 15:59:16 Saved as file BACKUP1.MAX
+Thu Oct 02 15:59:16 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-65.MAX
+Thu Oct 02 15:59:17 UserDiv from Layout.INI for AutoECO: 60
+Thu Oct 02 15:59:17 Loaded file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-65.MAX
+Thu Oct 02 15:59:17 Loaded file E:\DATA LOGGER\DATA LOGGER-20.MAX
+Thu Oct 02 15:59:17 Loaded file F:\MUSHTAQ LIB\INALONG_INPUT.LLB
+Thu Oct 02 15:59:17 Loaded file F:\MUSHTAQ LIB\DATA LOGGER.LLB
+Thu Oct 02 15:59:17 Loaded file F:\MUSHTAQ PCB\SAEED AHMED\DIGITAL OUTPUT CARD\DIGITAL OUTPUT CARDR1\DIGITAL OUTPUT CARD.MAX
+Thu Oct 02 15:59:17 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\CHRONO96.LLB
+Thu Oct 02 15:59:17 Loaded file F:\MUSHTAQ PCB\NEW FOLDER\CHILLER CARD\CHILLER CARD-13.MAX
+Thu Oct 02 15:59:17 Loaded file F:\MUSHTAQ LIB\COMMON.LLB
+Thu Oct 02 15:59:17 Loaded file F:\MUSHTAQ LIB\BILAL.LLB
+Thu Oct 02 15:59:17 Loaded file F:\MUSHTAQ PCB\MUSHTAQ DOC\PCB'S\FPGA MODULE S3\FPGA\MODULE_FIANL4-32.MAX
+Thu Oct 02 15:59:17 Loaded file F:\MUSHTAQ PCB\NEW FOLDER\DIGITAL INPUT CARD\DIGITAL INPUT CARD.MAX
+Thu Oct 02 15:59:18 Loaded file F:\MUSHTAQ LIB\GENRAL.LLB
+Thu Oct 02 15:59:18 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON100T.llb
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON156T.llb
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BGA.llb
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\CLCC.llb
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON050T.llb
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON085T.llb
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050F.llb
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050T.llb
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIN.llb
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100B.llb
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100T.llb
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT.llb
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT_HD.LLB
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ECON100T.llb
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\FBUS.llb
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ISA.llb
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\JUMPER.LLB
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LAYOUT.llb
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LCON100T.llb
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PC104.llb
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCI.llb
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON100T.llb
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON156T.llb
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PGA.llb
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PLCC.llb
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUAD.llb
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUADB.llb
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RELAY.llb
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RF.llb
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SBUS.llb
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050F.llb
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050T.llb
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100F.llb
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100T.llb
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIP.llb
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SM.llb
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOG.llb
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOJ.llb
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\STIFF.llb
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TELE.llb
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_AXIAL.llb
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CAP_P.llb
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CYLND.llb
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DIODE.llb
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DISC.llb
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_RAD.llb
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TO.llb
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TRAINING.LLB
+Thu Oct 02 15:59:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\VRES.llb
+Thu Oct 02 15:59:19 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\WCON100T.llb
+Thu Oct 02 15:59:19 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\XT.llb
+Thu Oct 02 15:59:19 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ZIGZAG.llb
+Thu Oct 02 15:59:24 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-66.MAX
+Thu Oct 02 15:59:24 Loaded file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-66.MAX
+Thu Oct 02 15:59:29 Saved as file ~undo.max
+Thu Oct 02 15:59:48 Saved as file BACKUP1.MAX
+Thu Oct 02 16:00:29 Saved as file ~undo.max
+Thu Oct 02 16:00:41 Saved as file ~undo.max
+Thu Oct 02 16:01:26 Saved as file ~undo.max
+Thu Oct 02 16:01:37 Saved as file ~undo.max
+Thu Oct 02 16:01:42 Saved as file ~undo.max
+Thu Oct 02 16:02:02 Saved as file ~undo.max
+Thu Oct 02 16:02:07 Saved as file ~undo.max
+Thu Oct 02 16:02:30 Saved as file ~undo.max
+Thu Oct 02 16:03:07 Saved as file ~undo.max
+Thu Oct 02 16:03:43 Saved as file ~undo.max
+Thu Oct 02 16:04:15 Saved as file ~undo.max
+Thu Oct 02 16:04:16 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-66.MAX
+Thu Oct 02 16:05:32 Saved as file ~undo.max
+Thu Oct 02 16:06:01 Saved as file ~undo.max
+Thu Oct 02 16:06:11 Saved as file ~undo.max
+Thu Oct 02 16:06:25 Saved as file ~undo.max
+Thu Oct 02 16:06:42 Saved as file ~undo.max
+Thu Oct 02 16:06:57 Saved as file ~undo.max
+Thu Oct 02 16:07:13 Saved as file ~undo.max
+Thu Oct 02 16:07:36 Saved as file ~undo.max
+Thu Oct 02 16:07:57 Saved as file ~undo.max
+Thu Oct 02 16:08:06 Saved as file ~undo.max
+Thu Oct 02 16:08:08 Saved as file ~undo.max
+Thu Oct 02 16:09:25 Saved as file ~undo.max
+Thu Oct 02 16:09:38 Saved as file ~undo.max
+Thu Oct 02 16:09:47 Saved as file ~undo.max
+Thu Oct 02 16:10:18 Saved as file BACKUP1.MAX
+Thu Oct 02 16:10:39 Saved as file ~undo.max
+Thu Oct 02 16:10:55 Saved as file ~undo.max
+Thu Oct 02 16:11:05 Saved as file ~undo.max
+Thu Oct 02 16:11:14 Saved as file ~undo.max
+Thu Oct 02 16:11:50 Saved as file ~undo.max
+Thu Oct 02 16:11:58 Saved as file ~undo.max
+Thu Oct 02 16:12:13 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-66.MAX
+Thu Oct 02 16:12:28 Saved as file ~undo.max
+Thu Oct 02 16:12:34 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-66.MAX
+Thu Oct 02 16:13:06 Saved as file ~undo.max
+Thu Oct 02 16:13:32 Saved as file ~undo.max
+Thu Oct 02 16:13:54 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-66.MAX
+Thu Oct 02 16:14:02 Saved as file ~undo.max
+Thu Oct 02 16:14:06 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-66.MAX
+Thu Oct 02 16:14:33 Saved as file ~undo.max
+Thu Oct 02 16:14:40 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-66.MAX
+Thu Oct 02 16:14:41 Saved as file ~undo.max
+Thu Oct 02 16:14:43 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-66.MAX
+Thu Oct 02 16:15:09 Saved as file ~undo.max
+Thu Oct 02 16:15:13 Saved as file ~undo.max
+Thu Oct 02 16:15:42 Saved as file ~undo.max
+Thu Oct 02 16:16:13 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Thu Oct 02 16:16:13 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Thu Oct 02 16:16:17 Loaded file E:\DATA LOGGER\DATA LOGGER-20.MAX
+Thu Oct 02 16:16:17 Loaded file F:\MUSHTAQ LIB\INALONG_INPUT.LLB
+Thu Oct 02 16:16:17 Loaded file F:\MUSHTAQ LIB\DATA LOGGER.LLB
+Thu Oct 02 16:16:17 Loaded file F:\MUSHTAQ PCB\SAEED AHMED\DIGITAL OUTPUT CARD\DIGITAL OUTPUT CARDR1\DIGITAL OUTPUT CARD.MAX
+Thu Oct 02 16:16:17 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\CHRONO96.LLB
+Thu Oct 02 16:16:17 Loaded file F:\MUSHTAQ PCB\NEW FOLDER\CHILLER CARD\CHILLER CARD-13.MAX
+Thu Oct 02 16:16:17 Loaded file F:\MUSHTAQ LIB\COMMON.LLB
+Thu Oct 02 16:16:17 Loaded file F:\MUSHTAQ LIB\BILAL.LLB
+Thu Oct 02 16:16:17 Loaded file F:\MUSHTAQ PCB\MUSHTAQ DOC\PCB'S\FPGA MODULE S3\FPGA\MODULE_FIANL4-32.MAX
+Thu Oct 02 16:16:17 Loaded file F:\MUSHTAQ PCB\NEW FOLDER\DIGITAL INPUT CARD\DIGITAL INPUT CARD.MAX
+Thu Oct 02 16:16:17 Loaded file F:\MUSHTAQ LIB\GENRAL.LLB
+Thu Oct 02 16:16:17 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON100T.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON156T.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BGA.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\CLCC.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON050T.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON085T.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050F.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050T.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIN.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100B.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100T.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT_HD.LLB
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ECON100T.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\FBUS.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ISA.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\JUMPER.LLB
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LAYOUT.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LCON100T.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PC104.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCI.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON100T.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON156T.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PGA.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PLCC.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUAD.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUADB.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RELAY.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RF.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SBUS.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050F.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050T.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100F.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100T.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIP.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SM.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOG.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOJ.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\STIFF.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TELE.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_AXIAL.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CAP_P.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CYLND.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DIODE.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DISC.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_RAD.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TO.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TRAINING.LLB
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\VRES.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\WCON100T.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\XT.llb
+Thu Oct 02 16:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ZIGZAG.llb
+Thu Oct 02 16:16:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Thu Oct 02 16:16:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Thu Oct 02 16:16:32 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Thu Oct 02 16:16:33 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Thu Oct 02 16:16:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Thu Oct 02 16:16:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Thu Oct 02 16:16:54 Saved as file ~undo.max
+Thu Oct 02 16:17:45 Saved as file ~undo.max
+Thu Oct 02 16:18:18 Saved as file ~undo.max
+Thu Oct 02 16:18:20 Saved as file ~undo.max
+Thu Oct 02 16:19:10 Saved as file ~undo.max
+Thu Oct 02 16:19:12 Saved as file ~undo.max
+Thu Oct 02 16:19:38 Saved as file ~undo.max
+Thu Oct 02 16:20:01 Saved as file ~undo.max
+Thu Oct 02 16:20:32 Saved as file ~undo.max
+Thu Oct 02 16:20:38 Saved as file ~undo.max
+Thu Oct 02 16:21:12 Saved as file ~undo.max
+Thu Oct 02 16:21:18 Saved as file BACKUP1.MAX
+Thu Oct 02 16:21:26 Saved as file ~undo.max
+Thu Oct 02 16:21:40 Saved as file ~undo.max
+Thu Oct 02 16:21:58 Saved as file ~undo.max
+Thu Oct 02 16:22:07 Saved as file ~undo.max
+Thu Oct 02 16:22:28 Saved as file ~undo.max
+Thu Oct 02 16:22:49 Saved as file ~undo.max
+Thu Oct 02 16:23:12 Saved as file ~undo.max
+Thu Oct 02 16:23:33 Saved as file ~undo.max
+Thu Oct 02 16:23:52 Saved as file ~undo.max
+Thu Oct 02 16:23:58 Saved as file ~undo.max
+Thu Oct 02 16:24:33 Saved as file ~undo.max
+Thu Oct 02 16:24:56 Saved as file ~undo.max
+Thu Oct 02 16:25:25 Saved as file ~undo.max
+Thu Oct 02 16:25:43 Saved as file ~undo.max
+Thu Oct 02 16:27:04 Saved as file ~undo.max
+Thu Oct 02 16:28:12 Saved as file ~undo.max
+Thu Oct 02 16:28:40 Saved as file ~undo.max
+Thu Oct 02 16:29:48 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-66.MAX
+Thu Oct 02 16:30:15 Saved as file ~undo.max
+Thu Oct 02 16:30:20 Saved as file ~undo.max
+Thu Oct 02 16:30:33 Saved as file ~undo.max
+Thu Oct 02 16:30:41 Saved as file ~undo.max
+Thu Oct 02 16:30:55 Saved as file ~undo.max
+Thu Oct 02 16:31:20 Saved as file ~undo.max
+Thu Oct 02 16:31:27 Saved as file ~undo.max
+Thu Oct 02 16:31:31 Saved as file ~undo.max
+Thu Oct 02 16:31:33 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-66.MAX
+Thu Oct 02 16:32:10 Saved as file ~undo.max
+Thu Oct 02 16:32:22 Saved as file ~undo.max
+Thu Oct 02 16:32:26 Saved as file ~undo.max
+Thu Oct 02 16:32:33 Saved as file ~undo.max
+Thu Oct 02 16:33:01 Saved as file ~undo.max
+Thu Oct 02 16:33:21 Saved as file ~undo.max
+Thu Oct 02 16:33:31 Saved as file ~undo.max
+Thu Oct 02 16:33:48 Saved as file BACKUP1.MAX
+Thu Oct 02 16:33:49 Saved as file ~undo.max
+Thu Oct 02 16:34:21 Saved as file ~undo.max
+Thu Oct 02 16:34:34 Saved as file ~undo.max
+Thu Oct 02 16:34:54 Saved as file ~undo.max
+Thu Oct 02 16:35:30 Saved as file ~undo.max
+Thu Oct 02 16:35:49 Saved as file ~undo.max
+Thu Oct 02 16:35:54 Saved as file ~undo.max
+Thu Oct 02 16:36:01 Saved as file ~undo.max
+Thu Oct 02 16:36:09 Saved as file ~undo.max
+Thu Oct 02 16:36:24 Saved as file ~undo.max
+Thu Oct 02 16:36:46 Saved as file ~undo.max
+Thu Oct 02 16:37:06 Saved as file ~undo.max
+Thu Oct 02 16:37:19 Saved as file ~undo.max
+Thu Oct 02 16:38:47 Saved as file ~undo.max
+Thu Oct 02 16:39:06 Saved as file ~undo.max
+Thu Oct 02 16:39:22 Saved as file ~undo.max
+Thu Oct 02 16:39:39 Saved as file ~undo.max
+Thu Oct 02 16:40:15 Saved as file ~undo.max
+Thu Oct 02 16:40:30 Saved as file ~undo.max
+Thu Oct 02 16:40:38 Saved as file ~undo.max
+Thu Oct 02 16:40:46 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-66.MAX
+Thu Oct 02 16:41:05 Saved as file ~undo.max
+Thu Oct 02 16:41:17 Saved as file ~undo.max
+Thu Oct 02 16:41:34 Saved as file ~undo.max
+Thu Oct 02 16:41:44 Saved as file ~undo.max
+Thu Oct 02 16:41:55 Saved as file ~undo.max
+Thu Oct 02 16:41:59 Saved as file ~undo.max
+Thu Oct 02 16:42:11 Saved as file ~undo.max
+Thu Oct 02 16:42:15 Saved as file ~undo.max
+Thu Oct 02 16:42:21 Saved as file ~undo.max
+Thu Oct 02 16:42:40 Saved as file ~undo.max
+Thu Oct 02 16:43:03 Saved as file ~undo.max
+Thu Oct 02 16:43:09 Saved as file ~undo.max
+Thu Oct 02 16:43:15 Saved as file ~undo.max
+Thu Oct 02 16:43:22 Saved as file ~undo.max
+Thu Oct 02 16:43:37 Saved as file ~undo.max
+Thu Oct 02 16:43:47 Saved as file ~undo.max
+Thu Oct 02 16:44:03 Saved as file ~undo.max
+Thu Oct 02 16:44:29 Saved as file ~undo.max
+Thu Oct 02 16:44:41 Saved as file ~undo.max
+Thu Oct 02 16:44:53 Saved as file ~undo.max
+Thu Oct 02 16:45:23 Saved as file ~undo.max
+Thu Oct 02 16:45:34 Saved as file ~undo.max
+Thu Oct 02 16:45:38 Saved as file ~undo.max
+Thu Oct 02 16:45:44 Saved as file ~undo.max
+Thu Oct 02 16:45:48 Saved as file BACKUP1.MAX
+Thu Oct 02 16:46:07 Saved as file ~undo.max
+Thu Oct 02 16:46:24 Saved as file ~undo.max
+Thu Oct 02 16:46:40 Saved as file ~undo.max
+Thu Oct 02 16:46:44 Saved as file ~undo.max
+Thu Oct 02 16:46:50 Saved as file ~undo.max
+Thu Oct 02 16:47:00 Saved as file ~undo.max
+Thu Oct 02 16:47:07 Saved as file ~undo.max
+Thu Oct 02 16:47:12 Saved as file ~undo.max
+Thu Oct 02 16:47:29 Saved as file ~undo.max
+Thu Oct 02 16:47:52 Saved as file ~undo.max
+Thu Oct 02 16:48:15 Saved as file ~undo.max
+Thu Oct 02 16:48:22 Saved as file ~undo.max
+Thu Oct 02 16:48:31 Saved as file ~undo.max
+Thu Oct 02 16:48:38 Saved as file ~undo.max
+Thu Oct 02 16:48:48 Saved as file ~undo.max
+Thu Oct 02 16:49:01 Saved as file ~undo.max
+Thu Oct 02 16:49:07 Saved as file ~undo.max
+Thu Oct 02 16:49:21 Saved as file ~undo.max
+Thu Oct 02 16:49:27 Saved as file ~undo.max
+Thu Oct 02 16:49:37 Saved as file ~undo.max
+Thu Oct 02 16:49:43 Saved as file ~undo.max
+Thu Oct 02 16:49:53 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-66.MAX
+Thu Oct 02 16:49:53 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-66.MAX
+Thu Oct 02 16:50:14 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-66.MAX
+Thu Oct 02 16:50:14 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-66.MAX
+Thu Oct 02 16:50:15 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-66.MAX
+Thu Oct 02 16:50:15 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-66.MAX
+Thu Oct 02 16:50:15 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-66.MAX
+Thu Oct 02 16:50:16 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-66.MAX
+Thu Oct 02 16:50:20 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-66.MAX
+Thu Oct 02 16:50:29 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-66.MAX
+Fri Oct 03 07:44:20 Saved as file ~undo.max
+Fri Oct 03 07:45:24 Saved as file ~undo.max
+Fri Oct 03 07:46:56 Saved as file ~undo.max
+Fri Oct 03 07:49:38 Saved as file ~undo.max
+Fri Oct 03 07:50:03 Saved as file ~undo.max
+Fri Oct 03 07:50:38 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-66.MAX
+Fri Oct 03 07:50:54 Saved as file ~undo.max
+Fri Oct 03 07:51:02 Saved as file ~undo.max
+Fri Oct 03 07:51:08 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-66.MAX
+Fri Oct 03 07:51:44 Saved as file ~undo.max
+Fri Oct 03 07:52:07 Saved as file ~undo.max
+Fri Oct 03 07:52:10 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-66.MAX
+Fri Oct 03 07:53:37 Saved as file ~undo.max
+Fri Oct 03 07:54:23 Saved as file ~undo.max
+Fri Oct 03 07:54:29 Saved as file ~undo.max
+Fri Oct 03 07:54:50 Saved as file ~undo.max
+Fri Oct 03 07:55:13 Saved as file ~undo.max
+Fri Oct 03 07:55:20 Saved as file BACKUP1.MAX
+Fri Oct 03 07:55:39 Saved as file ~undo.max
+Fri Oct 03 07:55:44 Saved as file ~undo.max
+Fri Oct 03 07:56:26 Saved as file ~undo.max
+Fri Oct 03 07:57:01 Saved as file ~undo.max
+Fri Oct 03 07:57:15 Saved as file ~undo.max
+Fri Oct 03 07:57:27 Saved as file ~undo.max
+Fri Oct 03 07:57:33 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-66.MAX
+Fri Oct 03 07:57:56 Saved as file ~undo.max
+Fri Oct 03 07:58:02 Saved as file ~undo.max
+Fri Oct 03 07:58:07 Saved as file ~undo.max
+Fri Oct 03 07:58:59 Saved as file ~undo.max
+Fri Oct 03 07:59:16 Saved as file ~undo.max
+Fri Oct 03 07:59:35 Saved as file ~undo.max
+Fri Oct 03 07:59:56 Saved as file ~undo.max
+Fri Oct 03 08:00:15 Saved as file ~undo.max
+Fri Oct 03 08:00:35 Saved as file ~undo.max
+Fri Oct 03 08:00:53 Saved as file ~undo.max
+Fri Oct 03 08:01:00 Saved as file ~undo.max
+Fri Oct 03 08:01:07 Saved as file ~undo.max
+Fri Oct 03 08:01:53 Saved as file ~undo.max
+Fri Oct 03 08:02:09 Saved as file ~undo.max
+Fri Oct 03 08:02:22 Saved as file ~undo.max
+Fri Oct 03 08:02:37 Saved as file ~undo.max
+Fri Oct 03 08:02:50 Saved as file ~undo.max
+Fri Oct 03 08:04:05 Saved as file ~undo.max
+Fri Oct 03 08:04:11 Saved as file ~undo.max
+Fri Oct 03 08:04:45 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-66.MAX
+Fri Oct 03 08:05:00 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-66.MAX
+Fri Oct 03 08:06:20 Saved as file BACKUP1.MAX
+Fri Oct 03 08:08:30 Saved as file ~undo.max
+Fri Oct 03 08:08:38 Saved as file ~undo.max
+Fri Oct 03 08:08:45 Saved as file ~undo.max
+Fri Oct 03 08:09:04 Saved as file ~undo.max
+Fri Oct 03 08:09:18 Saved as file ~undo.max
+Fri Oct 03 08:10:06 Saved as file ~undo.max
+Fri Oct 03 08:10:15 Saved as file ~undo.max
+Fri Oct 03 08:12:17 Saved as file ~undo.max
+Fri Oct 03 08:12:34 Saved as file ~undo.max
+Fri Oct 03 08:12:48 Saved as file ~undo.max
+Fri Oct 03 08:14:21 Saved as file ~undo.max
+Fri Oct 03 08:16:48 Saved as file ~undo.max
+Fri Oct 03 08:17:20 Saved as file BACKUP1.MAX
+Fri Oct 03 08:17:58 Saved as file ~undo.max
+Fri Oct 03 08:19:09 Saved as file ~undo.max
+Fri Oct 03 08:19:33 Saved as file ~undo.max
+Fri Oct 03 08:23:15 Saved as file ~undo.max
+Fri Oct 03 08:23:37 Saved as file ~undo.max
+Fri Oct 03 08:24:01 Saved as file ~undo.max
+Fri Oct 03 08:24:29 Saved as file ~undo.max
+Fri Oct 03 08:24:55 Saved as file ~undo.max
+Fri Oct 03 08:25:11 Saved as file ~undo.max
+Fri Oct 03 08:25:15 Saved as file ~undo.max
+Fri Oct 03 08:25:27 Saved as file ~undo.max
+Fri Oct 03 08:25:32 Saved as file ~undo.max
+Fri Oct 03 08:25:38 Saved as file ~undo.max
+Fri Oct 03 08:26:07 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-66.MAX
+Fri Oct 03 08:26:24 Saved as file ~undo.max
+Fri Oct 03 08:26:41 Saved as file ~undo.max
+Fri Oct 03 08:27:02 Saved as file ~undo.max
+Fri Oct 03 08:27:37 Saved as file ~undo.max
+Fri Oct 03 08:28:13 Saved as file ~undo.max
+Fri Oct 03 08:28:48 Saved as file ~undo.max
+Fri Oct 03 08:28:50 Saved as file BACKUP1.MAX
+Fri Oct 03 08:29:17 Saved as file ~undo.max
+Fri Oct 03 08:30:00 Saved as file ~undo.max
+Fri Oct 03 08:30:32 Saved as file ~undo.max
+Fri Oct 03 08:30:47 Saved as file ~undo.max
+Fri Oct 03 08:31:43 Saved as file ~undo.max
+Fri Oct 03 08:31:57 Saved as file ~undo.max
+Fri Oct 03 08:32:08 Saved as file ~undo.max
+Fri Oct 03 08:32:40 Saved as file ~undo.max
+Fri Oct 03 08:32:46 Saved as file ~undo.max
+Fri Oct 03 08:33:59 Saved as file ~undo.max
+Fri Oct 03 08:34:21 Saved as file ~undo.max
+Fri Oct 03 08:34:57 Saved as file ~undo.max
+Fri Oct 03 08:35:32 Saved as file ~undo.max
+Fri Oct 03 08:35:37 Saved as file ~undo.max
+Fri Oct 03 08:36:38 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-66.MAX
+Fri Oct 03 08:36:55 Saved as file ~undo.max
+Fri Oct 03 08:36:57 Saved as file ~undo.max
+Fri Oct 03 08:37:10 Saved as file ~undo.max
+Fri Oct 03 08:37:24 Saved as file ~undo.max
+Fri Oct 03 08:37:43 Saved as file ~undo.max
+Fri Oct 03 08:37:57 Saved as file ~undo.max
+Fri Oct 03 08:38:22 Saved as file ~undo.max
+Fri Oct 03 08:38:35 Saved as file ~undo.max
+Fri Oct 03 08:39:04 Saved as file ~undo.max
+Fri Oct 03 08:39:31 Saved as file ~undo.max
+Fri Oct 03 08:39:47 Saved as file ~undo.max
+Fri Oct 03 08:39:50 Saved as file BACKUP1.MAX
+Fri Oct 03 08:39:59 Saved as file ~undo.max
+Fri Oct 03 08:40:15 Saved as file ~undo.max
+Fri Oct 03 08:40:38 Saved as file ~undo.max
+Fri Oct 03 08:40:40 Saved as file ~undo.max
+Fri Oct 03 08:47:20 Saved as file ~undo.max
+Fri Oct 03 08:50:20 Saved as file BACKUP1.MAX
+Fri Oct 03 08:50:37 Saved as file ~undo.max
+Fri Oct 03 08:51:23 Saved as file ~undo.max
+Fri Oct 03 08:56:54 Saved as file ~undo.max
+Fri Oct 03 08:57:02 Saved as file ~undo.max
+Fri Oct 03 09:00:27 Saved as file ~undo.max
+Fri Oct 03 09:00:31 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-66.MAX
+Fri Oct 03 09:02:20 Saved as file BACKUP1.MAX
+Fri Oct 03 09:13:20 Saved as file BACKUP1.MAX
+Fri Oct 03 09:15:23 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-66.MAX
+Fri Oct 03 09:18:26 Saved as file ~undo.max
+Fri Oct 03 09:18:45 Saved as file ~undo.max
+Fri Oct 03 09:18:46 Saved as file ~undo.max
+Fri Oct 03 09:20:30 Saved as file ~undo.max
+Fri Oct 03 10:10:29 Saved as file BACKUP1.MAX
+Fri Oct 03 10:10:29 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-66.MAX
+Fri Oct 03 10:10:51 UserDiv from Layout.INI for AutoECO: 60
+Fri Oct 03 10:10:51 Loaded file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-66.MAX
+Fri Oct 03 10:10:51 Loaded file E:\DATA LOGGER\DATA LOGGER-20.MAX
+Fri Oct 03 10:10:51 Loaded file F:\MUSHTAQ LIB\INALONG_INPUT.LLB
+Fri Oct 03 10:10:51 Loaded file F:\MUSHTAQ LIB\DATA LOGGER.LLB
+Fri Oct 03 10:10:51 Loaded file F:\MUSHTAQ PCB\SAEED AHMED\DIGITAL OUTPUT CARD\DIGITAL OUTPUT CARDR1\DIGITAL OUTPUT CARD.MAX
+Fri Oct 03 10:10:51 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\CHRONO96.LLB
+Fri Oct 03 10:10:51 Loaded file F:\MUSHTAQ PCB\NEW FOLDER\CHILLER CARD\CHILLER CARD-13.MAX
+Fri Oct 03 10:10:51 Loaded file F:\MUSHTAQ LIB\COMMON.LLB
+Fri Oct 03 10:10:51 Loaded file F:\MUSHTAQ LIB\BILAL.LLB
+Fri Oct 03 10:10:52 Loaded file F:\MUSHTAQ PCB\MUSHTAQ DOC\PCB'S\FPGA MODULE S3\FPGA\MODULE_FIANL4-32.MAX
+Fri Oct 03 10:10:52 Loaded file F:\MUSHTAQ PCB\NEW FOLDER\DIGITAL INPUT CARD\DIGITAL INPUT CARD.MAX
+Fri Oct 03 10:10:52 Loaded file F:\MUSHTAQ LIB\GENRAL.LLB
+Fri Oct 03 10:10:52 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Fri Oct 03 10:10:52 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON100T.llb
+Fri Oct 03 10:10:52 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON156T.llb
+Fri Oct 03 10:10:52 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BGA.llb
+Fri Oct 03 10:10:52 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\CLCC.llb
+Fri Oct 03 10:10:52 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON050T.llb
+Fri Oct 03 10:10:52 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON085T.llb
+Fri Oct 03 10:10:52 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050F.llb
+Fri Oct 03 10:10:52 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050T.llb
+Fri Oct 03 10:10:52 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIN.llb
+Fri Oct 03 10:10:52 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100B.llb
+Fri Oct 03 10:10:52 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100T.llb
+Fri Oct 03 10:10:52 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT.llb
+Fri Oct 03 10:10:52 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT_HD.LLB
+Fri Oct 03 10:10:52 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ECON100T.llb
+Fri Oct 03 10:10:52 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\FBUS.llb
+Fri Oct 03 10:10:52 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ISA.llb
+Fri Oct 03 10:10:52 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\JUMPER.LLB
+Fri Oct 03 10:10:52 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LAYOUT.llb
+Fri Oct 03 10:10:52 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LCON100T.llb
+Fri Oct 03 10:10:52 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PC104.llb
+Fri Oct 03 10:10:52 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCI.llb
+Fri Oct 03 10:10:52 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON100T.llb
+Fri Oct 03 10:10:52 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON156T.llb
+Fri Oct 03 10:10:52 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PGA.llb
+Fri Oct 03 10:10:52 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PLCC.llb
+Fri Oct 03 10:10:52 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUAD.llb
+Fri Oct 03 10:10:52 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUADB.llb
+Fri Oct 03 10:10:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RELAY.llb
+Fri Oct 03 10:10:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RF.llb
+Fri Oct 03 10:10:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SBUS.llb
+Fri Oct 03 10:10:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050F.llb
+Fri Oct 03 10:10:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050T.llb
+Fri Oct 03 10:10:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100F.llb
+Fri Oct 03 10:10:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100T.llb
+Fri Oct 03 10:10:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIP.llb
+Fri Oct 03 10:10:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SM.llb
+Fri Oct 03 10:10:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOG.llb
+Fri Oct 03 10:10:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOJ.llb
+Fri Oct 03 10:10:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\STIFF.llb
+Fri Oct 03 10:10:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TELE.llb
+Fri Oct 03 10:10:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_AXIAL.llb
+Fri Oct 03 10:10:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CAP_P.llb
+Fri Oct 03 10:10:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CYLND.llb
+Fri Oct 03 10:10:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DIODE.llb
+Fri Oct 03 10:10:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DISC.llb
+Fri Oct 03 10:10:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_RAD.llb
+Fri Oct 03 10:10:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TO.llb
+Fri Oct 03 10:10:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TRAINING.LLB
+Fri Oct 03 10:10:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\VRES.llb
+Fri Oct 03 10:10:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\WCON100T.llb
+Fri Oct 03 10:10:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\XT.llb
+Fri Oct 03 10:10:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ZIGZAG.llb
+Fri Oct 03 10:11:00 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-67.MAX
+Fri Oct 03 10:11:00 Loaded file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-67.MAX
+Fri Oct 03 10:21:27 Saved as file BACKUP1.MAX
+Fri Oct 03 10:21:56 Saved as file ~undo.max
+Fri Oct 03 10:23:10 Saved as file ~undo.max
+Fri Oct 03 10:25:56 Saved as file ~undo.max
+Fri Oct 03 10:31:27 Saved as file ~undo.max
+Fri Oct 03 10:32:52 Saved as file BACKUP1.MAX
+Fri Oct 03 10:32:52 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-67.MAX
+Fri Oct 03 10:32:56 UserDiv from Layout.INI for AutoECO: 60
+Fri Oct 03 10:32:56 Loaded file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-67.MAX
+Fri Oct 03 10:32:56 Loaded file E:\DATA LOGGER\DATA LOGGER-20.MAX
+Fri Oct 03 10:32:56 Loaded file F:\MUSHTAQ LIB\INALONG_INPUT.LLB
+Fri Oct 03 10:32:56 Loaded file F:\MUSHTAQ LIB\DATA LOGGER.LLB
+Fri Oct 03 10:32:56 Loaded file F:\MUSHTAQ PCB\SAEED AHMED\DIGITAL OUTPUT CARD\DIGITAL OUTPUT CARDR1\DIGITAL OUTPUT CARD.MAX
+Fri Oct 03 10:32:56 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\CHRONO96.LLB
+Fri Oct 03 10:32:56 Loaded file F:\MUSHTAQ PCB\NEW FOLDER\CHILLER CARD\CHILLER CARD-13.MAX
+Fri Oct 03 10:32:56 Loaded file F:\MUSHTAQ LIB\COMMON.LLB
+Fri Oct 03 10:32:56 Loaded file F:\MUSHTAQ LIB\BILAL.LLB
+Fri Oct 03 10:32:56 Loaded file F:\MUSHTAQ PCB\MUSHTAQ DOC\PCB'S\FPGA MODULE S3\FPGA\MODULE_FIANL4-32.MAX
+Fri Oct 03 10:32:56 Loaded file F:\MUSHTAQ PCB\NEW FOLDER\DIGITAL INPUT CARD\DIGITAL INPUT CARD.MAX
+Fri Oct 03 10:32:57 Loaded file F:\MUSHTAQ LIB\GENRAL.LLB
+Fri Oct 03 10:32:57 Loaded file F:\MUSHTAQ PCB\LIBRARY\MUSHTAQ LIB\GENRAL.LLB
+Fri Oct 03 10:32:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON100T.llb
+Fri Oct 03 10:32:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON156T.llb
+Fri Oct 03 10:32:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BGA.llb
+Fri Oct 03 10:32:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\CLCC.llb
+Fri Oct 03 10:32:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON050T.llb
+Fri Oct 03 10:32:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON085T.llb
+Fri Oct 03 10:32:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050F.llb
+Fri Oct 03 10:32:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050T.llb
+Fri Oct 03 10:32:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIN.llb
+Fri Oct 03 10:32:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100B.llb
+Fri Oct 03 10:32:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100T.llb
+Fri Oct 03 10:32:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT.llb
+Fri Oct 03 10:32:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT_HD.LLB
+Fri Oct 03 10:32:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ECON100T.llb
+Fri Oct 03 10:32:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\FBUS.llb
+Fri Oct 03 10:32:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ISA.llb
+Fri Oct 03 10:32:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\JUMPER.LLB
+Fri Oct 03 10:32:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LAYOUT.llb
+Fri Oct 03 10:32:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LCON100T.llb
+Fri Oct 03 10:32:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PC104.llb
+Fri Oct 03 10:32:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCI.llb
+Fri Oct 03 10:32:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON100T.llb
+Fri Oct 03 10:32:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON156T.llb
+Fri Oct 03 10:32:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PGA.llb
+Fri Oct 03 10:32:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PLCC.llb
+Fri Oct 03 10:32:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUAD.llb
+Fri Oct 03 10:32:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUADB.llb
+Fri Oct 03 10:32:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RELAY.llb
+Fri Oct 03 10:32:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RF.llb
+Fri Oct 03 10:32:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SBUS.llb
+Fri Oct 03 10:32:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050F.llb
+Fri Oct 03 10:32:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050T.llb
+Fri Oct 03 10:32:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100F.llb
+Fri Oct 03 10:32:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100T.llb
+Fri Oct 03 10:32:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIP.llb
+Fri Oct 03 10:32:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SM.llb
+Fri Oct 03 10:32:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOG.llb
+Fri Oct 03 10:32:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOJ.llb
+Fri Oct 03 10:32:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\STIFF.llb
+Fri Oct 03 10:32:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TELE.llb
+Fri Oct 03 10:32:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_AXIAL.llb
+Fri Oct 03 10:32:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CAP_P.llb
+Fri Oct 03 10:32:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CYLND.llb
+Fri Oct 03 10:32:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DIODE.llb
+Fri Oct 03 10:32:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DISC.llb
+Fri Oct 03 10:32:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_RAD.llb
+Fri Oct 03 10:32:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TO.llb
+Fri Oct 03 10:32:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TRAINING.LLB
+Fri Oct 03 10:32:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\VRES.llb
+Fri Oct 03 10:32:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\WCON100T.llb
+Fri Oct 03 10:32:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\XT.llb
+Fri Oct 03 10:32:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ZIGZAG.llb
+Fri Oct 03 10:33:01 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-68.MAX
+Fri Oct 03 10:33:01 Loaded file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-68.MAX
+Fri Oct 03 10:33:30 Saved as file ~undo.max
+Fri Oct 03 10:33:31 Saved as file ~undo.max
+Fri Oct 03 10:33:43 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-68.MAX
+Fri Oct 03 10:33:57 Saved as file BACKUP1.MAX
+Fri Oct 03 10:34:20 Saved as file ~undo.max
+Fri Oct 03 10:34:35 Saved as file ~undo.max
+Fri Oct 03 10:34:45 Saved as file ~undo.max
+Fri Oct 03 10:35:05 Saved as file ~undo.max
+Fri Oct 03 10:35:32 Saved as file ~undo.max
+Fri Oct 03 10:35:41 Saved as file ~undo.max
+Fri Oct 03 10:35:43 Saved as file ~undo.max
+Fri Oct 03 10:35:54 Saved as file ~undo.max
+Fri Oct 03 10:36:00 Saved as file ~undo.max
+Fri Oct 03 10:36:10 Saved as file ~undo.max
+Fri Oct 03 10:36:46 Saved as file ~undo.max
+Fri Oct 03 10:37:03 Saved as file ~undo.max
+Fri Oct 03 10:37:11 Saved as file ~undo.max
+Fri Oct 03 10:37:18 Saved as file ~undo.max
+Fri Oct 03 10:37:26 Saved as file ~undo.max
+Fri Oct 03 10:37:31 Saved as file ~undo.max
+Fri Oct 03 10:37:33 Saved as file ~undo.max
+Fri Oct 03 10:37:54 Saved as file ~undo.max
+Fri Oct 03 10:37:59 Saved as file ~undo.max
+Fri Oct 03 10:38:39 Saved as file ~undo.max
+Fri Oct 03 10:38:51 Saved as file ~undo.max
+Fri Oct 03 10:39:08 Saved as file ~undo.max
+Fri Oct 03 10:39:28 Saved as file ~undo.max
+Fri Oct 03 10:39:35 Saved as file ~undo.max
+Fri Oct 03 10:39:57 Saved as file ~undo.max
+Fri Oct 03 10:40:22 Saved as file ~undo.max
+Fri Oct 03 10:40:35 Saved as file ~undo.max
+Fri Oct 03 10:40:42 Saved as file ~undo.max
+Fri Oct 03 10:41:00 Saved as file ~undo.max
+Fri Oct 03 10:41:51 Saved as file ~undo.max
+Fri Oct 03 10:41:52 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-68.MAX
+Fri Oct 03 10:42:23 Saved as file ~undo.max
+Fri Oct 03 10:42:31 Saved as file ~undo.max
+Fri Oct 03 10:43:04 Saved as file ~undo.max
+Fri Oct 03 10:43:40 Saved as file ~undo.max
+Fri Oct 03 10:44:05 Saved as file ~undo.max
+Fri Oct 03 10:45:01 Saved as file ~undo.max
+Fri Oct 03 10:45:46 Saved as file ~undo.max
+Fri Oct 03 10:45:57 Saved as file BACKUP1.MAX
+Fri Oct 03 10:47:23 Saved as file ~undo.max
+Fri Oct 03 10:47:25 Saved as file ~undo.max
+Fri Oct 03 10:47:36 Saved as file ~undo.max
+Fri Oct 03 10:47:56 Saved as file ~undo.max
+Fri Oct 03 10:48:07 Saved as file ~undo.max
+Fri Oct 03 10:48:17 Saved as file ~undo.max
+Fri Oct 03 10:48:41 Saved as file ~undo.max
+Fri Oct 03 10:48:55 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-68.MAX
+Fri Oct 03 10:49:26 Saved as file ~undo.max
+Fri Oct 03 10:49:41 Saved as file ~undo.max
+Fri Oct 03 10:50:18 Saved as file ~undo.max
+Fri Oct 03 10:50:23 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-68.MAX
+Fri Oct 03 10:50:30 Saved as file ~undo.max
+Fri Oct 03 10:51:12 Saved as file ~undo.max
+Fri Oct 03 10:51:44 Saved as file ~undo.max
+Fri Oct 03 10:54:05 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-68.MAX
+Fri Oct 03 10:55:27 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-68.MAX
+Fri Oct 03 10:56:26 Saved as file ~undo.max
+Fri Oct 03 10:56:27 Saved as file BACKUP1.MAX
+Fri Oct 03 10:56:52 Saved as file ~undo.max
+Fri Oct 03 10:57:42 Saved as file ~undo.max
+Fri Oct 03 11:03:26 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Oct 03 11:03:26 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Oct 03 11:10:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Oct 03 11:10:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Oct 03 11:11:11 Loaded file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\XT.LLB
+Fri Oct 03 11:11:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Oct 03 11:11:16 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Fri Oct 03 11:11:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Oct 03 11:11:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Oct 03 11:11:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Oct 03 11:11:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Oct 03 11:11:55 Saved as file ~undo.max
+Fri Oct 03 11:11:59 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Oct 03 11:11:59 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Oct 03 11:12:00 Loaded file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\XT.LLB
+Fri Oct 03 11:12:01 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Oct 03 11:12:05 Saved as file ~undo.max
+Fri Oct 03 11:12:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Oct 03 11:12:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Oct 03 11:12:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Oct 03 11:12:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Oct 03 11:12:21 Loaded file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\XT.LLB
+Fri Oct 03 11:12:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Oct 03 11:12:29 Saved as file ~undo.max
+Fri Oct 03 11:12:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Oct 03 11:12:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Oct 03 11:12:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Oct 03 11:12:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Oct 03 11:12:43 Loaded file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\XT.LLB
+Fri Oct 03 11:12:45 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Oct 03 11:12:49 Saved as file ~undo.max
+Fri Oct 03 11:12:55 Saved as file ~undo.max
+Fri Oct 03 11:12:59 Saved as file ~undo.max
+Fri Oct 03 11:13:01 Saved as file ~undo.max
+Fri Oct 03 11:13:13 Saved as file ~undo.max
+Fri Oct 03 11:13:21 Saved as file ~undo.max
+Fri Oct 03 11:13:31 Saved as file ~undo.max
+Fri Oct 03 11:15:08 Saved as file ~undo.max
+Fri Oct 03 11:15:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Oct 03 11:15:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Oct 03 11:15:32 Loaded file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\XT.LLB
+Fri Oct 03 11:15:33 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Oct 03 11:15:39 Saved as file ~undo.max
+Fri Oct 03 11:15:43 Saved as file ~undo.max
+Fri Oct 03 11:15:44 Saved as file ~undo.max
+Fri Oct 03 11:17:14 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Oct 03 11:17:14 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Oct 03 11:17:14 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Oct 03 11:17:14 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Oct 03 11:17:15 Loaded file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\XT.LLB
+Fri Oct 03 11:17:16 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Oct 03 11:17:21 Saved as file ~undo.max
+Fri Oct 03 11:17:30 Saved as file ~undo.max
+Fri Oct 03 11:17:36 Saved as file ~undo.max
+Fri Oct 03 11:19:09 Saved as file ~undo.max
+Fri Oct 03 11:19:22 Saved as file ~undo.max
+Fri Oct 03 11:19:25 Saved as file ~undo.max
+Fri Oct 03 11:23:03 Saved as file BACKUP1.MAX
+Fri Oct 03 11:24:13 Saved as file ~undo.max
+Fri Oct 03 11:28:38 Saved as file ~undo.max
+Fri Oct 03 11:28:56 Saved as file ~undo.max
+Fri Oct 03 11:29:01 Saved as file ~undo.max
+Fri Oct 03 11:30:12 Saved as file ~undo.max
+Fri Oct 03 11:30:28 Saved as file ~undo.max
+Fri Oct 03 11:30:52 Saved as file ~undo.max
+Fri Oct 03 11:31:25 Saved as file ~undo.max
+Fri Oct 03 11:31:39 Saved as file ~undo.max
+Fri Oct 03 11:33:11 Saved as file ~undo.max
+Fri Oct 03 11:33:33 Saved as file BACKUP1.MAX
+Fri Oct 03 11:35:04 Saved as file ~undo.max
+Fri Oct 03 11:35:13 Saved as file ~undo.max
+Fri Oct 03 11:35:23 Saved as file ~undo.max
+Fri Oct 03 11:35:35 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-68.MAX
+Fri Oct 03 11:36:08 Saved as file ~undo.max
+Fri Oct 03 11:40:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Oct 03 11:40:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Oct 03 11:40:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Oct 03 11:40:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Oct 03 11:44:59 Saved as file ~undo.max
+Fri Oct 03 11:45:10 Saved as file ~undo2.max
+Fri Oct 03 11:45:10 Loaded file ~undo.max
+Fri Oct 03 11:45:33 Saved as file BACKUP1.MAX
+Fri Oct 03 11:47:35 Saved as file ~undo.max
+Fri Oct 03 11:48:41 Saved as file ~undo.max
+Fri Oct 03 11:48:46 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-68.MAX
+Fri Oct 03 11:48:52 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-68.MAX
+Fri Oct 03 11:49:34 Saved as file ~undo.max
+Fri Oct 03 11:49:51 Saved as file ~undo.max
+Fri Oct 03 11:56:03 Saved as file BACKUP1.MAX
+Fri Oct 03 11:56:34 Saved as file ~undo.max
+Fri Oct 03 11:56:39 Saved as file ~undo.max
+Fri Oct 03 11:56:44 Saved as file ~undo.max
+Fri Oct 03 11:57:04 Saved as file ~undo.max
+Fri Oct 03 11:57:06 Saved as file ~undo.max
+Fri Oct 03 11:57:34 Saved as file ~undo.max
+Fri Oct 03 12:01:30 Saved as file ~undo.max
+Fri Oct 03 12:08:37 Saved as file ~undo.max
+Fri Oct 03 12:08:39 Saved as file ~undo.max
+Fri Oct 03 12:10:10 Saved as file ~undo.max
+Fri Oct 03 12:11:49 Saved as file ~undo.max
+Fri Oct 03 12:12:02 Saved as file ~undo.max
+Fri Oct 03 12:12:15 Saved as file ~undo.max
+Fri Oct 03 12:12:23 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-68.MAX
+Fri Oct 03 12:12:25 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-68.MAX
+Fri Oct 03 12:13:03 Saved as file BACKUP1.MAX
+Fri Oct 03 12:13:11 Saved as file ~undo.max
+Fri Oct 03 12:13:51 Saved as file ~undo.max
+Fri Oct 03 12:14:10 Saved as file ~undo.max
+Fri Oct 03 12:14:37 Saved as file ~undo.max
+Fri Oct 03 12:14:44 Saved as file ~undo.max
+Fri Oct 03 12:14:52 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-68.MAX
+Fri Oct 03 12:14:53 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-68.MAX
+Fri Oct 03 12:14:55 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-68.MAX
+Fri Oct 03 12:15:17 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-68.MAX
+Fri Oct 03 12:16:08 Saved as file ~undo.max
+Fri Oct 03 12:17:57 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-68.MAX
+Fri Oct 03 12:18:07 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-68.MAX
+Fri Oct 03 12:18:08 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-68.MAX
+Fri Oct 03 12:18:10 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-68.MAX
+Fri Oct 03 12:18:12 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-68.MAX
+Fri Oct 03 12:19:16 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-68.MAX
+Fri Oct 03 12:19:20 Saved as file ~undo.max
+Fri Oct 03 12:19:32 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-68.MAX
+Fri Oct 03 12:19:33 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-68.MAX
+Fri Oct 03 12:22:47 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-68.MAX
+Fri Oct 03 12:23:11 Saved as file ~undo.max
+Fri Oct 03 12:23:22 Saved as file ~undo.max
+Fri Oct 03 12:24:03 Saved as file BACKUP1.MAX
+Fri Oct 03 12:24:54 Saved as file ~undo.max
+Fri Oct 03 12:24:57 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-68.MAX
+Fri Oct 03 12:34:33 Saved as file BACKUP1.MAX
+Fri Oct 03 12:45:03 Saved as file BACKUP1.MAX
+Fri Oct 03 12:55:33 Saved as file BACKUP1.MAX
+Fri Oct 03 13:06:03 Saved as file BACKUP1.MAX
+Fri Oct 03 13:16:33 Saved as file BACKUP1.MAX
+Fri Oct 03 13:27:03 Saved as file BACKUP1.MAX
+Fri Oct 03 13:37:33 Saved as file BACKUP1.MAX
+Fri Oct 03 13:48:03 Saved as file BACKUP1.MAX
+Fri Oct 03 13:58:33 Saved as file BACKUP1.MAX
+Fri Oct 03 14:03:43 Saved as file ~undo.max
+Fri Oct 03 14:04:16 Saved as file ~undo.max
+Fri Oct 03 14:05:18 Saved as file ~undo.max
+Fri Oct 03 14:06:09 Saved as file ~undo.max
+Fri Oct 03 14:06:18 Saved as file ~undo.max
+Fri Oct 03 14:06:26 Saved as file ~undo.max
+Fri Oct 03 14:06:40 Saved as file ~undo.max
+Fri Oct 03 14:07:00 Saved as file ~undo.max
+Fri Oct 03 14:07:17 Saved as file ~undo.max
+Fri Oct 03 14:07:48 Saved as file ~undo.max
+Fri Oct 03 14:09:04 Saved as file BACKUP1.MAX
+Fri Oct 03 14:09:23 Saved as file ~undo.max
+Fri Oct 03 14:10:10 Saved as file ~undo.max
+Fri Oct 03 14:10:17 Saved as file ~undo.max
+Fri Oct 03 14:10:34 Saved as file ~undo.max
+Fri Oct 03 14:11:07 Saved as file ~undo.max
+Fri Oct 03 14:11:14 Saved as file ~undo.max
+Fri Oct 03 14:11:31 Saved as file ~undo.max
+Fri Oct 03 14:11:45 Saved as file ~undo.max
+Fri Oct 03 14:12:15 Saved as file ~undo.max
+Fri Oct 03 14:12:23 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-68.MAX
+Fri Oct 03 14:12:23 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-68.MAX
+Fri Oct 03 14:12:24 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-68.MAX
+Fri Oct 03 14:12:45 Saved as file ~undo.max
+Fri Oct 03 14:12:51 Saved as file ~undo.max
+Fri Oct 03 14:12:56 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-68.MAX
+Fri Oct 03 14:13:31 Saved as file ~undo.max
+Fri Oct 03 14:13:43 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-68.MAX
+Fri Oct 03 14:13:56 Saved as file ~undo.max
+Fri Oct 03 14:19:33 Saved as file BACKUP1.MAX
+Fri Oct 03 14:20:23 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-68.MAX
+Fri Oct 03 14:30:03 Saved as file BACKUP1.MAX
+Fri Oct 03 14:36:31 Saved as file ~undo.max
+Fri Oct 03 14:36:35 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-68.MAX
+Fri Oct 03 14:36:46 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-68.MAX
+Fri Oct 03 14:40:06 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-68.MAX
+Fri Oct 03 14:40:08 Saved as file ~undo.max
+Fri Oct 03 14:40:18 Saved as file ~undo.max
+Fri Oct 03 14:40:33 Saved as file BACKUP1.MAX
+Fri Oct 03 14:42:11 Saved as file ~undo.max
+Fri Oct 03 14:42:23 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-68.MAX
+Fri Oct 03 14:46:57 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-68.MAX
+Fri Oct 03 14:51:03 Saved as file BACKUP1.MAX
+Fri Oct 03 14:56:53 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-68.MAX
+Fri Oct 10 12:41:24 Saved as file BACKUP1.MAX
+Fri Oct 10 12:51:54 Saved as file BACKUP1.MAX
+Tue Oct 14 09:05:41 Saved as file ~undo.max
+Tue Oct 14 09:07:51 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500\DATA LOGGER-68.MAX
+Tue Oct 14 09:11:41 Saved as file BACKUP1.MAX
+Tue Oct 14 09:11:59 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500\DATA LOGGER-69.MAX
+Tue Oct 14 09:12:24 Error code 5225.076 (376)
+Tue Oct 14 09:12:24 Saved as file Backup0.max
+Tue Oct 14 09:12:24 Windows which were open at time of error:
+Tue Oct 14 09:12:24 	ActiveWindow: &Design
+Tue Oct 14 09:12:24 	Icon: &Components
+Tue Oct 14 09:12:24 	Icon: &Nets
+Tue Oct 14 09:12:24 	Icon: Post Proces&s
+Tue Oct 14 09:12:24 End-of-list
+Tue Oct 14 09:12:24 Loaded file BACKUP0.MAX
+Tue Oct 14 09:14:04 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500\DATA LOGGER-69.MAX
+Tue Oct 14 09:16:14 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500\DATA LOGGER-69.MAX
+Tue Oct 14 13:49:11 Saved as file ~undo.max
+Tue Oct 14 13:49:38 Saved as file ~undo.max
+Tue Oct 14 13:50:23 Saved as file ~undo.max
+Tue Oct 14 13:50:52 Saved as file ~undo.max
+Tue Oct 14 13:52:48 Saved as file ~undo.max
+Tue Oct 14 13:54:21 Saved as file ~undo.max
+Tue Oct 14 13:55:13 Saved as file ~undo.max
+Tue Oct 14 13:55:48 Saved as file ~undo.max
+Tue Oct 14 13:56:56 Saved as file ~undo.max
+Tue Oct 14 13:57:16 Saved as file ~undo.max
+Tue Oct 14 13:57:28 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500\DATA LOGGER-69.MAX
+Tue Oct 14 13:58:14 Saved as file ~undo.max
+Tue Oct 14 13:58:58 Saved as file ~undo.max
+Mon Oct 20 09:41:37 Saved as file ~undo.max
+Mon Oct 20 09:41:56 Saved as file ~undo.max
+Mon Oct 20 09:50:09 Saved as file BACKUP1.MAX
+Mon Oct 20 09:50:40 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500\DATA LOGGER-69.MAX
+Mon Oct 20 09:50:51 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500\DATA LOGGER-69.MAX
+Mon Oct 20 09:51:17 Saved as file ~undo.max
+Mon Oct 20 09:52:30 Saved as file ~undo.max
+Mon Oct 20 09:52:50 Saved as file ~undo.max
+Mon Oct 20 09:53:26 Saved as file ~undo.max
+Mon Oct 20 10:00:39 Saved as file BACKUP1.MAX
+Mon Oct 20 10:11:09 Saved as file BACKUP1.MAX
+Mon Oct 20 10:26:03 Saved as file BACKUP1.MAX
+Mon Oct 20 10:30:04 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500\DATA LOGGER-69.MAX
+Mon Oct 20 10:30:24 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500\DATA LOGGER-70.MAX
+Mon Oct 20 10:30:26 Saved as file ~undo.max
+Mon Oct 20 10:30:34 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500\DATA LOGGER-70.MAX
+Mon Oct 20 10:30:39 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500\DATA LOGGER-70.MAX
+Mon Oct 20 10:36:33 Saved as file BACKUP1.MAX
+Mon Oct 20 10:47:03 Saved as file BACKUP1.MAX
+Mon Oct 20 10:57:33 Saved as file BACKUP1.MAX
+Mon Oct 20 11:08:03 Saved as file BACKUP1.MAX
+Mon Oct 20 11:18:33 Saved as file BACKUP1.MAX
+Mon Oct 20 11:29:03 Saved as file BACKUP1.MAX
+Mon Oct 20 11:39:33 Saved as file BACKUP1.MAX
+Mon Oct 20 11:50:03 Saved as file BACKUP1.MAX
+Mon Oct 20 12:00:33 Saved as file BACKUP1.MAX
+Mon Oct 20 12:11:03 Saved as file BACKUP1.MAX
+Mon Oct 20 12:21:33 Saved as file BACKUP1.MAX
+Mon Oct 20 12:32:03 Saved as file BACKUP1.MAX
+Mon Oct 20 12:42:33 Saved as file BACKUP1.MAX
+Mon Oct 20 12:53:03 Saved as file BACKUP1.MAX
+Mon Oct 20 13:03:33 Saved as file BACKUP1.MAX
+Mon Oct 20 13:14:03 Saved as file BACKUP1.MAX
+Mon Oct 20 13:24:33 Saved as file BACKUP1.MAX
+Mon Oct 20 13:35:03 Saved as file BACKUP1.MAX
+Mon Oct 20 13:45:33 Saved as file BACKUP1.MAX
+Mon Oct 20 13:56:03 Saved as file BACKUP1.MAX
+Mon Oct 20 14:06:33 Saved as file BACKUP1.MAX
+Mon Oct 20 14:17:03 Saved as file BACKUP1.MAX
+Mon Oct 20 14:27:33 Saved as file BACKUP1.MAX
+Mon Oct 20 14:38:03 Saved as file BACKUP1.MAX
+Mon Oct 20 14:48:03 Saved as file BACKUP1.MAX
+Mon Oct 20 14:58:33 Saved as file BACKUP1.MAX
+Mon Oct 20 15:09:03 Saved as file BACKUP1.MAX
+Mon Oct 20 15:19:33 Saved as file BACKUP1.MAX
+Mon Oct 20 15:30:03 Saved as file BACKUP1.MAX
+Mon Oct 20 15:40:33 Saved as file BACKUP1.MAX
+Thu Oct 30 12:31:43 Saved as file BACKUP1.MAX
+Thu Oct 30 12:42:12 Saved as file BACKUP1.MAX
+Thu Oct 30 12:52:42 Saved as file BACKUP1.MAX
+Thu Oct 30 13:03:12 Saved as file BACKUP1.MAX
+Thu Oct 30 13:13:42 Saved as file BACKUP1.MAX
+Thu Oct 30 13:24:12 Saved as file BACKUP1.MAX
+Thu Oct 30 13:34:42 Saved as file BACKUP1.MAX
+Thu Oct 30 13:45:12 Saved as file BACKUP1.MAX
+Thu Oct 30 13:55:42 Saved as file BACKUP1.MAX
+Thu Oct 30 14:06:12 Saved as file BACKUP1.MAX
+Thu Oct 30 14:16:42 Saved as file BACKUP1.MAX
+Thu Oct 30 14:27:12 Saved as file BACKUP1.MAX
+Thu Oct 30 16:33:08 Saved as file ~undo.max
+Thu Oct 30 16:33:11 Saved as file ~undo.max
+Thu Oct 30 16:33:48 Saved as file ~undo.max
+Thu Oct 30 16:43:01 Saved as file BACKUP1.MAX
+Thu Nov 06 12:25:19 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500\TEST.MAX
+Thu Nov 06 12:25:37 Saved as file F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500\TEST.MAX
+Thu Nov 06 12:31:33 Saved as file BACKUP1.MAX
+Thu Nov 06 12:42:02 Saved as file BACKUP1.MAX
+Thu Nov 06 12:52:32 Saved as file BACKUP1.MAX
+Thu Nov 06 13:03:02 Saved as file BACKUP1.MAX
+Thu Nov 06 13:13:32 Saved as file BACKUP1.MAX
+Thu Nov 06 13:24:02 Saved as file BACKUP1.MAX
+Thu Nov 06 13:34:32 Saved as file BACKUP1.MAX
+Thu Nov 06 13:45:02 Saved as file BACKUP1.MAX
+Thu Nov 06 13:55:32 Saved as file BACKUP1.MAX
+Thu Nov 06 14:06:02 Saved as file BACKUP1.MAX
+Thu Nov 06 14:16:32 Saved as file BACKUP1.MAX
+Thu Nov 06 14:27:02 Saved as file BACKUP1.MAX
+Thu Nov 06 14:37:32 Saved as file BACKUP1.MAX
+Thu Nov 06 14:48:02 Saved as file BACKUP1.MAX
+Thu Nov 06 14:58:32 Saved as file BACKUP1.MAX
+Thu Nov 06 15:09:02 Saved as file BACKUP1.MAX
+Thu Nov 06 15:19:32 Saved as file BACKUP1.MAX
+Thu Nov 06 15:30:02 Saved as file BACKUP1.MAX
+Thu Nov 06 15:40:32 Saved as file BACKUP1.MAX
+Thu Nov 06 15:51:02 Saved as file BACKUP1.MAX
+Thu Nov 06 16:01:32 Saved as file BACKUP1.MAX

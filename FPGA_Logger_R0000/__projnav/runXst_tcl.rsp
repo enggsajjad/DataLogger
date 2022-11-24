@@ -1,0 +1,1 @@
+set allSynthModules {mux_eeprom.MOD adc.MOD cu_decimation.MOD decimation.MOD cu_adc_buff.MOD pingpong_buf.MOD adc_buff.MOD eeprom.MOD cu_eeprom_buff.MOD filter_clk.MOD relays.MOD buttons.MOD uart_tx.MOD uart_rx.MOD cu_rx.MOD main.MOD}

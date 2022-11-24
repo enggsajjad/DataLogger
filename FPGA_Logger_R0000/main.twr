@@ -1,0 +1,98 @@
+--------------------------------------------------------------------------------
+Release 6.1i Trace G.23
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+
+C:/Xilinx/bin/nt/trce.exe -intstyle ise -e 3 -l 3 -xml main main.ncd -o
+main.twr main.pcf
+
+
+Design file:              main.ncd
+Physical constraint file: main.pcf
+Device,speed:             xc2s200,-6 (PRODUCTION 1.27 2003-06-19)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths
+   option. All paths that are not constrained will be reported in the
+   unconstrained paths section(s) of the report.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk
+------------+------------+------------+------------------+--------+
+            |  Setup to  |  Hold to   |                  |  Clock |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) |  Phase |
+------------+------------+------------+------------------+--------+
+SDOUT1      |    2.099(R)|   -0.594(R)|clk_BUFGP         |   0.000|
+TXu         |    4.899(R)|   -3.143(R)|clk_BUFGP         |   0.000|
+nDRDY       |    2.097(R)|   -0.592(R)|clk_BUFGP         |   0.000|
+reset       |    3.489(R)|   -2.603(R)|clk_BUFGP         |   0.000|
+sel_uart    |    4.031(R)|   -2.275(R)|clk_BUFGP         |   0.000|
+start_pulse |    2.097(R)|   -0.592(R)|clk_BUFGP         |   0.000|
+sw<0>       |    6.035(R)|   -0.915(R)|clk_BUFGP         |   0.000|
+sw<1>       |    5.111(R)|   -0.836(R)|clk_BUFGP         |   0.000|
+sw<2>       |    4.922(R)|   -0.558(R)|clk_BUFGP         |   0.000|
+sw<3>       |    5.703(R)|   -1.127(R)|clk_BUFGP         |   0.000|
+sw<4>       |    5.716(R)|   -0.739(R)|clk_BUFGP         |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock clk to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  |  Clock |
+Destination | to PAD     |Internal Clock(s) |  Phase |
+------------+------------+------------------+--------+
+CLK1        |    9.654(R)|clk_BUFGP         |   0.000|
+CSe<0>      |   13.653(R)|clk_BUFGP         |   0.000|
+CSe<1>      |   13.748(R)|clk_BUFGP         |   0.000|
+CSe<2>      |   10.980(R)|clk_BUFGP         |   0.000|
+CSe<3>      |   11.433(R)|clk_BUFGP         |   0.000|
+RXu         |   12.480(R)|clk_BUFGP         |   0.000|
+SCLK1       |   12.377(R)|clk_BUFGP         |   0.000|
+SCLKe       |   12.302(R)|clk_BUFGP         |   0.000|
+SDINe       |   11.098(R)|clk_BUFGP         |   0.000|
+data_done   |   15.665(R)|clk_BUFGP         |   0.000|
+filter_clk  |   12.184(R)|clk_BUFGP         |   0.000|
+pCLK        |    6.418(R)|clk_BUFGP         |   0.000|
+relayAn     |   12.085(R)|clk_BUFGP         |   0.000|
+relayAp     |   12.254(R)|clk_BUFGP         |   0.000|
+relayBn     |   12.412(R)|clk_BUFGP         |   0.000|
+relayBp     |   12.131(R)|clk_BUFGP         |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    9.312|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+CSu            |CSe<0>         |   12.380|
+CSu            |CSe<1>         |   12.475|
+CSu            |CSe<2>         |    9.924|
+CSu            |CSe<3>         |   10.779|
+SCLKu          |SCLKe          |   10.658|
+SDOUTe         |SDINu          |    8.076|
+SDOUTu         |SDINe          |    9.687|
+TXpc           |RXu            |   11.214|
+TXu            |RXpc           |   13.341|
+sel_uart       |RXpc           |   12.436|
+sel_uart       |RXu            |   10.815|
+---------------+---------------+---------+
+
+Analysis completed Fri Nov 14 15:46:17 2014
+--------------------------------------------------------------------------------
+
+Peak Memory Usage: 52 MB

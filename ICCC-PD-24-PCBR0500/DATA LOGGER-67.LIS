@@ -1,0 +1,18 @@
+AutoECO Report
+FILE-A: F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER-66.MAX
+FILE-B: F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0500A\DATA LOGGER.MNL
+If "*EOF*" immediately follows, no changes were made
+Net 24V renamed to N18075773
+Net RIMP1 renamed to RLY324OHM
+Net RIMP0 renamed to RLY50OHM
+Net RCS0 renamed to RLY4MA
+Net RLY2B renamed to RLY_324OHM
+Net RCS1 renamed to RLY0MA
+Net RLY2A renamed to RLY_50OHM
+Net RLY1B renamed to RLY_0MA
+Net RLY1A renamed to RLY_4MA
+Deleting component 302
+Deleting net RELAY_2
+Deleting net RELAY_1
+*EOF*
+No errors found

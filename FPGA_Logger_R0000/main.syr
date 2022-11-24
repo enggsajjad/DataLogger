@@ -1,0 +1,944 @@
+Release 6.1i - xst G.23
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to __projnav
+CPU : 0.00 / 0.25 s | Elapsed : 0.00 / 1.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.25 s | Elapsed : 0.00 / 1.00 s
+ 
+--> Reading design: main.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+     4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+  6) Low Level Synthesis
+  7) Final Report
+     7.1) Device utilization summary
+     7.2) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : main.prj
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+Verilog Include Directory          : 
+
+---- Target Parameters
+Output File Name                   : main
+Output Format                      : NGC
+Target Device                      : xc2s200-6-pq208
+
+---- Source Options
+Top Module Name                    : main
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+Resource Sharing                   : YES
+Multiplier Style                   : lut
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100
+Add Generic Clock Buffer(BUFG)     : 4
+Register Duplication               : YES
+Equivalent register Removal        : YES
+Slice Packing                      : YES
+Pack IO Registers into IOBs        : auto
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : NO
+Global Optimization                : AllClockNets
+RTL Output                         : Yes
+Write Timing Constraints           : NO
+Hierarchy Separator                : _
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+lso                                : main.lso
+Read Cores                         : YES
+cross_clock_analysis               : NO
+verilog2001                        : YES
+Optimize Instantiated Primitives   : NO
+
+=========================================================================
+
+WARNING:Xst:1885 - LSO file is empty, default list of libraries is used
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "mux_eeprom.v"
+Module <mux_eeprom> compiled
+Compiling source file "adc.v"
+Module <adc> compiled
+Compiling source file "cu_decimation.v"
+Module <cu_decimation> compiled
+Compiling source file "decimation.v"
+Module <decimation> compiled
+Compiling source file "cu_adc_buff.v"
+Module <cu_adc_buff> compiled
+Compiling source file "pingpong_buf.v"
+Module <pingpong_buf> compiled
+Compiling source file "adc_buff.v"
+Module <adc_buff> compiled
+Compiling source file "eeprom.v"
+Module <eeprom> compiled
+Compiling source file "cu_eeprom_buff.v"
+Module <cu_eeprom_buff> compiled
+Compiling source file "filter_clk.v"
+Module <filter_clk> compiled
+Compiling source file "relays.v"
+Module <relays> compiled
+Compiling source file "buttons.v"
+Module <buttons> compiled
+Compiling source file "uart_tx3.v"
+Module <uart_tx> compiled
+Compiling source file "uart_rx3.v"
+Module <uart_rx> compiled
+Compiling source file "cu_rx.v"
+Module <cu_rx> compiled
+Compiling source file "main.v"
+Module <main> compiled
+No errors in compilation
+Analysis of file <main.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <main>.
+Module <main> is correct for synthesis.
+ 
+Analyzing module <mux_eeprom>.
+Module <mux_eeprom> is correct for synthesis.
+ 
+Analyzing module <adc_buff>.
+Module <adc_buff> is correct for synthesis.
+ 
+Analyzing module <decimation>.
+Module <decimation> is correct for synthesis.
+ 
+Analyzing module <adc>.
+Module <adc> is correct for synthesis.
+ 
+Analyzing module <cu_decimation>.
+Module <cu_decimation> is correct for synthesis.
+ 
+Analyzing module <cu_adc_buff>.
+Module <cu_adc_buff> is correct for synthesis.
+ 
+Analyzing module <pingpong_buf>.
+Module <pingpong_buf> is correct for synthesis.
+ 
+Analyzing module <RAMB4_S8_S8>.
+Analyzing module <eeprom>.
+Module <eeprom> is correct for synthesis.
+ 
+Analyzing module <cu_eeprom_buff>.
+Module <cu_eeprom_buff> is correct for synthesis.
+ 
+Analyzing module <filter_clk>.
+Module <filter_clk> is correct for synthesis.
+ 
+Analyzing module <relays>.
+Module <relays> is correct for synthesis.
+ 
+Analyzing module <buttons>.
+Module <buttons> is correct for synthesis.
+ 
+Analyzing module <uart_tx>.
+Module <uart_tx> is correct for synthesis.
+ 
+Analyzing module <cu_rx>.
+Module <cu_rx> is correct for synthesis.
+ 
+Analyzing module <uart_rx>.
+Module <uart_rx> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <uart_rx>.
+    Related source file is uart_rx3.v.
+WARNING:Xst:646 - Signal <shift_reg<0>> is assigned but never used.
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 10                                             |
+    | Transitions        | 14                                             |
+    | Inputs             | 4                                              |
+    | Outputs            | 9                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | reset (positive)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 0000000001                                     |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 8-bit adder for signal <$n0027> created at line 219.
+    Found 8-bit register for signal <baud_cnt>.
+    Found 1-bit register for signal <baud_tick>.
+    Found 5-bit up counter for signal <bcnt>.
+    Found 1-bit register for signal <busy>.
+    Found 8-bit register for signal <dout_byte_reg>.
+    Found 1-bit register for signal <enb_shift>.
+    Found 1-bit register for signal <inc_bcnt>.
+    Found 1-bit register for signal <inc_scnt>.
+    Found 1-bit register for signal <rst_bcnt>.
+    Found 1-bit register for signal <rst_scnt>.
+    Found 1-bit register for signal <rx_done_reg>.
+    Found 5-bit up counter for signal <scnt>.
+    Found 2-bit register for signal <shift1>.
+    Found 10-bit register for signal <shift_reg>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   2 Counter(s).
+	inferred  36 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+Unit <uart_rx> synthesized.
+
+
+Synthesizing Unit <cu_decimation>.
+    Related source file is cu_decimation.v.
+    Register <rst_cnt> equivalent to <rst_acc> has been removed
+    Found finite state machine <FSM_1> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 8                                              |
+    | Transitions        | 10                                             |
+    | Inputs             | 2                                              |
+    | Outputs            | 8                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | reset (positive)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 00000001                                       |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 5-bit comparator equal for signal <$n0000> created at line 93.
+    Found 5-bit up counter for signal <cnt>.
+    Found 1-bit register for signal <data_rdy1>.
+    Found 1-bit register for signal <data_rdy2>.
+    Found 16-bit register for signal <dataout2>.
+    Found 21-bit register for signal <datareg>.
+    Found 1-bit register for signal <inc_cnt>.
+    Found 1-bit register for signal <ld_acc>.
+    Found 1-bit register for signal <rst_acc>.
+    Found 21-bit adder for signal <sum>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 Counter(s).
+	inferred  42 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred   1 Comparator(s).
+Unit <cu_decimation> synthesized.
+
+
+Synthesizing Unit <adc>.
+    Related source file is adc.v.
+    Found 9-bit up counter for signal <clkdiv>.
+    Found 16-bit register for signal <dataout1>.
+    Found 16-bit register for signal <datashift>.
+    Found 3-bit register for signal <shift1>.
+    Found 2-bit register for signal <shift2>.
+    Found 3-bit register for signal <shift3>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  40 D-type flip-flop(s).
+Unit <adc> synthesized.
+
+
+Synthesizing Unit <pingpong_buf>.
+    Related source file is pingpong_buf.v.
+Unit <pingpong_buf> synthesized.
+
+
+Synthesizing Unit <cu_adc_buff>.
+    Related source file is cu_adc_buff.v.
+    Found finite state machine <FSM_2> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 13                                             |
+    | Transitions        | 16                                             |
+    | Inputs             | 3                                              |
+    | Outputs            | 11                                             |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | reset (positive)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 0000000000001                                  |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 9-bit up counter for signal <addr>.
+    Found 1-bit register for signal <inc_addr>.
+    Found 1-bit register for signal <rst_addr>.
+    Found 1-bit register for signal <we1>.
+    Found 1-bit register for signal <write_done1>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 Counter(s).
+	inferred   4 D-type flip-flop(s).
+Unit <cu_adc_buff> synthesized.
+
+
+Synthesizing Unit <decimation>.
+    Related source file is decimation.v.
+Unit <decimation> synthesized.
+
+
+Synthesizing Unit <cu_rx>.
+    Related source file is cu_rx.v.
+WARNING:Xst:646 - Signal <hdr<0>> is assigned but never used.
+    Found finite state machine <FSM_3> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 10                                             |
+    | Transitions        | 16                                             |
+    | Inputs             | 5                                              |
+    | Outputs            | 7                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | reset (positive)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 0000000001                                     |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 1-bit register for signal <rx_done1>.
+    Found 24-bit register for signal <status>.
+    Found 24-bit register for signal <stop_adr>.
+    Found 1-bit register for signal <pkt_done>.
+    Found 24-bit register for signal <start_adr>.
+    Found 4-bit register for signal <hdr>.
+    Found 1-bit register for signal <inc_cnt>.
+    Found 1-bit register for signal <latch_hdr>.
+    Found 3-bit up counter for signal <nibble_cnt>.
+    Found 1-bit register for signal <rst_cnt>.
+    Found 24-bit register for signal <shift>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 Counter(s).
+	inferred 105 D-type flip-flop(s).
+Unit <cu_rx> synthesized.
+
+
+Synthesizing Unit <uart_tx>.
+    Related source file is uart_tx3.v.
+    Register <rst_bcnt> equivalent to <rst_scnt> has been removed
+    Found finite state machine <FSM_4> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 9                                              |
+    | Transitions        | 13                                             |
+    | Inputs             | 4                                              |
+    | Outputs            | 9                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | reset (positive)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 000000001                                      |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 8-bit adder for signal <$n0026> created at line 175.
+    Found 8-bit register for signal <baud_cnt>.
+    Found 1-bit register for signal <baud_tick>.
+    Found 4-bit up counter for signal <bcnt>.
+    Found 9-bit register for signal <data_buf>.
+    Found 1-bit register for signal <enb_shift>.
+    Found 1-bit register for signal <inc_bcnt>.
+    Found 1-bit register for signal <inc_scnt>.
+    Found 1-bit register for signal <rst_scnt>.
+    Found 4-bit up counter for signal <scnt>.
+    Found 1-bit register for signal <tx_done_reg>.
+    Found 9 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   2 Counter(s).
+	inferred  23 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred   9 Multiplexer(s).
+Unit <uart_tx> synthesized.
+
+
+Synthesizing Unit <buttons>.
+    Related source file is buttons.v.
+WARNING:Xst:646 - Signal <sw_clear> is assigned but never used.
+    Found finite state machine <FSM_5> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 7                                              |
+    | Transitions        | 9                                              |
+    | Inputs             | 1                                              |
+    | Outputs            | 5                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | reset (positive)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 0000001                                        |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 1-bit register for signal <neg_tick>.
+    Found 3-bit register for signal <kcode>.
+    Found 1-bit register for signal <pos_tick>.
+    Found 12-bit up counter for signal <cnt1>.
+    Found 1-bit xor2 for signal <cnt1_rst>.
+    Found 1-bit register for signal <next>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 Counter(s).
+	inferred   6 D-type flip-flop(s).
+Unit <buttons> synthesized.
+
+
+Synthesizing Unit <relays>.
+    Related source file is relays.v.
+    Found 15-bit up counter for signal <cnt>.
+    Found 1-bit register for signal <pulse>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <relays> synthesized.
+
+
+Synthesizing Unit <filter_clk>.
+    Related source file is filter_clk.v.
+    Found 10-bit up counter for signal <cnt>.
+    Found 1 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 Multiplexer(s).
+Unit <filter_clk> synthesized.
+
+
+Synthesizing Unit <cu_eeprom_buff>.
+    Related source file is cu_eeprom_buff.v.
+    Register <rst_sel> equivalent to <rst_addr> has been removed
+    Found finite state machine <FSM_6> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 21                                             |
+    | Transitions        | 29                                             |
+    | Inputs             | 6                                              |
+    | Outputs            | 17                                             |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | reset (positive)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 000000000000000000001                          |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 10-bit up counter for signal <addr1>.
+    Found 1-bit register for signal <CS>.
+    Found 1-bit register for signal <inc_addr>.
+    Found 1-bit register for signal <inc_sel>.
+    Found 1-bit register for signal <ld_data>.
+    Found 1-bit register for signal <page_done1>.
+    Found 1-bit register for signal <rst_addr>.
+    Found 3-bit up counter for signal <sel_cnt>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   2 Counter(s).
+	inferred   6 D-type flip-flop(s).
+Unit <cu_eeprom_buff> synthesized.
+
+
+Synthesizing Unit <eeprom>.
+    Related source file is eeprom.v.
+    Found 7-bit up counter for signal <clkdiv>.
+    Found 8-bit register for signal <dataout>.
+    Found 2-bit register for signal <shift2>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  10 D-type flip-flop(s).
+	inferred   8 Multiplexer(s).
+Unit <eeprom> synthesized.
+
+
+Synthesizing Unit <adc_buff>.
+    Related source file is adc_buff.v.
+    Found 16-bit up counter for signal <test_cnt>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   8 Multiplexer(s).
+Unit <adc_buff> synthesized.
+
+
+Synthesizing Unit <mux_eeprom>.
+    Related source file is mux_eeprom.v.
+    Found 5 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   5 Multiplexer(s).
+Unit <mux_eeprom> synthesized.
+
+
+Synthesizing Unit <main>.
+    Related source file is main.v.
+WARNING:Xst:646 - Signal <pulse_out> is assigned but never used.
+WARNING:Xst:646 - Signal <rx_done1> is assigned but never used.
+WARNING:Xst:646 - Signal <sel_clk<1>> is assigned but never used.
+WARNING:Xst:646 - Signal <status<23:11>> is assigned but never used.
+WARNING:Xst:646 - Signal <status<7:6>> is assigned but never used.
+WARNING:Xst:646 - Signal <stop_adr<23:16>> is assigned but never used.
+WARNING:Xst:646 - Signal <start_adr<23:16>> is assigned but never used.
+    Found 17-bit comparator equal for signal <$n0003> created at line 228.
+    Found 16-bit adder carry out for signal <$n0011> created at line 228.
+    Found 4-bit up counter for signal <acnt>.
+    Found 16-bit up counter for signal <page_addr>.
+    Found 2-bit up counter for signal <pcnt>.
+    Found 2-bit up counter for signal <sel_eeprom>.
+    Found 3-bit register for signal <shift1>.
+    Found 1 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   4 Counter(s).
+	inferred   3 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred   1 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <main> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# FSMs                             : 7
+# Registers                        : 93
+  1-bit register                   : 79
+  3-bit register                   : 1
+  9-bit register                   : 1
+  8-bit register                   : 4
+  21-bit register                  : 1
+  16-bit register                  : 2
+  24-bit register                  : 4
+  4-bit register                   : 1
+# Counters                         : 19
+  5-bit up counter                 : 3
+  16-bit up counter                : 2
+  4-bit up counter                 : 3
+  2-bit up counter                 : 2
+  9-bit up counter                 : 2
+  3-bit up counter                 : 2
+  12-bit up counter                : 1
+  15-bit up counter                : 1
+  10-bit up counter                : 2
+  7-bit up counter                 : 1
+# Multiplexers                     : 9
+  2-to-1 multiplexer               : 9
+# Adders/Subtractors               : 4
+  8-bit adder                      : 2
+  21-bit adder                     : 1
+  16-bit adder carry out           : 1
+# Comparators                      : 2
+  5-bit comparator equal           : 1
+  17-bit comparator equal          : 1
+# Xors                             : 1
+  1-bit xor2                       : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Selecting encoding for FSM_6 ...
+Optimizing FSM <FSM_6> on signal <state> with one-hot encoding.
+Selecting encoding for FSM_5 ...
+Optimizing FSM <FSM_5> on signal <state> with one-hot encoding.
+Selecting encoding for FSM_4 ...
+Optimizing FSM <FSM_4> on signal <state> with one-hot encoding.
+Selecting encoding for FSM_3 ...
+Optimizing FSM <FSM_3> on signal <state> with one-hot encoding.
+Selecting encoding for FSM_2 ...
+Optimizing FSM <FSM_2> on signal <state> with one-hot encoding.
+Selecting encoding for FSM_1 ...
+Optimizing FSM <FSM_1> on signal <state> with one-hot encoding.
+Selecting encoding for FSM_0 ...
+Optimizing FSM <FSM_0> on signal <state> with one-hot encoding.
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1291 - FF/Latch <hdr_0> is unconnected in block <cu_rx>.
+WARNING:Xst:1291 - FF/Latch <stop_adr_23> is unconnected in block <cu_rx1>.
+WARNING:Xst:1291 - FF/Latch <start_adr_23> is unconnected in block <cu_rx1>.
+WARNING:Xst:1291 - FF/Latch <status_22> is unconnected in block <cu_rx1>.
+WARNING:Xst:1291 - FF/Latch <status_21> is unconnected in block <cu_rx1>.
+WARNING:Xst:1291 - FF/Latch <status_20> is unconnected in block <cu_rx1>.
+WARNING:Xst:1291 - FF/Latch <status_19> is unconnected in block <cu_rx1>.
+WARNING:Xst:1291 - FF/Latch <status_18> is unconnected in block <cu_rx1>.
+WARNING:Xst:1291 - FF/Latch <status_17> is unconnected in block <cu_rx1>.
+WARNING:Xst:1291 - FF/Latch <shift_23> is unconnected in block <cu_rx1>.
+WARNING:Xst:1291 - FF/Latch <rx_done1> is unconnected in block <cu_rx1>.
+WARNING:Xst:1291 - FF/Latch <status_23> is unconnected in block <cu_rx1>.
+WARNING:Xst:1291 - FF/Latch <shift_16> is unconnected in block <cu_rx1>.
+WARNING:Xst:1291 - FF/Latch <shift_17> is unconnected in block <cu_rx1>.
+WARNING:Xst:1291 - FF/Latch <shift_18> is unconnected in block <cu_rx1>.
+WARNING:Xst:1291 - FF/Latch <shift_19> is unconnected in block <cu_rx1>.
+WARNING:Xst:1291 - FF/Latch <shift_20> is unconnected in block <cu_rx1>.
+WARNING:Xst:1291 - FF/Latch <shift_21> is unconnected in block <cu_rx1>.
+WARNING:Xst:1291 - FF/Latch <shift_22> is unconnected in block <cu_rx1>.
+WARNING:Xst:1291 - FF/Latch <stop_adr_16> is unconnected in block <cu_rx1>.
+WARNING:Xst:1291 - FF/Latch <stop_adr_17> is unconnected in block <cu_rx1>.
+WARNING:Xst:1291 - FF/Latch <stop_adr_18> is unconnected in block <cu_rx1>.
+WARNING:Xst:1291 - FF/Latch <stop_adr_19> is unconnected in block <cu_rx1>.
+WARNING:Xst:1291 - FF/Latch <stop_adr_20> is unconnected in block <cu_rx1>.
+WARNING:Xst:1291 - FF/Latch <stop_adr_21> is unconnected in block <cu_rx1>.
+WARNING:Xst:1291 - FF/Latch <stop_adr_22> is unconnected in block <cu_rx1>.
+WARNING:Xst:1291 - FF/Latch <start_adr_16> is unconnected in block <cu_rx1>.
+WARNING:Xst:1291 - FF/Latch <start_adr_17> is unconnected in block <cu_rx1>.
+WARNING:Xst:1291 - FF/Latch <start_adr_18> is unconnected in block <cu_rx1>.
+WARNING:Xst:1291 - FF/Latch <start_adr_19> is unconnected in block <cu_rx1>.
+WARNING:Xst:1291 - FF/Latch <start_adr_20> is unconnected in block <cu_rx1>.
+WARNING:Xst:1291 - FF/Latch <start_adr_21> is unconnected in block <cu_rx1>.
+WARNING:Xst:1291 - FF/Latch <start_adr_22> is unconnected in block <cu_rx1>.
+WARNING:Xst:1291 - FF/Latch <status_4> is unconnected in block <cu_rx1>.
+WARNING:Xst:1291 - FF/Latch <status_6> is unconnected in block <cu_rx1>.
+WARNING:Xst:1291 - FF/Latch <status_7> is unconnected in block <cu_rx1>.
+WARNING:Xst:1291 - FF/Latch <status_11> is unconnected in block <cu_rx1>.
+WARNING:Xst:1291 - FF/Latch <status_12> is unconnected in block <cu_rx1>.
+WARNING:Xst:1291 - FF/Latch <status_13> is unconnected in block <cu_rx1>.
+WARNING:Xst:1291 - FF/Latch <status_14> is unconnected in block <cu_rx1>.
+WARNING:Xst:1291 - FF/Latch <status_15> is unconnected in block <cu_rx1>.
+WARNING:Xst:1291 - FF/Latch <status_16> is unconnected in block <cu_rx1>.
+WARNING:Xst:1291 - FF/Latch <tx_done_reg> is unconnected in block <trans>.
+WARNING:Xst:1291 - FF/Latch <1> is unconnected in block <pcnt>.
+WARNING:Xst:1291 - FF/Latch <addr1_77> is unconnected in block <cu_eeprom_buff>.
+WARNING:Xst:1291 - FF/Latch <pcnt_1> is unconnected in block <main>.
+WARNING:Xst:1291 - FF/Latch <sel_eeprom_1> is unconnected in block <main>.
+WARNING:Xst:1291 - FF/Latch <filt1_cnt_9> is unconnected in block <main>.
+
+Optimizing unit <main> ...
+
+Optimizing unit <mux_eeprom> ...
+
+Optimizing unit <relays> ...
+
+Optimizing unit <buttons> ...
+
+Optimizing unit <uart_tx> ...
+
+Optimizing unit <cu_adc_buff> ...
+
+Optimizing unit <adc> ...
+
+Optimizing unit <cu_decimation> ...
+
+Optimizing unit <uart_rx> ...
+
+Optimizing unit <cu_eeprom_buff> ...
+
+Optimizing unit <cu_rx> ...
+Loading device for application Xst from file 'v200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+WARNING:Xst:1291 - FF/Latch <trans_tx_done_reg> is unconnected in block <main>.
+WARNING:Xst:1291 - FF/Latch <cu_rx1_stop_adr_23> is unconnected in block <main>.
+WARNING:Xst:1291 - FF/Latch <cu_rx1_start_adr_23> is unconnected in block <main>.
+WARNING:Xst:1291 - FF/Latch <cu_rx1_status_22> is unconnected in block <main>.
+WARNING:Xst:1291 - FF/Latch <cu_rx1_status_21> is unconnected in block <main>.
+WARNING:Xst:1291 - FF/Latch <cu_rx1_status_20> is unconnected in block <main>.
+WARNING:Xst:1291 - FF/Latch <cu_rx1_status_19> is unconnected in block <main>.
+WARNING:Xst:1291 - FF/Latch <cu_rx1_status_18> is unconnected in block <main>.
+WARNING:Xst:1291 - FF/Latch <cu_rx1_status_17> is unconnected in block <main>.
+WARNING:Xst:1291 - FF/Latch <cu_rx1_shift_23> is unconnected in block <main>.
+WARNING:Xst:1291 - FF/Latch <cu_rx1_rx_done1> is unconnected in block <main>.
+WARNING:Xst:1291 - FF/Latch <cu_rx1_status_23> is unconnected in block <main>.
+WARNING:Xst:1291 - FF/Latch <cu_rx1_shift_16> is unconnected in block <main>.
+WARNING:Xst:1291 - FF/Latch <cu_rx1_shift_17> is unconnected in block <main>.
+WARNING:Xst:1291 - FF/Latch <cu_rx1_shift_18> is unconnected in block <main>.
+WARNING:Xst:1291 - FF/Latch <cu_rx1_shift_19> is unconnected in block <main>.
+WARNING:Xst:1291 - FF/Latch <cu_rx1_shift_20> is unconnected in block <main>.
+WARNING:Xst:1291 - FF/Latch <cu_rx1_shift_21> is unconnected in block <main>.
+WARNING:Xst:1291 - FF/Latch <cu_rx1_shift_22> is unconnected in block <main>.
+WARNING:Xst:1291 - FF/Latch <cu_rx1_stop_adr_16> is unconnected in block <main>.
+WARNING:Xst:1291 - FF/Latch <cu_rx1_stop_adr_17> is unconnected in block <main>.
+WARNING:Xst:1291 - FF/Latch <cu_rx1_stop_adr_18> is unconnected in block <main>.
+WARNING:Xst:1291 - FF/Latch <cu_rx1_stop_adr_19> is unconnected in block <main>.
+WARNING:Xst:1291 - FF/Latch <cu_rx1_stop_adr_20> is unconnected in block <main>.
+WARNING:Xst:1291 - FF/Latch <cu_rx1_stop_adr_21> is unconnected in block <main>.
+WARNING:Xst:1291 - FF/Latch <cu_rx1_stop_adr_22> is unconnected in block <main>.
+WARNING:Xst:1291 - FF/Latch <cu_rx1_start_adr_16> is unconnected in block <main>.
+WARNING:Xst:1291 - FF/Latch <cu_rx1_start_adr_17> is unconnected in block <main>.
+WARNING:Xst:1291 - FF/Latch <cu_rx1_start_adr_18> is unconnected in block <main>.
+WARNING:Xst:1291 - FF/Latch <cu_rx1_start_adr_19> is unconnected in block <main>.
+WARNING:Xst:1291 - FF/Latch <cu_rx1_start_adr_20> is unconnected in block <main>.
+WARNING:Xst:1291 - FF/Latch <cu_rx1_start_adr_21> is unconnected in block <main>.
+WARNING:Xst:1291 - FF/Latch <cu_rx1_start_adr_22> is unconnected in block <main>.
+WARNING:Xst:1291 - FF/Latch <cu_rx1_status_4> is unconnected in block <main>.
+WARNING:Xst:1291 - FF/Latch <cu_rx1_status_6> is unconnected in block <main>.
+WARNING:Xst:1291 - FF/Latch <cu_rx1_status_7> is unconnected in block <main>.
+WARNING:Xst:1291 - FF/Latch <cu_rx1_status_11> is unconnected in block <main>.
+WARNING:Xst:1291 - FF/Latch <cu_rx1_status_12> is unconnected in block <main>.
+WARNING:Xst:1291 - FF/Latch <cu_rx1_status_13> is unconnected in block <main>.
+WARNING:Xst:1291 - FF/Latch <cu_rx1_status_14> is unconnected in block <main>.
+WARNING:Xst:1291 - FF/Latch <cu_rx1_status_15> is unconnected in block <main>.
+WARNING:Xst:1291 - FF/Latch <cu_rx1_status_16> is unconnected in block <main>.
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block main, actual ratio is 14.
+FlipFlop t1_dec_cu2_rst_acc has been replicated 1 time(s)
+FlipFlop shift1_2 has been replicated 1 time(s)
+FlipFlop cu_rx1_pkt_done has been replicated 1 time(s)
+FlipFlop shift1_1 has been replicated 1 time(s)
+FlipFlop pcnt_0 has been replicated 1 time(s) to handle iob=true attribute.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : main.ngr
+Top Level Output File Name         : main
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 37
+
+Macro Statistics :
+# Registers                        : 98
+#      1-bit register              : 78
+#      16-bit register             : 2
+#      21-bit register             : 1
+#      24-bit register             : 4
+#      3-bit register              : 7
+#      4-bit register              : 1
+#      8-bit register              : 4
+#      9-bit register              : 1
+# Counters                         : 12
+#      10-bit up counter           : 1
+#      12-bit up counter           : 1
+#      15-bit up counter           : 1
+#      16-bit up counter           : 1
+#      4-bit up counter            : 2
+#      5-bit up counter            : 3
+#      7-bit up counter            : 1
+#      9-bit up counter            : 2
+# Multiplexers                     : 15
+#      2-to-1 multiplexer          : 15
+# Adders/Subtractors               : 4
+#      16-bit adder carry out      : 1
+#      21-bit adder                : 1
+#      8-bit adder                 : 2
+# Comparators                      : 2
+#      17-bit comparator equal     : 1
+#      5-bit comparator equal      : 1
+
+Cell Usage :
+# BELS                             : 839
+#      BUF                         : 4
+#      GND                         : 1
+#      LUT1                        : 39
+#      LUT1_L                      : 21
+#      LUT2                        : 120
+#      LUT2_D                      : 2
+#      LUT2_L                      : 57
+#      LUT3                        : 74
+#      LUT3_D                      : 3
+#      LUT3_L                      : 5
+#      LUT4                        : 125
+#      LUT4_D                      : 2
+#      LUT4_L                      : 50
+#      MUXCY                       : 173
+#      MUXF5                       : 2
+#      VCC                         : 1
+#      XORCY                       : 160
+# FlipFlops/Latches                : 436
+#      FDC                         : 149
+#      FDCE                        : 163
+#      FDCPE                       : 100
+#      FDE                         : 1
+#      FDP                         : 11
+#      FDPE                        : 10
+#      FDR                         : 2
+# RAMS                             : 1
+#      RAMB4_S8_S8                 : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 36
+#      IBUF                        : 16
+#      OBUF                        : 20
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 2s200pq208-6 
+
+ Number of Slices:                     323  out of   2352    13%  
+ Number of Slice Flip Flops:           436  out of   4704     9%  
+ Number of 4 input LUTs:               498  out of   4704    10%  
+ Number of bonded IOBs:                 36  out of    144    25%  
+ Number of BRAMs:                        1  out of      7    14%  
+ Number of GCLKs:                        1  out of      4    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 437   |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -6
+
+   Minimum period: 9.382ns (Maximum Frequency: 106.587MHz)
+   Minimum input arrival time before clock: 10.194ns
+   Maximum output required time after clock: 12.792ns
+   Maximum combinational path delay: 10.115ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+-------------------------------------------------------------------------
+Timing constraint: Default period analysis for Clock 'clk'
+Delay:               9.382ns (Levels of Logic = 21)
+  Source:            cu_rx1_stop_adr_0 (FF)
+  Destination:       cu2_state_FFd21 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: cu_rx1_stop_adr_0 to cu2_state_FFd21
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             2   1.085   1.206  cu_rx1_stop_adr_0 (cu_rx1_stop_adr_0)
+     LUT1_L:I0->LO         1   0.549   0.000  Madd__n0011_inst_lut2_01 (Madd__n0011_inst_lut2_0)
+     MUXCY:S->O            1   0.659   0.000  Madd__n0011_inst_cy_9 (Madd__n0011_inst_cy_9)
+     MUXCY:CI->O           1   0.042   0.000  Madd__n0011_inst_cy_10 (Madd__n0011_inst_cy_10)
+     MUXCY:CI->O           1   0.042   0.000  Madd__n0011_inst_cy_11 (Madd__n0011_inst_cy_11)
+     MUXCY:CI->O           1   0.042   0.000  Madd__n0011_inst_cy_12 (Madd__n0011_inst_cy_12)
+     MUXCY:CI->O           1   0.042   0.000  Madd__n0011_inst_cy_13 (Madd__n0011_inst_cy_13)
+     MUXCY:CI->O           1   0.042   0.000  Madd__n0011_inst_cy_14 (Madd__n0011_inst_cy_14)
+     MUXCY:CI->O           1   0.042   0.000  Madd__n0011_inst_cy_15 (Madd__n0011_inst_cy_15)
+     MUXCY:CI->O           1   0.042   0.000  Madd__n0011_inst_cy_16 (Madd__n0011_inst_cy_16)
+     MUXCY:CI->O           1   0.042   0.000  Madd__n0011_inst_cy_17 (Madd__n0011_inst_cy_17)
+     MUXCY:CI->O           1   0.042   0.000  Madd__n0011_inst_cy_18 (Madd__n0011_inst_cy_18)
+     MUXCY:CI->O           1   0.042   0.000  Madd__n0011_inst_cy_19 (Madd__n0011_inst_cy_19)
+     MUXCY:CI->O           1   0.042   0.000  Madd__n0011_inst_cy_20 (Madd__n0011_inst_cy_20)
+     MUXCY:CI->O           1   0.042   0.000  Madd__n0011_inst_cy_21 (Madd__n0011_inst_cy_21)
+     MUXCY:CI->O           1   0.042   0.000  Madd__n0011_inst_cy_22 (Madd__n0011_inst_cy_22)
+     MUXCY:CI->O           1   0.042   0.000  Madd__n0011_inst_cy_23 (Madd__n0011_inst_cy_23)
+     XORCY:CI->O           1   0.420   1.035  Madd__n0011_inst_sum_15 (_n0011<15>)
+     LUT4_L:I3->LO         1   0.549   0.000  Mcompar__n0003_inst_lut4_71 (Mcompar__n0003_inst_lut4_7)
+     MUXCY:S->O            1   0.659   0.000  Mcompar__n0003_inst_cy_7 (Mcompar__n0003_inst_cy_7)
+     MUXCY:CI->O           3   0.042   1.332  Mcompar__n0003_inst_cy_8 (data_done_OBUF)
+     LUT2_L:I1->LO         1   0.549   0.000  cu2_state_FFd1-In1 (cu2_state_FFd1-In)
+     FDC:D                     0.709          cu2_state_FFd1
+    ----------------------------------------
+    Total                      9.382ns (5.809ns logic, 3.573ns route)
+                                       (61.9% logic, 38.1% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+Offset:              10.194ns (Levels of Logic = 4)
+  Source:            sw<0> (PAD)
+  Destination:       navigation_cnt1_41 (FF)
+  Destination Clock: clk rising
+
+  Data Path: sw<0> to navigation_cnt1_41
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             4   0.776   1.440  sw_0_IBUF (sw_0_IBUF)
+     LUT3:I0->O            1   0.549   1.035  navigation_Mxor_cnt1_rst_Result_SW0 (N19619)
+     LUT4_D:I3->O         13   0.549   2.250  navigation_Mxor_cnt1_rst_Result (navigation_cnt1_rst)
+     LUT4:I0->O           12   0.549   2.160  navigation__n003357 (navigation__n0033)
+     FDCPE:CE                  0.886          navigation_cnt1_38
+    ----------------------------------------
+    Total                     10.194ns (3.309ns logic, 6.885ns route)
+                                       (32.5% logic, 67.5% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+Offset:              12.792ns (Levels of Logic = 21)
+  Source:            cu_rx1_stop_adr_0 (FF)
+  Destination:       data_done (PAD)
+  Source Clock:      clk rising
+
+  Data Path: cu_rx1_stop_adr_0 to data_done
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             2   1.085   1.206  cu_rx1_stop_adr_0 (cu_rx1_stop_adr_0)
+     LUT1_L:I0->LO         1   0.549   0.000  Madd__n0011_inst_lut2_01 (Madd__n0011_inst_lut2_0)
+     MUXCY:S->O            1   0.659   0.000  Madd__n0011_inst_cy_9 (Madd__n0011_inst_cy_9)
+     MUXCY:CI->O           1   0.042   0.000  Madd__n0011_inst_cy_10 (Madd__n0011_inst_cy_10)
+     MUXCY:CI->O           1   0.042   0.000  Madd__n0011_inst_cy_11 (Madd__n0011_inst_cy_11)
+     MUXCY:CI->O           1   0.042   0.000  Madd__n0011_inst_cy_12 (Madd__n0011_inst_cy_12)
+     MUXCY:CI->O           1   0.042   0.000  Madd__n0011_inst_cy_13 (Madd__n0011_inst_cy_13)
+     MUXCY:CI->O           1   0.042   0.000  Madd__n0011_inst_cy_14 (Madd__n0011_inst_cy_14)
+     MUXCY:CI->O           1   0.042   0.000  Madd__n0011_inst_cy_15 (Madd__n0011_inst_cy_15)
+     MUXCY:CI->O           1   0.042   0.000  Madd__n0011_inst_cy_16 (Madd__n0011_inst_cy_16)
+     MUXCY:CI->O           1   0.042   0.000  Madd__n0011_inst_cy_17 (Madd__n0011_inst_cy_17)
+     MUXCY:CI->O           1   0.042   0.000  Madd__n0011_inst_cy_18 (Madd__n0011_inst_cy_18)
+     MUXCY:CI->O           1   0.042   0.000  Madd__n0011_inst_cy_19 (Madd__n0011_inst_cy_19)
+     MUXCY:CI->O           1   0.042   0.000  Madd__n0011_inst_cy_20 (Madd__n0011_inst_cy_20)
+     MUXCY:CI->O           1   0.042   0.000  Madd__n0011_inst_cy_21 (Madd__n0011_inst_cy_21)
+     MUXCY:CI->O           1   0.042   0.000  Madd__n0011_inst_cy_22 (Madd__n0011_inst_cy_22)
+     MUXCY:CI->O           1   0.042   0.000  Madd__n0011_inst_cy_23 (Madd__n0011_inst_cy_23)
+     XORCY:CI->O           1   0.420   1.035  Madd__n0011_inst_sum_15 (_n0011<15>)
+     LUT4_L:I3->LO         1   0.549   0.000  Mcompar__n0003_inst_lut4_71 (Mcompar__n0003_inst_lut4_7)
+     MUXCY:S->O            1   0.659   0.000  Mcompar__n0003_inst_cy_7 (Mcompar__n0003_inst_cy_7)
+     MUXCY:CI->O           3   0.042   1.332  Mcompar__n0003_inst_cy_8 (data_done_OBUF)
+     OBUF:I->O                 4.668          data_done_OBUF (data_done)
+    ----------------------------------------
+    Total                     12.792ns (9.219ns logic, 3.573ns route)
+                                       (72.1% logic, 27.9% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default path analysis
+Delay:               10.115ns (Levels of Logic = 4)
+  Source:            CSu (PAD)
+  Destination:       CSe<1> (PAD)
+
+  Data Path: CSu to CSe<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   0.776   1.332  CSu_IBUF (CSu_IBUF)
+     LUT3:I1->O            2   0.549   1.206  mux1_Mmux_CS_Result1 (mux1_CS)
+     LUT4:I1->O            1   0.549   1.035  mux1__n00111 (CSe_0_OBUF)
+     OBUF:I->O                 4.668          CSe_0_OBUF (CSe<0>)
+    ----------------------------------------
+    Total                     10.115ns (6.542ns logic, 3.573ns route)
+                                       (64.7% logic, 35.3% route)
+
+=========================================================================
+CPU : 10.63 / 11.13 s | Elapsed : 10.00 / 11.00 s
+ 
+--> 
+
+Total memory usage is 66976 kilobytes
+
+

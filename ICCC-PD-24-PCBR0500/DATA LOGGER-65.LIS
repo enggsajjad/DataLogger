@@ -1,0 +1,33 @@
+AutoECO Report
+FILE-A: F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-64.MAX
+FILE-B: F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER.MNL
+If "*EOF*" immediately follows, no changes were made
+Adding R72.2 to net VDD
+Adding C26.1 to net VDD
+Adding R71.1 to net VDD
+Adding R70.1 to net VDD
+Adding R68.1 to net VDD
+Adding R69.1 to net VDD
+Adding C8.1 to net N20652278
+Adding R20.2 to net PRB4
+Adding U3.14 to net N20087631
+Adding U3.15 to net N20087637
+Adding U7.133 to net N20791316
+Adding U7.140 to net N20131606
+Adding R139.1 to net N21477644
+Adding U7.42 to net N20032969
+Adding U7.74 to net N20032938
+Adding U7.113 to net N20033087
+Adding U7.132 to net N20033229
+Adding U7.112 to net N20033092
+Adding U7.126 to net N20033019
+Adding U7.125 to net N20033021
+Adding U7.120 to net N20032665
+Adding U7.67 to net N20032954
+Adding U7.77 to net N20032982
+Adding U7.123 to net N20033114
+Adding U5.3 to net URX
+Adding U5.4 to net UTX
+Deleting net VDD_21013566
+*EOF*
+No errors found

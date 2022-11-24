@@ -1,0 +1,75 @@
+AutoECO Report
+FILE-A: F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER-59.MAX
+FILE-B: F:\MUSHTAQ PCB\SAJJAD HUSSAIN\DDL\ICCC-PD-24-PCBR0400\DATA LOGGER.MNL
+If "*EOF*" immediately follows, no changes were made
+Adding component R138
+Adding component R139
+Adding component R141
+Adding component C206
+Adding component C207
+Adding component R140
+Adding net VDD_21013566
+Adding net N21477656
+Adding net N21477654
+Adding net N21477640
+Adding net N21477644
+Adding net N21484664
+Adding C206.1 to net GND_SIGNAL
+Deleting U20.5 from net N18113851
+Adding R141.2 to net N18113851
+Adding U13.1 to net VCCO
+Adding C24.2 to net VCCO
+Adding C25.2 to net VCCO
+Adding U14.10 to net VCCO
+Adding U14.16 to net VCCO
+Deleting R71.1 from net VDD
+Deleting R72.2 from net VDD
+Deleting C26.1 from net VDD
+Deleting C25.2 from net VDD
+Deleting C24.2 from net VDD
+Deleting U14.16 from net VDD
+Deleting R70.1 from net VDD
+Deleting R69.1 from net VDD
+Deleting R68.1 from net VDD
+Deleting U14.10 from net VDD
+Deleting U13.1 from net VDD
+Adding C8.1 to net N20652278
+Adding R20.2 to net PRB4
+Adding U3.14 to net N20087631
+Adding U3.15 to net N20087637
+Adding U7.133 to net N20791316
+Adding U7.140 to net N20131606
+Adding R72.2 to net VDD_21013566
+Adding C26.1 to net VDD_21013566
+Adding R71.1 to net VDD_21013566
+Adding R70.1 to net VDD_21013566
+Adding R68.1 to net VDD_21013566
+Adding R69.1 to net VDD_21013566
+Adding R140.2 to net N21477656
+Adding U20.3 to net N21477656
+Adding C207.1 to net N21477656
+Adding C207.2 to net N21477654
+Adding R138.2 to net N21477654
+Adding U20.4 to net N21477654
+Adding R140.1 to net N21477640
+Adding C206.2 to net N21477640
+Adding R139.2 to net N21477640
+Adding R138.1 to net N21477640
+Adding R139.1 to net N21477644
+Adding U20.5 to net N21484664
+Adding R141.1 to net N21484664
+Adding U7.42 to net N20032969
+Adding U7.74 to net N20032938
+Adding U7.113 to net N20033087
+Adding U7.132 to net N20033229
+Adding U7.112 to net N20033092
+Adding U7.126 to net N20033019
+Adding U7.125 to net N20033021
+Adding U7.120 to net N20032665
+Adding U7.67 to net N20032954
+Adding U7.77 to net N20032982
+Adding U7.123 to net N20033114
+Adding U5.3 to net URX
+Adding U5.4 to net UTX
+*EOF*
+No errors found

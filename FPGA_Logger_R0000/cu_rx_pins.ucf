@@ -1,0 +1,50 @@
+NET "clk" LOC = "p77";
+NET "reset" LOC = "p151";
+NET "start_pulse" LOC = "p140"; #J3-16 
+NET "data_done" LOC = "p146";#
+#adc
+NET "nDRDY" LOC = "p83";
+NET "SCLK1" LOC = "p94";
+NET "SDOUT1" LOC = "p88";#SDOUT
+#NET "SDIN1" LOC = "p98";#SDIN
+NET "filter_clk" LOC = "p96"; #J5-15  sclk_adc
+#eeprom
+NET "CSe<0>" LOC = "p100";
+NET "SCLKe" LOC = "p69"; #j4-32
+NET "SDINe" LOC = "p62";
+NET "SDOUTe" LOC = "p74"; #j4-28
+#   PIC
+NET "CSu" LOC = "p136"; #J3 20 cs0_uc
+NET "SCLKu" LOC = "p127"; #sclk_uc
+NET "SDINu" LOC = "p122";#sdi_uc
+NET "SDOUTu" LOC = "p120";#sdo_uc
+
+NET "relayAp" LOC = "p89";
+NET "relayAn" LOC = "p86";
+NET "relayBp" LOC = "p75";
+NET "relayBn" LOC = "p71";
+
+NET "sw<0>" LOC = "p3";
+NET "sw<1>" LOC = "p4";
+NET "sw<2>" LOC = "p6";
+NET "sw<3>" LOC = "p8";
+NET "sw<4>" LOC = "p10";
+
+NET "RXpc" LOC = "p179";#tx to uc
+NET "TXpc" LOC = "p181";#rx from uc
+
+NET "RXu" LOC = "p167";#tx to pc
+NET "TXu" LOC = "p175";#rx from pc
+NET "sel_uart" LOC = "p147";#sel_imp
+
+#Test
+NET "rate<0>" LOC = "p206"; #j5-38
+NET "rate<1>" LOC = "p205";#j5-37
+NET "rate<2>" LOC = "p204";#j5-36
+NET "sel_clk" LOC = "p203";#j5-35
+NET "sel_relay" LOC = "p202";#j5-34
+NET "sel_spi" LOC = "p201";#j5-33
+NET "sel_CS<0>" LOC = "p200";#j5-32
+#NET "sel_CS<1>" LOC = "p199";   #j5-31
+NET "pkt_done" LOC = "p199";   #j5-31
+NET "din_rdy" LOC = "p195";   #j5-30

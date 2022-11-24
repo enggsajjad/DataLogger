@@ -1,0 +1,3 @@
+>>> Warning 204 "D:\DNPR_DATA_LOGGER\131114\PIC_Logger_R1000\logger.h" Line 383(1,1): Condition always FALSE
+      Memory usage:   ROM=46%      RAM=7% - 28%
+      0 Errors,  1 Warnings.

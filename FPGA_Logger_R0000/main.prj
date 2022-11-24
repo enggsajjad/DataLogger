@@ -1,0 +1,16 @@
+verilog work mux_eeprom.v
+verilog work adc.v
+verilog work cu_decimation.v
+verilog work decimation.v
+verilog work cu_adc_buff.v
+verilog work pingpong_buf.v
+verilog work adc_buff.v
+verilog work eeprom.v
+verilog work cu_eeprom_buff.v
+verilog work filter_clk.v
+verilog work relays.v
+verilog work buttons.v
+verilog work uart_tx3.v
+verilog work uart_rx3.v
+verilog work cu_rx.v
+verilog work main.v

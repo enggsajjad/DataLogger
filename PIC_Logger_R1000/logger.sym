@@ -1,0 +1,330 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     @INTERRUPT_AREA
+005     @INTERRUPT_AREA
+006     @INTERRUPT_AREA
+007     @INTERRUPT_AREA
+008     @INTERRUPT_AREA
+009     @INTERRUPT_AREA
+00A     @INTERRUPT_AREA
+00B     @INTERRUPT_AREA
+00C     @INTERRUPT_AREA
+00D     @INTERRUPT_AREA
+00E     @INTERRUPT_AREA
+00F     @INTERRUPT_AREA
+010     @INTERRUPT_AREA
+011     @INTERRUPT_AREA
+012     @INTERRUPT_AREA
+013     @INTERRUPT_AREA
+014     @INTERRUPT_AREA
+015     @INTERRUPT_AREA
+016-017 strtok.save
+018-01B _Randseed
+01C     cntms
+01D     cnt40ms
+01E-01F rxChr
+020-023 status
+024     Module
+025     state
+026-029 Tid
+02A-02D Sid
+02E-02F t
+030     T0
+031     T1
+032     T2
+033     Tm
+034     m
+035     B
+036     R
+037-03A Z
+03B-03E F
+03F-042 n
+043-04C s
+04D.0   kflag
+04D.1   online
+04D.2   expired
+04E-051 StopAddr
+052-055 StartAddr
+056-059 RecStartAddr
+05A-05D RecStopAddr
+05E-061 TOT
+062-065 page
+066-069 record
+06A-06B @sprintf_string
+06C-094 MAIN.@STRPARAM
+095-098 SendPage.G
+095-098 SaveRec.Test
+095-096 @MUL1616.P1
+095     WriteEE.pp
+095     Display.mode
+095.0   LcdReset.EN1
+095-098 ReadRec.Test
+095-096 @DIV1616.P1
+095.1   LcdReset.EN2
+095     GenStatus.@SCRATCH1
+095     ReloadStatus.@SCRATCH1
+095     Acquire.@SCRATCH1
+095     EraseAll.@SCRATCH1
+095     MAIN.@SCRATCH1
+095     @PSTRINGC_65.@SCRATCH1
+096-099 WriteEE.EEPROM
+096-0BE Display.@STRPARAM
+096     GenStatus.@SCRATCH2
+096     ReloadStatus.@SCRATCH2
+096     Acquire.@SCRATCH2
+096     EraseAll.@SCRATCH2
+096     MAIN.@SCRATCH2
+096     @PSTRINGC_65.@SCRATCH2
+097-098 @MUL1616.P1
+097-098 @DIV1616.P2
+097     GenStatus.@SCRATCH3
+097     ReloadStatus.@SCRATCH3
+097     Acquire.@SCRATCH3
+097     EraseAll.@SCRATCH3
+097     MAIN.@SCRATCH3
+098     GenStatus.@SCRATCH4
+098     ReloadStatus.@SCRATCH4
+098     Acquire.@SCRATCH4
+098     EraseAll.@SCRATCH4
+098     MAIN.@SCRATCH4
+099-09C SaveRec.TA
+099-09C SendPage.EEPROM
+099-09C ReadRec.TA
+099     @DIV1616.@SCRATCH1
+099     GenStatus.@SCRATCH5
+099     ReloadStatus.@SCRATCH5
+099     Acquire.@SCRATCH5
+099     @MUL1616.@SCRATCH1
+09A-09D WriteEE.k
+09A     ReloadStatus.@SCRATCH6
+09A     Acquire.@SCRATCH6
+09D-0A0 @MUL3232.P1
+09D-19C SendPage.AA
+09D     ReadRec.@SCRATCH1
+09D     SaveRec.@SCRATCH1
+09E     ReadRec.@SCRATCH2
+09E     SaveRec.@SCRATCH2
+09E     WriteEE.@SCRATCH1
+09F     ReadRec.@SCRATCH3
+09F     SaveRec.@SCRATCH3
+09F     WriteEE.@SCRATCH2
+0A0     ReadRec.@SCRATCH4
+0A0     SaveRec.@SCRATCH4
+0A0     WriteEE.@SCRATCH3
+0A1-0A4 @MUL3232.P1
+0A1     ReadRec.@SCRATCH5
+0A1     SaveRec.@SCRATCH5
+0A1     WriteEE.@SCRATCH4
+0A5     @MUL3232.@SCRATCH1
+0A6     @MUL3232.@SCRATCH2
+0A7     @MUL3232.@SCRATCH3
+0A8     @MUL3232.@SCRATCH4
+0A9     @MUL3232.@SCRATCH5
+0AA     @MUL3232.@SCRATCH6
+0BF     LcdGotoXY.row
+0BF     @PRINTF_U_449.P1
+0BF-0C2 @PRINTF_L32U_449.P2
+0BF-0C0 @PRINTF_LU_449.P3
+0BF     Display.@SCRATCH1
+0C0     @PRINTF_U_449.P1
+0C0     LcdGotoXY.col
+0C0     Display.@SCRATCH2
+0C1     @DIV88.P1
+0C1-0C2 LcdWriteStr.var
+0C1     Display.@SCRATCH3
+0C1     @PRINTF_LU_449.@SCRATCH1
+0C1     LcdGotoXY.@SCRATCH1
+0C2     LcdWriteCmd.cmd
+0C2     @DIV88.P1
+0C2     Display.@SCRATCH4
+0C2     @PRINTF_LU_449.@SCRATCH2
+0C3.0   LcdWriteCmd.EN1
+0C3.1   LcdWriteCmd.EN2
+0C3     @PRINTF_LU_449.@SCRATCH3
+0C3     @DIV88.@SCRATCH1
+0C3     @PRINTF_L32U_449.@SCRATCH1
+0C3     LcdWriteStr.@SCRATCH1
+0C4     LcdWriteChar.dat
+0C4     @PRINTF_LU_449.@SCRATCH4
+0C4     @PRINTF_L32U_449.@SCRATCH2
+0C4     LcdWriteCmd.@SCRATCH1
+0C5.0   LcdWriteChar.EN1
+0C5.1   LcdWriteChar.EN2
+0C5     @PRINTF_LU_449.@SCRATCH5
+0C5     @PRINTF_L32U_449.@SCRATCH3
+0C6     @PRINTF_LU_449.@SCRATCH6
+0C6     @PRINTF_L32U_449.@SCRATCH4
+0C6     LcdWriteChar.@SCRATCH1
+0C7     @PRINTF_LU_449.@SCRATCH7
+0C7     @PRINTF_L32U_449.@SCRATCH5
+0C8     @PRINTF_L32U_449.@SCRATCH6
+0C9     @PRINTF_L32U_449.@SCRATCH7
+0CA     @PRINTF_L32U_449.@SCRATCH8
+0CB-0CE @DIV3232.P1
+0CB     @SPRINTF.P2
+0CF-0D2 @DIV3232.P1
+0D3     @DIV3232.@SCRATCH1
+0D4     @DIV3232.@SCRATCH2
+0D5     @DIV3232.@SCRATCH3
+0D6     @DIV3232.@SCRATCH4
+0D7     @DIV3232.@SCRATCH5
+19D-1A0 SendPage.k
+1A1     Sel_UART.dev
+1A1     SendPage.@SCRATCH1
+1A2     SendPage.@SCRATCH2
+1A3     SendPage.@SCRATCH3
+1A4     SendPage.@SCRATCH4
+1A5-1A8 SendCmd.cmd
+1A5     SendPage.@SCRATCH5
+1A9     SendCmd.nible
+1AA     @delay_ms1.P1
+1AA     @PUTCHAR_BIU_1.P2
+1AA     SendCmd.@SCRATCH1
+1AB     SendCmd.@SCRATCH2
+1AC     SendCmd.@SCRATCH3
+1AD     SendCmd.@SCRATCH4
+1AE     SendCmd.@SCRATCH5
+F80     PORTA
+F80.1   LCD_BL
+F80.2   LCD_E2
+F80.3   LCD_RS
+F80.5   LCD_D5
+F81     PORTB
+F82     PORTC
+F83     PORTD
+F83     PSP_DATA
+F83.0   LCD_E1
+F84.0   LCD_D4
+F84     PORTE
+F84.1   LCD_D7
+F84.2   LCD_D6
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2
+FBB     CCP_2_LOW
+FBC     CCP_2_HIGH
+FBE     CCP_1
+FBE     CCP_1_LOW
+FBF     CCP_1_HIGH
+FC1     ADCON1
+FE1-FE2 @READ_PACKED_MEMORY.P1
+FE1-FE2 @WRITE_PACKED_MEMORY.P2
+FE9-FEA @READ_PACKED_MEMORY.P1
+FE9-FEA @WRITE_PROGRAM_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P3
+FE9-FEA @WRITE_PACKED_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+06E4  @delay_ms1
+070C  @PUTCHAR_BIU_1
+074A  @MUL3232
+1814  @DIV1616
+0C8E  GenStatus
+079E  @DIV3232
+0818  ReloadStatus
+1F64  ReadRec
+193C  SendPage
+1C66  Acquire
+1A64  SaveRec
+2262  EraseAll
+2230  EraseEE
+1856  WriteEE
+0B4E  SendCmd
+1916  Sel_UART
+1F52  Start_TimeOut
+242A  Stop_TimeOut
+144E  Display
+00DE  @const438
+0120  @const440
+0162  @const441
+01A4  @const442
+01E6  @const443
+17E6  @goto11497
+0228  @const445
+026C  @const446
+126C  @SPRINTF
+12EE  @PRINTF_LU_449
+02B0  @const453
+1244  @DIV88
+1288  @PRINTF_U_449
+02F4  @const462
+13A0  @PRINTF_L32U_449
+0E60  LcdReset
+101E  LcdInit
+0F1E  LcdWriteCmd
+1114  LcdWriteChar
+1214  LcdWriteStr
+1098  LcdGotoXY
+1076  LcdClear
+2430  MAIN
+062A  @const479
+0728  @PSTRINGC_65
+0338  @const481
+036E  @const501
+03B2  @const502
+03F6  @const503
+043A  @const504
+047E  @const509
+04B2  @const510
+04F6  @const511
+053A  @const512
+057E  @const513
+240C  @MUL1616
+05C2  @const519
+05F6  @const520
+3A20  @goto11970
+063C  AD_isr
+0642  wave_timer
+066C  @goto11994
+0692  adc_timer
+06AC  EXT_Nibble_isr
+06B2  EXT2_busy_isr
+06B8  EXT1_isr
+06BE  RDA_isr
+2430  @cinit
+0136  StrtoulGO
+0136  StrtolGO
+
+
+User Memory space: 
+
+User Memory space: 
+
+Project Directory:
+    D:\DNPR_DATA_LOGGER\131114\PIC_Logger_R1000\
+
+Project Files:
+    logger.c
+    logger.h
+    C:\Program Files\PICC\devices\18F458.h
+    C:\Program Files\PICC\drivers\stdlib.h
+    C:\Program Files\PICC\drivers\stddef.h
+    C:\Program Files\PICC\drivers\string.h
+    C:\Program Files\PICC\drivers\ctype.h
+
+Units:
+    D:\DNPR_DATA_LOGGER\131114\PIC_Logger_R1000\logger (main)
+
+Compiler Settings:
+    Processor:      PIC18F458
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      logger.err
+    Ext Symbols: logger.esym
+    INHX32:      logger.hex
+    Symbols:     logger.sym
+    List:        logger.lst
+    Debug/COFF:  logger.cof
+    Project:     logger.PJT
+    Call Tree:   logger.tre
+    Statistics:  logger.sta
